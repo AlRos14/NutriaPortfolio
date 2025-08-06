@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #307eb1;
+  --color-secondary: #3d4043;
+  --color-dark: #1B1B1B;
+  --color-light: #F8F9FA;
+  
+  --font-family-sans: 'Inter', ui-sans-serif, system-ui;
+  --font-family-heading: 'Poppins', sans-serif;
+}
+
+/* Variables CSS para el sistema de cookies */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #333333;
+  --primary-color: #307eb1;
+  --primary-hover: #2a6fa3;
+  --surface-color: #f8f9fa;
+  --border-color: #e5e7eb;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Modo oscuro (opcional) */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #1f2937;
+    --text-color: #f9fafb;
+    --surface-color: #374151;
+    --border-color: #4b5563;
+    --shadow-color: rgba(0, 0, 0, 0.3);
+  }
+}
