@@ -1,15 +1,100 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="es">
   <head>
     <meta charset="UTF-8">
+    
+    <!-- Favicons -->
     <link rel="icon" href="/nutria-logo.png" type="image/png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/nutria-logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/nutria-logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/nutria-logo.png">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
     <title>Nutria - Asistente IA para Ecommerce | Aumenta tus ventas</title>
     <meta name="description" content="Transforma tu tienda online con Nutria, el asistente conversacional con IA que atiende clientes 24/7 y aumenta conversiones">
+    <meta name="keywords" content="asistente IA, chatbot ecommerce, inteligencia artificial, ventas online, conversión, WooCommerce, Shopify">
+    <meta name="author" content="Alejandro Rosado">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Nutria">
     <meta property="og:title" content="Nutria - Asistente IA para Ecommerce">
     <meta property="og:description" content="Asistente conversacional que entiende lo que buscan tus clientes y les recomienda el producto perfecto">
     <meta property="og:image" content="/nutria-logo.png">
+    <meta property="og:url" content="https://ainutria.com">
+    <meta property="og:locale" content="es_ES">
+    
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Nutria - Asistente IA para Ecommerce">
+    <meta name="twitter:description" content="Asistente conversacional que entiende lo que buscan tus clientes">
+    <meta name="twitter:image" content="/nutria-logo.png">
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    
+    <!-- Google Analytics (se activa solo con consentimiento) -->
+    <script>
+      // Función para inicializar GA4
+      function initGoogleAnalytics() {
+        if (window.gtag) return; // Ya inicializado
+        
+        // Cargar el script de GA4
+        const script = document.createElement('script');
+        script.async = true;
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-J64J777GB1';
+        document.head.appendChild(script);
+        
+        // Configurar GA4
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        window.gtag = gtag;
+        gtag('js', new Date());
+        gtag('config', 'G-J64J777GB1', {
+          anonymize_ip: true,
+          cookie_flags: 'SameSite=None;Secure'
+        });
+      }
+      
+      // Verificar consentimiento al cargar
+      if (localStorage.getItem('cookie_consent') === 'analytics') {
+        initGoogleAnalytics();
+      }
+      
+      // Escuchar evento de consentimiento
+      window.addEventListener('cookie-accepted', () => {
+        initGoogleAnalytics();
+      });
+    </script>
+    
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Nutria",
+      "description": "Asistente conversacional con inteligencia artificial para tiendas online que aumenta las conversiones y mejora la experiencia del cliente",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Alejandro Rosado",
+        "email": "info@ainutria.com"
+      },
+      "url": "https://ainutria.com",
+      "image": "/nutria-logo.png"
+    }
+    </script>
   </head>
   <body>
     <div id="app"></div>
