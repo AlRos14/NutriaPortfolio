@@ -102,15 +102,15 @@
                             <span class="text-xs bg-green-100 text-green-800 px-2 py-1 rounded">Completado</span>
                         </div>
 
-                        <div class="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition">
+                        <div class="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition border-l-4 border-green-500">
                             <div class="mb-4 flex justify-center">
-                                <TrendingUpIcon class="w-10 h-10 text-yellow-600" />
+                                <TrendingUpIcon class="w-10 h-10 text-green-500" />
                             </div>
                             <h4 class="font-bold text-lg mb-2">Sistema Reranking</h4>
                             <p class="text-gray-600 text-sm mb-3">
                                 Mejora para comparaciones de productos y búsquedas complejas
                             </p>
-                            <span class="text-xs bg-yellow-100 text-yellow-800 px-2 py-1 rounded">En Progreso</span>
+                            <span class="text-xs bg-green-100 text-green-800 px-2 py-1 rounded">Completado</span>
                         </div>
 
                         <div class="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition">
@@ -313,9 +313,9 @@
                                 <div class="mb-4 flex justify-center">
                                     <BrainIcon class="w-10 h-10 text-pink-500" />
                                 </div>
-                                <h5 class="font-bold text-lg mb-2">LLM Open Source</h5>
+                                <h5 class="font-bold text-lg mb-2">Infraestructura Propia</h5>
                                 <p class="text-gray-600 text-sm">
-                                    Migración a Llama, Mistral 7B, Gemma o Phi-3 con optimización de inferencia y quantización
+                                    Servidores dedicados para hospedar modelos de IA con control total sobre la infraestructura
                                 </p>
                             </div>
 
@@ -325,7 +325,7 @@
                                 </div>
                                 <h5 class="font-bold text-lg mb-2">Optimización vLLM</h5>
                                 <p class="text-gray-600 text-sm">
-                                    Serving optimizado con vLLM, TensorRT y fine-tuning inicial para nutrición deportiva
+                                    Serving optimizado con vLLM, TensorRT y fine-tuning inicial
                                 </p>
                             </div>
 

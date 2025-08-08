@@ -17,11 +17,95 @@
           <div class="flex items-center">
             <ClockIcon class="w-5 h-5 text-primary mr-2" />
             <strong class="text-gray-900">Última actualización:</strong>
-            <span class="ml-2 text-gray-700">29 de julio de 2025</span>
+            <span class="ml-2 text-gray-700">08 de agosto de 2025</span>
           </div>
         </div>
       </div>
 
+      <!-- Version 1.0.4 -->
+      <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-8 mb-8">
+        <div class="flex items-center mb-6">
+          <TrendingUpIcon class="w-6 h-6 text-primary mr-3" />
+          <h2 class="text-2xl font-bold text-primary font-heading">08 de agosto de 2025 - Versión 1.0.4</h2>
+        </div>
+        
+        <div class="space-y-8">
+          <!-- IA más inteligente y precisa -->
+          <div>
+            <h3 class="text-xl font-semibold text-primary mb-4 flex items-center">
+              <BrainAIIcon class="w-5 h-5 mr-2" />
+              IA más inteligente y precisa
+            </h3>
+            <div class="space-y-4 ml-7">
+              <div class="flex items-start">
+                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 flex-shrink-0"></div>
+                <div>
+                  <div class="font-semibold text-gray-900">Comprensión avanzada de productos</div>
+                  <div class="text-gray-700 mt-1">
+                    Nutria ahora procesa la información de productos de forma más inteligente, analizando cada detalle para ofrecerte respuestas más precisas.
+                  </div>
+                </div>
+              </div>
+              <div class="flex items-start">
+                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 flex-shrink-0"></div>
+                <div>
+                  <div class="font-semibold text-gray-900">Búsquedas ultra-específicas</div>
+                  <div class="text-gray-700 mt-1">
+                    Encuentra exactamente lo que buscas con consultas complejas como "Busco un producto sin maltodextrina" o "Necesito un recuperador que contenga óxido de magnesio".
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Rendimiento revolucionario -->
+          <div>
+            <h3 class="text-xl font-semibold text-primary mb-4 flex items-center">
+              <LightningIcon class="w-5 h-5 mr-2" />
+              Rendimiento revolucionario
+            </h3>
+            <div class="space-y-4 ml-7">
+              <div class="flex items-start">
+                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 flex-shrink-0"></div>
+                <div>
+                  <div class="font-semibold text-gray-900">Eficiencia optimizada</div>
+                  <div class="text-gray-700 mt-1">
+                    Mayor velocidad y precisión en las búsquedas gracias a mejoras internas que mantienen el contexto sin perder detalle.
+                  </div>
+                </div>
+              </div>
+              <div class="flex items-start">
+                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 flex-shrink-0"></div>
+                <div>
+                  <div class="font-semibold text-gray-900">Respuestas contextualizadas</div>
+                  <div class="text-gray-700 mt-1">
+                    La IA mantiene el contexto global mientras analiza información específica, ofreciendo respuestas más completas y útiles.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- El salto cualitativo más importante -->
+          <div>
+            <h3 class="text-xl font-semibold text-primary mb-4 flex items-center">
+              <StarIcon class="w-5 h-5 mr-2" />
+              El salto cualitativo más importante
+            </h3>
+            <div class="bg-gradient-to-r from-primary/10 to-blue-50 p-6 rounded-lg border border-primary/20">
+              <div class="text-gray-800">
+                <p class="font-semibold mb-3">Esta actualización representa el avance más significativo en el rendimiento de Nutria hasta la fecha.</p>
+                <p class="mb-3">
+                  Hemos revolucionado la forma en que la IA procesa y comprende la información de productos, permitiendo respuestas a consultas que antes eran imposibles de resolver con precisión.
+                </p>
+                <p class="text-sm italic">
+                  Ahora Nutria puede responder con éxito a preguntas complejas y muy específicas sobre ingredientes, composiciones y características técnicas de productos.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- Version 1.0.3 -->
       <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-8 mb-8">
         <div class="flex items-center mb-6">
