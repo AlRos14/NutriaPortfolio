@@ -4,6 +4,7 @@ import Features from '../pages/features.vue'
 import Demo from '../pages/demo.vue'
 import Roadmap from '../pages/roadmap.vue'
 import News from '../pages/news.vue'
+import Dossier from '../pages/dossier.vue'
 import AvisoLegal from '../pages/aviso-legal.vue'
 import PoliticaPrivacidad from '../pages/politica-privacidad.vue'
 import PoliticaCookies from '../pages/politica-cookies.vue'
@@ -14,6 +15,7 @@ const routes = [
   { path: '/demo', name: 'Demo', component: Demo },
   { path: '/news', name: 'News', component: News },
   { path: '/roadmap', name: 'Roadmap', component: Roadmap },
+  { path: '/dossier', name: 'Dossier', component: Dossier },
   { path: '/aviso-legal', name: 'AvisoLegal', component: AvisoLegal },
   { path: '/politica-privacidad', name: 'PoliticaPrivacidad', component: PoliticaPrivacidad },
   { path: '/politica-cookies', name: 'PoliticaCookies', component: PoliticaCookies }

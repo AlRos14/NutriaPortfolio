@@ -24,7 +24,7 @@
       </div>
       
       <div class="text-xs text-gray-500 border-t border-gray-700 pt-4">
-        <p>Desarrollado por Alejandro Rosado</p>
+        <p>Desarrollado por Alejandro Rosado y el equipo de Nutria</p>
         <p class="mt-1">
           Contacto: 
           <a href="mailto:info@ainutria.com" class="text-primary hover:text-blue-300 transition-colors">
