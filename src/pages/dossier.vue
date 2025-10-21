@@ -719,38 +719,109 @@
           </p>
         </div>
 
-        <!-- Tabla de precios por exceso -->
-        <div class="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-200">
-          <table class="w-full">
-            <thead>
-              <tr class="bg-primary text-white">
-                <th class="p-4 text-left">Nivel de uso</th>
-                <th class="p-4 text-left">Tokens extra</th>
-                <th class="p-4 text-left">Precio / 1.000 tokens</th>
-                <th class="p-4 text-left">Ejemplo (~5.000 tokens/conversación)</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr class="border-b border-gray-200">
-                <td class="p-4 font-semibold text-green-700">Uso normal</td>
-                <td class="p-4 text-gray-700">Hasta límite del plan</td>
-                <td class="p-4 text-green-700 font-bold">Gratis</td>
-                <td class="p-4 text-gray-700">—</td>
-              </tr>
-              <tr class="border-b border-gray-200 bg-yellow-50">
-                <td class="p-4 font-semibold text-yellow-700">Exceso moderado</td>
-                <td class="p-4 text-gray-700">Hasta +100% del límite del plan (x2)</td>
-                <td class="p-4 text-yellow-700 font-bold">0,01 €</td>
-                <td class="p-4 text-gray-700">0,05 € por conversación</td>
-              </tr>
-              <tr class="bg-orange-50">
-                <td class="p-4 font-semibold text-orange-700">Uso masivo</td>
-                <td class="p-4 text-gray-700">Más del +100% adicional</td>
-                <td class="p-4 text-orange-700 font-bold">0,10 €</td>
-                <td class="p-4 text-gray-700">0,50 € por conversación</td>
-              </tr>
-            </tbody>
-          </table>
+        <!-- Tabla de precios por exceso - Desktop -->
+        <div class="hidden md:block bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-200">
+          <div class="overflow-x-auto">
+            <table class="w-full">
+              <thead>
+                <tr class="bg-primary text-white">
+                  <th class="p-4 text-left">Nivel de uso</th>
+                  <th class="p-4 text-left">Tokens extra</th>
+                  <th class="p-4 text-left">Precio / 1.000 tokens</th>
+                  <th class="p-4 text-left">Ejemplo (~5.000 tokens/conversación)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="border-b border-gray-200">
+                  <td class="p-4 font-semibold text-green-700">Uso normal</td>
+                  <td class="p-4 text-gray-700">Hasta límite del plan</td>
+                  <td class="p-4 text-green-700 font-bold">Gratis</td>
+                  <td class="p-4 text-gray-700">—</td>
+                </tr>
+                <tr class="border-b border-gray-200 bg-yellow-50">
+                  <td class="p-4 font-semibold text-yellow-700">Exceso moderado</td>
+                  <td class="p-4 text-gray-700">Hasta +100% del límite del plan (x2)</td>
+                  <td class="p-4 text-yellow-700 font-bold">0,01 €</td>
+                  <td class="p-4 text-gray-700">0,05 € por conversación</td>
+                </tr>
+                <tr class="bg-orange-50">
+                  <td class="p-4 font-semibold text-orange-700">Uso masivo</td>
+                  <td class="p-4 text-gray-700">Más del +100% adicional</td>
+                  <td class="p-4 text-orange-700 font-bold">0,10 €</td>
+                  <td class="p-4 text-gray-700">0,50 € por conversación</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Cards de precios por exceso - Mobile -->
+        <div class="md:hidden space-y-4">
+          <!-- Uso normal -->
+          <div class="bg-white rounded-2xl shadow-lg border-2 border-green-200 p-6">
+            <div class="flex items-center justify-between mb-4">
+              <h3 class="text-lg font-bold text-green-700">Uso normal</h3>
+              <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm font-bold">Gratis</span>
+            </div>
+            <div class="space-y-3 text-sm">
+              <div>
+                <p class="text-gray-500 mb-1">Tokens extra:</p>
+                <p class="text-gray-800 font-medium">Hasta límite del plan</p>
+              </div>
+              <div>
+                <p class="text-gray-500 mb-1">Precio / 1.000 tokens:</p>
+                <p class="text-green-700 font-bold text-lg">Gratis</p>
+              </div>
+              <div>
+                <p class="text-gray-500 mb-1">Ejemplo (~5.000 tokens/conversación):</p>
+                <p class="text-gray-800 font-medium">—</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Exceso moderado -->
+          <div class="bg-yellow-50 rounded-2xl shadow-lg border-2 border-yellow-300 p-6">
+            <div class="flex items-center justify-between mb-4">
+              <h3 class="text-lg font-bold text-yellow-700">Exceso moderado</h3>
+              <span class="bg-yellow-200 text-yellow-800 px-3 py-1 rounded-full text-sm font-bold">0,01 €</span>
+            </div>
+            <div class="space-y-3 text-sm">
+              <div>
+                <p class="text-gray-600 mb-1">Tokens extra:</p>
+                <p class="text-gray-800 font-medium">Hasta +100% del límite del plan (x2)</p>
+              </div>
+              <div>
+                <p class="text-gray-600 mb-1">Precio / 1.000 tokens:</p>
+                <p class="text-yellow-700 font-bold text-lg">0,01 €</p>
+              </div>
+              <div>
+                <p class="text-gray-600 mb-1">Ejemplo (~5.000 tokens/conversación):</p>
+                <p class="text-gray-800 font-medium">0,05 € por conversación</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Uso masivo -->
+          <div class="bg-orange-50 rounded-2xl shadow-lg border-2 border-orange-300 p-6">
+            <div class="flex items-center justify-between mb-4">
+              <h3 class="text-lg font-bold text-orange-700">Uso masivo</h3>
+              <span class="bg-orange-200 text-orange-800 px-3 py-1 rounded-full text-sm font-bold">0,10 €</span>
+            </div>
+            <div class="space-y-3 text-sm">
+              <div>
+                <p class="text-gray-600 mb-1">Tokens extra:</p>
+                <p class="text-gray-800 font-medium">Más del +100% adicional</p>
+              </div>
+              <div>
+                <p class="text-gray-600 mb-1">Precio / 1.000 tokens:</p>
+                <p class="text-orange-700 font-bold text-lg">0,10 €</p>
+              </div>
+              <div>
+                <p class="text-gray-600 mb-1">Ejemplo (~5.000 tokens/conversación):</p>
+                <p class="text-gray-800 font-medium">0,50 € por conversación</p>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div class="mt-8 bg-green-50 border-2 border-green-300 rounded-xl p-6 text-center">
