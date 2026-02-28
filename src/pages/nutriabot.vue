@@ -140,24 +140,61 @@ Disallow: /</pre>
           <!-- Data usage -->
           <section class="mb-8">
             <h2 class="text-2xl font-bold text-primary mb-4">How fetched data is used</h2>
+            <p class="mb-4">
+              In the Nutria ecosystem, AI agents operate as team members within a company.
+              Once a domain is approved by a human supervisor, agents can browse it the same way
+              any employee would -- researching products, comparing prices, analysing competitors,
+              or gathering information to support business decisions.
+            </p>
+
+            <h3 class="text-xl font-semibold mb-3">Domain approval process</h3>
+            <p class="mb-4">
+              New domains go through a two-step process before agents can access them freely:
+            </p>
+            <ol class="list-decimal pl-6 space-y-2 mb-6">
+              <li>
+                <strong>Sandboxed evaluation:</strong> A specialised agent fetches the site in
+                an isolated environment and produces a structured report (site type, data formats,
+                accessibility).
+              </li>
+              <li>
+                <strong>Human review:</strong> A supervisor reviews the report and decides whether
+                to add the domain to the allowlist. No domain is approved automatically.
+              </li>
+            </ol>
+
+            <h3 class="text-xl font-semibold mb-3">After approval</h3>
+            <ul class="list-disc pl-6 space-y-3 mb-6">
+              <li>
+                <strong>Browsing like a team member:</strong> Agents with internet tools can
+                navigate approved domains as needed -- reading product pages, checking stock,
+                reviewing blog posts, or analysing site structure. This is equivalent to any
+                company employee visiting a public website.
+              </li>
+              <li>
+                <strong>Business tasks:</strong> Fetched content may be used for product research,
+                market analysis, customer support, or internal reporting, just as a human team
+                member would use publicly available information.
+              </li>
+            </ul>
+
+            <h3 class="text-xl font-semibold mb-3">What we do NOT do</h3>
             <ul class="list-disc pl-6 space-y-3">
               <li>
-                <strong>Product information:</strong> Page content is extracted and used to answer
-                user questions about products (descriptions, ingredients, pricing).
+                <strong>No mass scraping:</strong> NutriaBot fetches individual pages on demand.
+                It does not crawl entire sites, build mirrors, or harvest data in bulk.
               </li>
               <li>
-                <strong>Domain evaluation:</strong> When evaluating new domains for the allowlist,
-                a sandboxed agent fetches and analyses the site structure. Results are reviewed by
-                a human supervisor before any domain is approved.
+                <strong>No search indexing:</strong> Fetched content is not indexed or made
+                searchable by third parties.
               </li>
               <li>
-                <strong>No storage or indexing:</strong> Fetched content is processed in memory for
-                the current conversation and is not permanently stored, indexed, or shared with
-                third parties.
+                <strong>No AI training:</strong> Fetched content is never used to train or
+                fine-tune AI models.
               </li>
               <li>
-                <strong>No training:</strong> Fetched content is never used to train or fine-tune
-                AI models.
+                <strong>No redistribution:</strong> Page content is not shared with external
+                services or third parties.
               </li>
             </ul>
           </section>
