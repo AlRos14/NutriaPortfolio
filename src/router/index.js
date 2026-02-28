@@ -8,6 +8,7 @@ import Dossier from '../pages/dossier.vue'
 import AvisoLegal from '../pages/aviso-legal.vue'
 import PoliticaPrivacidad from '../pages/politica-privacidad.vue'
 import PoliticaCookies from '../pages/politica-cookies.vue'
+import NutriaBot from '../pages/nutriabot.vue'
 
 const routes = [
   { path: '/', name: 'Home', component: Home },
@@ -18,7 +19,8 @@ const routes = [
   { path: '/dossier', name: 'Dossier', component: Dossier },
   { path: '/aviso-legal', name: 'AvisoLegal', component: AvisoLegal },
   { path: '/politica-privacidad', name: 'PoliticaPrivacidad', component: PoliticaPrivacidad },
-  { path: '/politica-cookies', name: 'PoliticaCookies', component: PoliticaCookies }
+  { path: '/politica-cookies', name: 'PoliticaCookies', component: PoliticaCookies },
+  { path: '/nutriabot', name: 'NutriaBot', component: NutriaBot }
 ]
 
 export default createRouter({

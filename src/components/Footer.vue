@@ -20,6 +20,9 @@
           <router-link to="/politica-cookies" class="hover:text-white transition-colors">
             Política de Cookies
           </router-link>
+          <router-link to="/nutriabot" class="hover:text-white transition-colors">
+            NutriaBot Crawler
+          </router-link>
         </div>
       </div>
       
