@@ -55,7 +55,7 @@ export default {
 
 ```css
 /* main.css — single line to import Tailwind */
-@import "tailwindcss";
+@import 'tailwindcss';
 ```
 
 No `content` array, no purge config — v4 detects template files automatically.
@@ -67,7 +67,7 @@ No `content` array, no purge config — v4 detects template files automatically.
 Define your project's design tokens directly in CSS. Every `@theme` variable generates corresponding utility classes.
 
 ```css
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @theme {
   /* Brand colors → generates bg-primary-500, text-primary-600, etc. */
@@ -102,32 +102,32 @@ Define your project's design tokens directly in CSS. Every `@theme` variable gen
 
 ### Theme Variable Namespaces
 
-| Namespace | Generates | Example |
-|-----------|-----------|---------|
-| `--color-*` | Color utilities | `bg-primary-500`, `text-danger` |
-| `--font-*` | Font family utilities | `font-sans`, `font-heading` |
-| `--text-*` | Font size utilities | `text-xl` |
-| `--font-weight-*` | Font weight utilities | `font-bold` |
-| `--tracking-*` | Letter spacing | `tracking-wide` |
-| `--leading-*` | Line height | `leading-tight` |
-| `--breakpoint-*` | Responsive variants | `sm:*`, `3xl:*` |
-| `--container-*` | Container query variants | `@sm:*`, `@md:*` |
-| `--spacing-*` | Spacing/sizing | `px-4`, `w-128` |
-| `--radius-*` | Border radius | `rounded-sm` |
-| `--shadow-*` | Box shadow | `shadow-md` |
-| `--inset-shadow-*` | Inset box shadow | `inset-shadow-xs` |
-| `--drop-shadow-*` | Drop shadow filter | `drop-shadow-md` |
-| `--blur-*` | Blur filter | `blur-md` |
-| `--perspective-*` | Perspective | `perspective-near` |
-| `--ease-*` | Timing functions | `ease-out` |
-| `--animate-*` | Animations | `animate-spin` |
+| Namespace          | Generates                | Example                         |
+| ------------------ | ------------------------ | ------------------------------- |
+| `--color-*`        | Color utilities          | `bg-primary-500`, `text-danger` |
+| `--font-*`         | Font family utilities    | `font-sans`, `font-heading`     |
+| `--text-*`         | Font size utilities      | `text-xl`                       |
+| `--font-weight-*`  | Font weight utilities    | `font-bold`                     |
+| `--tracking-*`     | Letter spacing           | `tracking-wide`                 |
+| `--leading-*`      | Line height              | `leading-tight`                 |
+| `--breakpoint-*`   | Responsive variants      | `sm:*`, `3xl:*`                 |
+| `--container-*`    | Container query variants | `@sm:*`, `@md:*`                |
+| `--spacing-*`      | Spacing/sizing           | `px-4`, `w-128`                 |
+| `--radius-*`       | Border radius            | `rounded-sm`                    |
+| `--shadow-*`       | Box shadow               | `shadow-md`                     |
+| `--inset-shadow-*` | Inset box shadow         | `inset-shadow-xs`               |
+| `--drop-shadow-*`  | Drop shadow filter       | `drop-shadow-md`                |
+| `--blur-*`         | Blur filter              | `blur-md`                       |
+| `--perspective-*`  | Perspective              | `perspective-near`              |
+| `--ease-*`         | Timing functions         | `ease-out`                      |
+| `--animate-*`      | Animations               | `animate-spin`                  |
 
 ### @source — Explicit Content Sources
 
 When automatic detection misses files (e.g., component libraries in node_modules):
 
 ```css
-@import "tailwindcss";
+@import 'tailwindcss';
 @source "../node_modules/@my-company/ui-lib";
 ```
 
@@ -136,12 +136,13 @@ When automatic detection misses files (e.g., component libraries in node_modules
 Plugins are loaded via CSS, not JavaScript config:
 
 ```css
-@import "tailwindcss";
+@import 'tailwindcss';
 @plugin "@tailwindcss/forms";
 @plugin "@tailwindcss/typography";
 ```
 
 **Built-in in v4 (no plugin needed):**
+
 - `aspect-*` utilities (was `@tailwindcss/aspect-ratio`)
 - Container queries (was `@tailwindcss/container-queries`)
 
@@ -188,9 +189,13 @@ Use `gap` for spacing between flex/grid children (preferred over `space-y`/`spac
 </div>
 
 <!-- Padding and margin -->
-<div class="p-4 m-2">           <!-- padding: 1rem, margin: 0.5rem -->
-<div class="px-6 py-4">         <!-- padding-x: 1.5rem, padding-y: 1rem -->
-<div class="mt-8 mb-4">         <!-- margin-top: 2rem, margin-bottom: 1rem -->
+<div class="p-4 m-2">
+  <!-- padding: 1rem, margin: 0.5rem -->
+  <div class="px-6 py-4">
+    <!-- padding-x: 1.5rem, padding-y: 1rem -->
+    <div class="mt-8 mb-4"><!-- margin-top: 2rem, margin-bottom: 1rem --></div>
+  </div>
+</div>
 ```
 
 > **v4**: Spacing utilities accept any value dynamically. `w-17`, `pr-29`, `mt-13` all work without config.
@@ -239,7 +244,7 @@ Always reference your `@theme` tokens. The default palette (gray, red, blue, etc
 
 Default breakpoints: `sm` (40rem), `md` (48rem), `lg` (64rem), `xl` (80rem), `2xl` (96rem).
 
-### max-* Variants
+### max-\* Variants
 
 Target below a breakpoint or a specific range:
 
@@ -277,20 +282,20 @@ Style elements based on their container size, not viewport:
 ### Hover, Focus, Active
 
 ```html
-<button class="bg-primary-600 hover:bg-primary-700 active:bg-primary-800
+<button
+  class="bg-primary-600 hover:bg-primary-700 active:bg-primary-800
                focus:outline-2 focus:outline-primary-500 focus:outline-offset-2
-               transition-colors">
+               transition-colors"
+>
   Interactive Button
 </button>
 
-<a href="#" class="text-primary-600 hover:text-primary-800 hover:underline">
-  Link
-</a>
+<a href="#" class="text-primary-600 hover:text-primary-800 hover:underline"> Link </a>
 ```
 
 > **Accessible focus pattern**: Use `focus:outline-2 focus:outline-offset-2 focus:outline-{color}` instead of `focus:ring-*`. This produces a visible, high-contrast focus indicator that meets WCAG 2.4.7.
 
-### in-* Variant (Implicit Groups)
+### in-\* Variant (Implicit Groups)
 
 Style based on parent state without needing a `group` class:
 
@@ -308,7 +313,7 @@ Style based on parent state without needing a `group` class:
 </div>
 ```
 
-### not-* Variant
+### not-\* Variant
 
 Style when a condition does NOT match:
 
@@ -321,7 +326,11 @@ Style when a condition does NOT match:
 
 ```html
 <!-- Accessible disabled pattern -->
-<button class="disabled:opacity-50 disabled:pointer-events-none" disabled aria-disabled="true">
+<button
+  class="disabled:opacity-50 disabled:pointer-events-none"
+  disabled
+  aria-disabled="true"
+>
   Disabled Button
 </button>
 
@@ -350,7 +359,7 @@ To toggle dark mode via a CSS class instead of OS preference:
 
 ```css
 /* In your main CSS file */
-@import "tailwindcss";
+@import 'tailwindcss';
 @custom-variant dark (&:where(.dark, .dark *));
 ```
 
@@ -365,7 +374,7 @@ To toggle dark mode via a CSS class instead of OS preference:
 ### Data-Attribute Based Dark Mode
 
 ```css
-@import "tailwindcss";
+@import 'tailwindcss';
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 ```
 
@@ -383,28 +392,34 @@ These patterns are **structural templates** — replace colors with your project
 
 ```html
 <!-- Primary action — adapt colors to your @theme -->
-<button class="px-4 py-2 bg-primary-600 text-white font-medium rounded-md
+<button
+  class="px-4 py-2 bg-primary-600 text-white font-medium rounded-md
                hover:bg-primary-700 active:bg-primary-800
                focus:outline-2 focus:outline-primary-500 focus:outline-offset-2
                disabled:opacity-50 disabled:pointer-events-none
-               transition-colors">
+               transition-colors"
+>
   Primary Action
 </button>
 
 <!-- Secondary / outline -->
-<button class="px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md
+<button
+  class="px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md
                text-gray-700 dark:text-gray-300
                hover:bg-gray-50 dark:hover:bg-gray-800
                focus:outline-2 focus:outline-primary-500 focus:outline-offset-2
-               transition-colors">
+               transition-colors"
+>
   Secondary
 </button>
 
 <!-- Danger -->
-<button class="px-4 py-2 bg-danger text-white font-medium rounded-md
+<button
+  class="px-4 py-2 bg-danger text-white font-medium rounded-md
                hover:bg-red-700
                focus:outline-2 focus:outline-red-500 focus:outline-offset-2
-               transition-colors">
+               transition-colors"
+>
   Delete
 </button>
 ```
@@ -415,7 +430,9 @@ These patterns are **structural templates** — replace colors with your project
 <div class="bg-surface-0 dark:bg-surface-800 rounded-lg shadow-md overflow-hidden">
   <img src="/image.jpg" alt="" class="w-full h-48 object-cover" />
   <div class="p-6">
-    <h2 class="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-100">Card Title</h2>
+    <h2 class="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-100">
+      Card Title
+    </h2>
     <p class="text-gray-600 dark:text-gray-400">Card content goes here.</p>
   </div>
 </div>
@@ -515,8 +532,12 @@ Create project-specific variants:
 
 ```css
 @layer base {
-  h1 { font-size: var(--text-2xl); }
-  h2 { font-size: var(--text-xl); }
+  h1 {
+    font-size: var(--text-2xl);
+  }
+  h2 {
+    font-size: var(--text-xl);
+  }
 }
 
 @layer components {
@@ -545,11 +566,11 @@ To use `@apply` or `@variant` inside Vue SFC `<style>` blocks, import your style
 </template>
 
 <style scoped>
-  @reference "@/assets/main.css";
+@reference "@/assets/main.css";
 
-  .heading {
-    @apply text-2xl font-bold text-primary-600;
-  }
+.heading {
+  @apply text-2xl font-bold text-primary-600;
+}
 </style>
 ```
 
@@ -557,8 +578,8 @@ If using only the default Tailwind theme (no custom `@theme`):
 
 ```vue
 <style scoped>
-  @reference "tailwindcss";
-  /* ... */
+@reference "tailwindcss";
+/* ... */
 </style>
 ```
 
@@ -580,14 +601,37 @@ If using only the default Tailwind theme (no custom `@theme`):
   </button>
 
   <!-- Array syntax -->
-  <div :class="[
-    'rounded-lg p-6',
-    dark ? 'bg-surface-800 text-gray-100' : 'bg-surface-0 text-gray-900',
-  ]">
+  <div
+    :class="[
+      'rounded-lg p-6',
+      dark ? 'bg-surface-800 text-gray-100' : 'bg-surface-0 text-gray-900',
+    ]"
+  >
     Content
   </div>
 </template>
 ```
+
+### RouterLink Active Classes
+
+⚠️ **Critical**: `active-class` matches by route **prefix**. A link to `/` matches EVERY route. Use `exact-active-class` for root routes:
+
+```vue
+<RouterLink
+  v-for="item in menuItems"
+  :key="item.to"
+  :to="item.to"
+  class="rounded-lg px-3 py-2 text-surface-600 hover:bg-primary-50 hover:text-primary-700"
+  :active-class="item.to === '/' ? '' : '!bg-primary-100 !text-primary-800'"
+  exact-active-class="!bg-primary-100 !text-primary-800"
+>
+  {{ item.label }}
+</RouterLink>
+```
+
+- `active-class`: highlights parent when on child route (e.g., `/productos` active on `/productos/123`)
+- `exact-active-class`: highlights only on exact match (required for `/` to avoid matching everything)
+- Use `!` prefix to override base text/bg colors with `!important`
 
 ### Component Extraction
 
@@ -611,7 +655,8 @@ const props = withDefaults(defineProps<Props>(), {
     :disabled="disabled"
     :class="{
       'bg-primary-600 text-white hover:bg-primary-700': variant === 'primary',
-      'border border-gray-300 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-800': variant === 'secondary',
+      'border border-gray-300 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-800':
+        variant === 'secondary',
       'bg-danger text-white hover:bg-red-700': variant === 'danger',
     }"
     class="px-4 py-2 rounded-md font-medium transition-colors
@@ -640,9 +685,7 @@ Many utilities accept any value without configuration:
 
 ```html
 <div class="perspective-distant">
-  <div class="rotate-x-12 rotate-z-6 transform-3d">
-    3D transformed element
-  </div>
+  <div class="rotate-x-12 rotate-z-6 transform-3d">3D transformed element</div>
 </div>
 ```
 
@@ -667,9 +710,13 @@ Many utilities accept any value without configuration:
 Animate elements when they first appear (no JavaScript needed):
 
 ```html
-<div popover id="popover" class="transition-all duration-300
+<div
+  popover
+  id="popover"
+  class="transition-all duration-300
      starting:open:opacity-0 starting:open:scale-95
-     open:opacity-100 open:scale-100">
+     open:opacity-100 open:scale-100"
+>
   Popover with enter animation
 </div>
 ```
@@ -692,12 +739,14 @@ Fix dark scrollbars and form controls in dark mode:
 </html>
 ```
 
-### inset-shadow-* and inset-ring-*
+### inset-shadow-_ and inset-ring-_
 
 Stack up to four box shadow layers on a single element:
 
 ```html
-<div class="shadow-md inset-shadow-xs ring-1 ring-black/5 inset-ring-1 inset-ring-white/10">
+<div
+  class="shadow-md inset-shadow-xs ring-1 ring-black/5 inset-ring-1 inset-ring-white/10"
+>
   Four shadow layers
 </div>
 ```
@@ -710,7 +759,7 @@ Generate spacing values based on your theme in custom CSS:
 
 ```css
 .my-element {
-  margin: --spacing(4);           /* → calc(var(--spacing) * 4) */
+  margin: --spacing(4); /* → calc(var(--spacing) * 4) */
   padding: --spacing(2) --spacing(4);
 }
 ```
