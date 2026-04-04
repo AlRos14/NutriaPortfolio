@@ -633,6 +633,34 @@ If using only the default Tailwind theme (no custom `@theme`):
 - `exact-active-class`: highlights only on exact match (required for `/` to avoid matching everything)
 - Use `!` prefix to override base text/bg colors with `!important`
 
+⚠️ **Sibling sub-items sharing a prefix**: When sidebar sub-items share a path prefix (e.g., `/personas` and `/personas/domains` are siblings in the same group), `startsWith` causes both to highlight. Use sibling-aware matching — the most specific sibling wins:
+
+```ts
+// For sub-items: use this instead of plain isActive()
+function isSubItemActive(to: string, siblings: { to?: string }[]) {
+  if (route.path === to) return true
+  if (route.path.startsWith(to + '/')) {
+    // Only active if no sibling matches this path more specifically
+    return !siblings.some(
+      (s) => s.to !== to && (route.path === s.to || route.path.startsWith((s.to ?? '') + '/'))
+    )
+  }
+  return false
+}
+```
+
+```vue
+<!-- In template: pass the sibling items to the check -->
+<div
+  v-for="sub in item.items"
+  :class="isSubItemActive(sub.to!, item.items!) ? 'bg-primary-100 text-primary-800' : 'hover:bg-primary-50'"
+>
+  {{ sub.label }}
+</div>
+```
+
+This correctly highlights `/personas` on `/personas/123` (no sibling matches), but NOT on `/personas/domains` (sibling matches first).
+
 ### Component Extraction
 
 Extract reusable styled components instead of duplicating long class strings:
