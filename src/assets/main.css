@@ -2,6 +2,15 @@
 
 @theme {
   --color-primary: #307eb1;
+  --color-primary-50: #eef6fa;
+  --color-primary-100: #d6e8f4;
+  --color-primary-200: #aed2e9;
+  --color-primary-300: #7eb7dc;
+  --color-primary-400: #4e9ccf;
+  --color-primary-600: #276690;
+  --color-primary-700: #1e4f70;
+  --color-primary-800: #163b54;
+  --color-primary-900: #0f2738;
   --color-secondary: #3d4043;
   --color-dark: #1B1B1B;
   --color-light: #F8F9FA;

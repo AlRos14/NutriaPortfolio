@@ -161,7 +161,7 @@
                 <!-- Fase 1B: Estabilización Frontend -->
                 <div class="relative">
                     <div class="text-center mb-8">
-                        <div class="bg-blue-500 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+                        <div class="bg-primary rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
                             <DatabaseIcon class="w-8 h-8 text-white" />
                         </div>
                         <h3 class="text-2xl font-bold mb-3">Fase 1B: Estabilización Frontend</h3>
@@ -183,13 +183,13 @@
 
                         <div class="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition">
                             <div class="mb-4 flex justify-center">
-                                <LightningIcon class="w-10 h-10 text-blue-500" />
+                                <LightningIcon class="w-10 h-10 text-primary" />
                             </div>
                             <h4 class="font-bold text-lg mb-2">Cache Inteligente</h4>
                             <p class="text-gray-600 text-sm mb-3">
                                 Cache de respuestas frecuentes con TTL configurable e invalidación automática
                             </p>
-                            <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">Siguiente</span>
+                            <span class="text-xs bg-primary-100 text-primary-800 px-2 py-1 rounded">Siguiente</span>
                         </div>
 
                         <div class="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition border-l-4 border-green-500">

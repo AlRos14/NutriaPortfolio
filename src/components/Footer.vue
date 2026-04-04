@@ -30,7 +30,7 @@
         <p>Desarrollado por Alejandro Rosado y el equipo de Nutria</p>
         <p class="mt-1">
           Contacto: 
-          <a href="mailto:info@ainutria.com" class="text-primary hover:text-blue-300 transition-colors">
+          <a href="mailto:info@ainutria.com" class="text-primary hover:text-primary-300 transition-colors">
             info@ainutria.com
           </a>
         </p>

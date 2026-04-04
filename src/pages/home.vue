@@ -69,7 +69,7 @@ export default {
                 href="https://firenutrition.es/producto/l-glutamine-powder-300-g-kyowa/"
                 target="_blank"
                 rel="noopener"
-                class="group bg-white backdrop-blur-sm rounded-3xl p-8 shadow-2xl hover:shadow-3xl transition-all duration-500 hover:scale-110 hover:bg-white border-2 border-white/20 hover:border-blue-200 flex flex-col items-center gap-4 min-w-[280px]"
+                class="group bg-white backdrop-blur-sm rounded-3xl p-8 shadow-2xl hover:shadow-3xl transition-all duration-500 hover:scale-110 hover:bg-white border-2 border-white/20 hover:border-primary-200 flex flex-col items-center gap-4 min-w-[280px]"
               > <div class="bg-white rounded-2xl p-4 group-hover:scale-105 transition-transform duration-300">
                     <img src="@/assets/logos/fire-logo.png" alt="FireNutrition Logo" class="h-20 w-auto group-hover:scale-105 transition-transform duration-300" />
                 </div>
@@ -86,7 +86,7 @@ export default {
                 href="https://nutrivip.es/producto/fire-nutrition-l-glutamine-powder-300-gr/"
                 target="_blank"
                 rel="noopener"
-                class="group bg-white backdrop-blur-sm rounded-3xl p-8 shadow-2xl hover:shadow-3xl transition-all duration-500 hover:scale-110 hover:bg-white border-2 border-white/20 hover:border-blue-200 flex flex-col items-center gap-4 min-w-[280px]"
+                class="group bg-white backdrop-blur-sm rounded-3xl p-8 shadow-2xl hover:shadow-3xl transition-all duration-500 hover:scale-110 hover:bg-white border-2 border-white/20 hover:border-primary-200 flex flex-col items-center gap-4 min-w-[280px]"
               >
                 <div class="bg-white rounded-2xl p-4 group-hover:scale-105 transition-transform duration-300">
                   <img src="@/assets/logos/nutrivip-logo.png" alt="NutriVip Logo" class="h-20 w-auto" />
@@ -104,7 +104,7 @@ export default {
                 href="https://nutria.nutrivip.es"
                 target="_blank"
                 rel="noopener"
-                class="group bg-white backdrop-blur-sm rounded-3xl p-8 shadow-2xl hover:shadow-3xl transition-all duration-500 hover:scale-110 hover:bg-white border-2 border-white/20 hover:border-blue-200 flex flex-col items-center gap-4 min-w-[280px]"
+                class="group bg-white backdrop-blur-sm rounded-3xl p-8 shadow-2xl hover:shadow-3xl transition-all duration-500 hover:scale-110 hover:bg-white border-2 border-white/20 hover:border-primary-200 flex flex-col items-center gap-4 min-w-[280px]"
               >
                 <div class="bg-white rounded-2xl p-4 group-hover:scale-105 transition-transform duration-300">
                   <img src="@/assets/logos/nutria-logo.png" alt="Nutria Logo" class="h-20 w-auto" />
@@ -145,7 +145,7 @@ export default {
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div class="group bg-white shadow-lg hover:shadow-2xl p-8 rounded-2xl border border-gray-100 hover:border-primary/20 transition-all duration-300 hover:-translate-y-2">
-            <div class="w-16 h-16 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-2xl flex items-center justify-center mb-6 mx-auto group-hover:scale-110 transition-transform duration-300">
+            <div class="w-16 h-16 bg-gradient-to-r from-primary to-indigo-600 rounded-2xl flex items-center justify-center mb-6 mx-auto group-hover:scale-110 transition-transform duration-300">
               <BrainAIIcon />
             </div>
             <h4 class="text-xl font-bold mb-4 text-gray-900">IA Generativa</h4>
@@ -153,7 +153,7 @@ export default {
           </div>
           
           <div class="group bg-white shadow-lg hover:shadow-2xl p-8 rounded-2xl border border-gray-100 hover:border-primary/20 transition-all duration-300 hover:-translate-y-2">
-            <div class="w-16 h-16 bg-gradient-to-r from-primary to-blue-600 rounded-2xl flex items-center justify-center mb-6 mx-auto group-hover:scale-110 transition-transform duration-300">
+            <div class="w-16 h-16 bg-gradient-to-r from-primary to-primary-600 rounded-2xl flex items-center justify-center mb-6 mx-auto group-hover:scale-110 transition-transform duration-300">
               <CustomLightningIcon />
             </div>
             <h4 class="text-xl font-bold mb-4 text-gray-900">Totalmente personalizable</h4>
@@ -188,12 +188,12 @@ export default {
         </p>
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
-          <div class="group bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-2xl hover:from-primary hover:to-blue-600 transition-all duration-300 hover:scale-105 hover:text-white">
+          <div class="group bg-gradient-to-br from-primary-50 to-primary-100 p-8 rounded-2xl hover:from-primary hover:to-primary-600 transition-all duration-300 hover:scale-105 hover:text-white">
             <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center mb-6 mx-auto group-hover:bg-white/20 transition-all duration-300">
               <TrendingUpIcon />
             </div>
             <h4 class="text-xl font-bold mb-4 text-gray-900 group-hover:text-white">Incremento de ventas</h4>
-            <p class="text-gray-600 group-hover:text-blue-100 leading-relaxed">Guía al cliente hasta el producto que realmente necesita. Cross-Selling y UpSelling automático.</p>
+            <p class="text-gray-600 group-hover:text-primary-100 leading-relaxed">Guía al cliente hasta el producto que realmente necesita. Cross-Selling y UpSelling automático.</p>
           </div>
           
           <div class="group bg-gradient-to-br from-green-50 to-green-100 p-8 rounded-2xl hover:from-green-500 hover:to-green-600 transition-all duration-300 hover:scale-105 hover:text-white">
@@ -249,7 +249,7 @@ export default {
             <!-- Header del chat -->
             <div class="bg-white border-b border-gray-200 px-6 py-4">
               <div class="text-center">
-                <h3 class="text-blue-600 text-xl font-semibold mb-2">¿Tienes dudas sobre este producto?</h3>
+                <h3 class="text-primary text-xl font-semibold mb-2">¿Tienes dudas sobre este producto?</h3>
                 <p class="text-gray-600 text-sm">Pregunta a Nutria, nuestra experta en suplementos deportivos. Inteligencia artificial real</p>
               </div>
             </div>
@@ -264,14 +264,14 @@ export default {
                 <div class="bg-white rounded-2xl p-4 shadow-sm border border-gray-100 text-gray-700 text-sm hover:bg-gray-50 cursor-pointer transition-colors">
                   ¿Creapure o 200MESH?
                 </div>
-                <div class="bg-blue-500 rounded-2xl p-4 text-white text-sm font-medium shadow-sm ml-12">
+                <div class="bg-primary rounded-2xl p-4 text-white text-sm font-medium shadow-sm ml-12">
                   ¿Qué hace exactamente la creatina?
                 </div>
               </div>
 
               <!-- Estado "pensando" -->
               <div class="flex items-center gap-3 mb-4">
-                <div class="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center">
+                <div class="w-8 h-8 bg-primary-100 rounded-full flex items-center justify-center">
                   <img src="@/assets/logos/nutria-logo.png" alt="Nutria" class="w-6 h-6 rounded-full" />
                 </div>
                 <div class="text-gray-500 text-sm">
@@ -315,9 +315,9 @@ export default {
                 <input 
                   type="text" 
                   placeholder="Escribe tu pregunta..." 
-                  class="w-full border-2 border-blue-200 rounded-full px-4 py-3 pr-12 text-sm focus:outline-none focus:border-blue-400 transition-colors"
+                  class="w-full border-2 border-primary-200 rounded-full px-4 py-3 pr-12 text-sm focus:outline-none focus:border-primary-400 transition-colors"
                 />
-                <button class="absolute right-2 top-1/2 transform -translate-y-1/2 w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors">
+                <button class="absolute right-2 top-1/2 transform -translate-y-1/2 w-8 h-8 bg-primary rounded-full flex items-center justify-center hover:bg-primary-600 transition-colors">
                   <ArrowRightIcon class="w-4 h-4 text-white" />
                 </button>
               </div>
@@ -342,7 +342,7 @@ export default {
             <!-- Header del chat -->
             <div class="bg-white border-b border-gray-200 px-6 py-4">
               <div class="text-center">
-                <h3 class="text-blue-600 text-xl font-semibold mb-2">¿Tienes dudas sobre este producto?</h3>
+                <h3 class="text-primary text-xl font-semibold mb-2">¿Tienes dudas sobre este producto?</h3>
                 <p class="text-gray-600 text-sm">Pregunta a nuestro asistente virtual experto. Inteligencia artificial real</p>
               </div>
             </div>
@@ -351,7 +351,7 @@ export default {
             <div class="p-6 bg-gray-50 min-h-[400px]">
               <!-- Pregunta del cliente -->
               <div class="mb-4">
-                <div class="bg-blue-500 rounded-2xl p-4 text-white text-sm font-medium shadow-sm ml-12">
+                <div class="bg-primary rounded-2xl p-4 text-white text-sm font-medium shadow-sm ml-12">
                   Busco unos auriculares inalámbricos para trabajar desde casa
                 </div>
               </div>
@@ -379,9 +379,9 @@ export default {
                 <input 
                   type="text" 
                   placeholder="Escribe tu pregunta..." 
-                  class="w-full border-2 border-blue-200 rounded-full px-4 py-3 pr-12 text-sm focus:outline-none focus:border-blue-400 transition-colors"
+                  class="w-full border-2 border-primary-200 rounded-full px-4 py-3 pr-12 text-sm focus:outline-none focus:border-primary-400 transition-colors"
                 />
-                <button class="absolute right-2 top-1/2 transform -translate-y-1/2 w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors">
+                <button class="absolute right-2 top-1/2 transform -translate-y-1/2 w-8 h-8 bg-primary rounded-full flex items-center justify-center hover:bg-primary-600 transition-colors">
                   <ArrowRightIcon class="w-4 h-4 text-white" />
                 </button>
               </div>
@@ -417,7 +417,7 @@ export default {
                 
                 <div class="bg-white/10 rounded-2xl p-6">
                 <div class="text-4xl font-bold text-yellow-300 mb-2">30%</div>
-                <div class="text-blue-100">
+                <div class="text-primary-100">
                     En pruebas reales, Nutria alcanzó hasta un <strong>30 % de conversión</strong> en la primera semana, 
                     superando con creces la media del sector.*
                 </div>
@@ -425,7 +425,7 @@ export default {
                 
                 <div class="bg-white/10 rounded-2xl p-6">
                 <div class="text-4xl font-bold text-yellow-300 mb-2">+Productos</div>
-                <div class="text-blue-100">
+                <div class="text-primary-100">
                     Convierte en ventas artículos que antes quedaban olvidados en el catálogo, 
                     impulsando nuevas oportunidades de ingreso.
                 </div>
@@ -433,7 +433,7 @@ export default {
                 
                 <div class="bg-white/10 rounded-2xl p-6">
                 <div class="text-4xl font-bold text-yellow-300 mb-2">24/7</div>
-                <div class="text-blue-100">
+                <div class="text-primary-100">
                     Atiende a tus clientes a cualquier hora, cualquier día, 
                     manteniendo la calidad de respuesta sin esfuerzo.
                 </div>
@@ -496,7 +496,7 @@ export default {
                 </a>
           </div>
 
-          <div class="mt-6 text-sm text-blue-100">
+          <div class="mt-6 text-sm text-primary-100">
             Puedes escribirnos a 
             <a href="mailto:info@ainutria.com" class="underline hover:text-yellow-300">info@ainutria.com</a> 
         </div>

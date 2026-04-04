@@ -5,7 +5,7 @@
         <h1 class="text-4xl font-bold text-primary mb-8">Política de Cookies</h1>
         
         <div class="prose prose-lg max-w-none">
-          <div class="bg-blue-50 border-l-4 border-primary p-6 rounded-lg mb-8">
+          <div class="bg-primary-50 border-l-4 border-primary p-6 rounded-lg mb-8">
             <p class="text-sm text-gray-600 mb-2">
               <strong>Última actualización:</strong> {{ new Date().toLocaleDateString('es-ES') }}
             </p>
@@ -45,7 +45,7 @@
               </div>
 
               <div class="border border-gray-200 rounded-lg p-6">
-                <h3 class="text-xl font-semibold mb-3 text-blue-600">📊 Cookies Analíticas (Opcionales)</h3>
+                <h3 class="text-xl font-semibold mb-3 text-primary">📊 Cookies Analíticas (Opcionales)</h3>
                 <p class="mb-3">
                   <strong>Finalidad:</strong> Nos ayudan a entender cómo interactúas con el sitio web.
                 </p>
@@ -55,7 +55,7 @@
                   <li>Mejorar la experiencia del usuario</li>
                   <li>Optimizar el rendimiento del sitio</li>
                 </ul>
-                <div class="bg-blue-50 p-3 rounded">
+                <div class="bg-primary-50 p-3 rounded">
                   <p class="text-sm">
                     <strong>Base legal:</strong> Consentimiento del usuario - Solo se activan si las aceptas.
                   </p>
@@ -120,7 +120,7 @@
                 </button>
               </div>
 
-              <div class="bg-blue-50 border border-blue-200 rounded-lg p-6">
+              <div class="bg-primary-50 border border-primary-200 rounded-lg p-6">
                 <h3 class="font-semibold mb-3">En tu navegador</h3>
                 <p class="mb-3">
                   También puedes configurar tu navegador para rechazar cookies o para que te avise cuando 
@@ -173,7 +173,7 @@
         <div class="mt-12 pt-8 border-t border-gray-200">
           <router-link 
             to="/" 
-            class="inline-flex items-center gap-2 text-primary hover:text-blue-700 transition-colors"
+            class="inline-flex items-center gap-2 text-primary hover:text-primary-700 transition-colors"
           >
             ← Volver al inicio
           </router-link>

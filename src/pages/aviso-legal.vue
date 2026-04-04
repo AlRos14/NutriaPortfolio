@@ -5,7 +5,7 @@
         <h1 class="text-4xl font-bold text-primary mb-8">Aviso Legal</h1>
         
         <div class="prose prose-lg max-w-none">
-          <div class="bg-blue-50 border-l-4 border-primary p-6 rounded-lg mb-8">
+          <div class="bg-primary-50 border-l-4 border-primary p-6 rounded-lg mb-8">
             <p class="text-sm text-gray-600 mb-2">
               <strong>Última actualización:</strong> {{ new Date().toLocaleDateString('es-ES') }}
             </p>
@@ -167,7 +167,7 @@
         <div class="mt-12 pt-8 border-t border-gray-200">
           <router-link 
             to="/" 
-            class="inline-flex items-center gap-2 text-primary hover:text-blue-700 transition-colors"
+            class="inline-flex items-center gap-2 text-primary hover:text-primary-700 transition-colors"
           >
             ← Volver al inicio
           </router-link>

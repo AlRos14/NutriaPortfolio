@@ -44,23 +44,23 @@
             <h4 class="text-xl font-semibold mb-4 text-green-700">Modo Asesor de Productos</h4>
             <ul class="space-y-3 text-gray-700">
               <li class="flex items-start gap-3">
-                <CheckIcon class="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckIcon class="w-6 h-6 text-green-600 shrink-0 mt-1" />
                 <span>Recomendaciones inteligentes de productos</span>
               </li>
               <li class="flex items-start gap-3">
-                <CheckIcon class="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckIcon class="w-6 h-6 text-green-600 shrink-0 mt-1" />
                 <span>Respuestas basadas en catálogo y blog</span>
               </li>
               <li class="flex items-start gap-3">
-                <CheckIcon class="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckIcon class="w-6 h-6 text-green-600 shrink-0 mt-1" />
                 <span>Cross-selling y up-selling automático</span>
               </li>
               <li class="flex items-start gap-3">
-                <CheckIcon class="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckIcon class="w-6 h-6 text-green-600 shrink-0 mt-1" />
                 <span>Integración completa en tu web</span>
               </li>
               <li class="flex items-start gap-3">
-                <CheckIcon class="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <CheckIcon class="w-6 h-6 text-green-600 shrink-0 mt-1" />
                 <span>Panel de estadísticas y métricas</span>
               </li>
             </ul>
@@ -78,27 +78,27 @@
             <p class="text-sm text-purple-600 font-semibold mb-4">Lanzamiento previsto: T1 2026</p>
             <ul class="space-y-3 text-gray-700">
               <li class="flex items-start gap-3">
-                <StarIcon class="w-6 h-6 text-purple-600 flex-shrink-0 mt-1" />
+                <StarIcon class="w-6 h-6 text-purple-600 shrink-0 mt-1" />
                 <span>Atención al cliente completa y autónoma</span>
               </li>
               <li class="flex items-start gap-3">
-                <StarIcon class="w-6 h-6 text-purple-600 flex-shrink-0 mt-1" />
+                <StarIcon class="w-6 h-6 text-purple-600 shrink-0 mt-1" />
                 <span>Gestión de pedidos y consultas de estado</span>
               </li>
               <li class="flex items-start gap-3">
-                <StarIcon class="w-6 h-6 text-purple-600 flex-shrink-0 mt-1" />
+                <StarIcon class="w-6 h-6 text-purple-600 shrink-0 mt-1" />
                 <span>Multi-canal: Web, WhatsApp, Telegram, Email</span>
               </li>
               <li class="flex items-start gap-3">
-                <StarIcon class="w-6 h-6 text-purple-600 flex-shrink-0 mt-1" />
+                <StarIcon class="w-6 h-6 text-purple-600 shrink-0 mt-1" />
                 <span>Integración avanzada con sistemas de negocio</span>
               </li>
               <li class="flex items-start gap-3">
-                <StarIcon class="w-6 h-6 text-purple-600 flex-shrink-0 mt-1" />
+                <StarIcon class="w-6 h-6 text-purple-600 shrink-0 mt-1" />
                 <span>Tiempos de respuesta reducidos en ~50%</span>
               </li>
               <li class="flex items-start gap-3">
-                <StarIcon class="w-6 h-6 text-purple-600 flex-shrink-0 mt-1" />
+                <StarIcon class="w-6 h-6 text-purple-600 shrink-0 mt-1" />
                 <span>Soporte dedicado y seguimiento continuo</span>
               </li>
             </ul>
@@ -153,22 +153,21 @@
           </div>
 
           <!-- Información sobre plataformas -->
-          <div class="bg-blue-50 border-2 border-blue-300 rounded-xl p-6">
-            <h4 class="font-bold text-lg mb-3 text-blue-900">Servicio mediante plugin + panel de métricas</h4>
+          <div class="bg-primary-50 border-2 border-primary-300 rounded-xl p-6">
+            <h4 class="font-bold text-lg mb-3 text-primary-900">Servicio mediante plugin + panel de métricas</h4>
             <p class="text-gray-700 mb-4">
               Nutria se proporciona mediante un <strong>plugin</strong> para tu plataforma ecommerce, 
               una <strong>URL de acceso a métricas</strong> y las <strong>claves de activación</strong> para conectar todo el sistema.
             </p>
             
-            <div class="bg-white rounded-lg p-4 border border-blue-200">
-              <p class="font-semibold text-gray-800 mb-2">Plataformas disponibles:</p>
+            <div class="bg-white rounded-lg p-4 border border-primary-200">
               <ul class="space-y-2 text-gray-700">
                 <li class="flex items-start gap-2">
-                  <CheckIcon class="w-5 h-5 text-green-600 flex-shrink-0 mt-1" />
+                  <CheckIcon class="w-5 h-5 text-green-600 shrink-0 mt-1" />
                   <span><strong>WooCommerce</strong> - Disponible ahora</span>
                 </li>
                 <li class="flex items-start gap-2">
-                  <ClockIcon class="w-5 h-5 text-orange-500 flex-shrink-0 mt-1" />
+                  <ClockIcon class="w-5 h-5 text-orange-500 shrink-0 mt-1" />
                   <span><strong>Shopify, Magento, PrestaShop, etc.</strong> - En desarrollo</span>
                 </li>
               </ul>
@@ -227,8 +226,8 @@
           </div>
 
           <!-- Integración con blog -->
-          <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 hover:shadow-xl transition-all">
-            <div class="bg-blue-500 rounded-full w-16 h-16 mx-auto mb-6 flex items-center justify-center">
+          <div class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-2xl p-8 hover:shadow-xl transition-all">
+            <div class="bg-primary rounded-full w-16 h-16 mx-auto mb-6 flex items-center justify-center">
               <BlogIcon class="w-8 h-8 text-white" />
             </div>
             <h3 class="text-xl font-bold mb-3 text-center text-gray-900">Blog con fuentes académicas</h3>
@@ -281,7 +280,7 @@
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8">
           <!-- Plan BASIC -->
           <div class="bg-white rounded-2xl shadow-xl border-2 border-gray-200 overflow-hidden hover:border-primary transition-all duration-300 hover:shadow-2xl">
-            <div class="bg-gradient-to-r from-blue-500 to-blue-600 text-white p-6 text-center">
+            <div class="bg-gradient-to-r from-primary to-primary-600 text-white p-6 text-center">
               <h3 class="text-2xl font-bold mb-2">BASIC</h3>
               <div class="text-4xl font-bold mb-2">149 €</div>
               <div class="text-sm opacity-90">por mes</div>
@@ -300,19 +299,19 @@
               </div>
               <ul class="space-y-3">
                 <li class="flex items-start gap-2">
-                  <CheckIcon class="w-5 h-5 text-green-600 flex-shrink-0 mt-1" />
+                  <CheckIcon class="w-5 h-5 text-green-600 shrink-0 mt-1" />
                   <span class="text-gray-700">Modo asesor de productos</span>
                 </li>
                 <li class="flex items-start gap-2">
-                  <CheckIcon class="w-5 h-5 text-green-600 flex-shrink-0 mt-1" />
+                  <CheckIcon class="w-5 h-5 text-green-600 shrink-0 mt-1" />
                   <span class="text-gray-700">Integración inicial incluida</span>
                 </li>
                 <li class="flex items-start gap-2">
-                  <CheckIcon class="w-5 h-5 text-green-600 flex-shrink-0 mt-1" />
+                  <CheckIcon class="w-5 h-5 text-green-600 shrink-0 mt-1" />
                   <span class="text-gray-700">Personalización completa</span>
                 </li>
                 <li class="flex items-start gap-2">
-                  <CheckIcon class="w-5 h-5 text-green-600 flex-shrink-0 mt-1" />
+                  <CheckIcon class="w-5 h-5 text-green-600 shrink-0 mt-1" />
                   <span class="text-gray-700">Panel de estadísticas</span>
                 </li>
               </ul>
@@ -321,7 +320,7 @@
 
           <!-- Plan PROFESSIONAL -->
           <div class="bg-white rounded-2xl shadow-xl border-4 border-primary overflow-hidden transform scale-105 relative">
-            <div class="bg-gradient-to-r from-primary to-blue-600 text-white p-6 text-center">
+            <div class="bg-gradient-to-r from-primary to-primary-600 text-white p-6 text-center">
               <h3 class="text-2xl font-bold mb-2">PROFESSIONAL</h3>
               <div class="text-4xl font-bold mb-2">299 €</div>
               <div class="text-sm opacity-90">por mes</div>
@@ -340,23 +339,23 @@
               </div>
               <ul class="space-y-3">
                 <li class="flex items-start gap-2">
-                  <CheckIcon class="w-5 h-5 text-green-600 flex-shrink-0 mt-1" />
+                  <CheckIcon class="w-5 h-5 text-green-600 shrink-0 mt-1" />
                   <span class="text-gray-700"><strong>Todo lo de BASIC</strong></span>
                 </li>
                 <li class="flex items-start gap-2">
-                  <StarIcon class="w-5 h-5 text-purple-600 flex-shrink-0 mt-1" />
+                  <StarIcon class="w-5 h-5 text-purple-600 shrink-0 mt-1" />
                   <span class="text-gray-700">Atención al cliente completa (v2.0)</span>
                 </li>
                 <li class="flex items-start gap-2">
-                  <StarIcon class="w-5 h-5 text-purple-600 flex-shrink-0 mt-1" />
+                  <StarIcon class="w-5 h-5 text-purple-600 shrink-0 mt-1" />
                   <span class="text-gray-700">Multi-canal (Web, WhatsApp, Telegram, Email)</span>
                 </li>
                 <li class="flex items-start gap-2">
-                  <CheckIcon class="w-5 h-5 text-green-600 flex-shrink-0 mt-1" />
+                  <CheckIcon class="w-5 h-5 text-green-600 shrink-0 mt-1" />
                   <span class="text-gray-700">Integración total</span>
                 </li>
                 <li class="flex items-start gap-2">
-                  <CheckIcon class="w-5 h-5 text-green-600 flex-shrink-0 mt-1" />
+                  <CheckIcon class="w-5 h-5 text-green-600 shrink-0 mt-1" />
                   <span class="text-gray-700">Soporte prioritario</span>
                 </li>
               </ul>
@@ -384,23 +383,23 @@
               </div>
               <ul class="space-y-3">
                 <li class="flex items-start gap-2">
-                  <CheckIcon class="w-5 h-5 text-green-600 flex-shrink-0 mt-1" />
+                  <CheckIcon class="w-5 h-5 text-green-600 shrink-0 mt-1" />
                   <span class="text-gray-700"><strong>Todo lo de PROFESSIONAL</strong></span>
                 </li>
                 <li class="flex items-start gap-2">
-                  <StarIcon class="w-5 h-5 text-purple-600 flex-shrink-0 mt-1" />
+                  <StarIcon class="w-5 h-5 text-purple-600 shrink-0 mt-1" />
                   <span class="text-gray-700">Integración avanzada</span>
                 </li>
                 <li class="flex items-start gap-2">
-                  <StarIcon class="w-5 h-5 text-purple-600 flex-shrink-0 mt-1" />
+                  <StarIcon class="w-5 h-5 text-purple-600 shrink-0 mt-1" />
                   <span class="text-gray-700">Soporte dedicado</span>
                 </li>
                 <li class="flex items-start gap-2">
-                  <StarIcon class="w-5 h-5 text-purple-600 flex-shrink-0 mt-1" />
+                  <StarIcon class="w-5 h-5 text-purple-600 shrink-0 mt-1" />
                   <span class="text-gray-700">Seguimiento continuo</span>
                 </li>
                 <li class="flex items-start gap-2">
-                  <CheckIcon class="w-5 h-5 text-green-600 flex-shrink-0 mt-1" />
+                  <CheckIcon class="w-5 h-5 text-green-600 shrink-0 mt-1" />
                   <span class="text-gray-700">Escalable para grandes negocios</span>
                 </li>
               </ul>
@@ -433,7 +432,7 @@
             <!-- Header del chat -->
             <div class="bg-white border-b border-gray-200 px-6 py-4">
               <div class="text-center">
-                <h3 class="text-blue-600 text-xl font-semibold mb-2">¿Tienes dudas sobre este producto?</h3>
+                <h3 class="text-primary text-xl font-semibold mb-2">¿Tienes dudas sobre este producto?</h3>
                 <p class="text-gray-600 text-sm">Pregunta a Nutria, nuestra experta en suplementos deportivos. Inteligencia artificial real</p>
               </div>
             </div>
@@ -448,14 +447,14 @@
                 <div class="bg-white rounded-2xl p-4 shadow-sm border border-gray-100 text-gray-700 text-sm hover:bg-gray-50 cursor-pointer transition-colors">
                   ¿Creapure o 200MESH?
                 </div>
-                <div class="bg-blue-500 rounded-2xl p-4 text-white text-sm font-medium shadow-sm ml-12">
+                <div class="bg-primary rounded-2xl p-4 text-white text-sm font-medium shadow-sm ml-12">
                   ¿Qué hace exactamente la creatina?
                 </div>
               </div>
 
               <!-- Estado "pensando" -->
               <div class="flex items-center gap-3 mb-4">
-                <div class="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center">
+                <div class="w-8 h-8 bg-primary-100 rounded-full flex items-center justify-center">
                   <img src="@/assets/logos/nutria-logo.png" alt="Nutria" class="w-6 h-6 rounded-full" />
                 </div>
                 <div class="text-gray-500 text-sm">
@@ -499,9 +498,9 @@
                 <input 
                   type="text" 
                   placeholder="Escribe tu pregunta..." 
-                  class="w-full border-2 border-blue-200 rounded-full px-4 py-3 pr-12 text-sm focus:outline-none focus:border-blue-400 transition-colors"
+                  class="w-full border-2 border-primary-200 rounded-full px-4 py-3 pr-12 text-sm focus:outline-none focus:border-primary-400 transition-colors"
                 />
-                <button class="absolute right-2 top-1/2 transform -translate-y-1/2 w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors">
+                <button class="absolute right-2 top-1/2 transform -translate-y-1/2 w-8 h-8 bg-primary rounded-full flex items-center justify-center hover:bg-primary-600 transition-colors">
                   <ArrowRightIcon class="w-4 h-4 text-white" />
                 </button>
               </div>
@@ -526,7 +525,7 @@
             <!-- Header del chat -->
             <div class="bg-white border-b border-gray-200 px-6 py-4">
               <div class="text-center">
-                <h3 class="text-blue-600 text-xl font-semibold mb-2">¿Tienes dudas sobre este producto?</h3>
+                <h3 class="text-primary text-xl font-semibold mb-2">¿Tienes dudas sobre este producto?</h3>
                 <p class="text-gray-600 text-sm">Pregunta a nuestro asistente virtual experto. Inteligencia artificial real</p>
               </div>
             </div>
@@ -535,7 +534,7 @@
             <div class="p-6 bg-gray-50 min-h-[400px]">
               <!-- Pregunta del cliente -->
               <div class="mb-4">
-                <div class="bg-blue-500 rounded-2xl p-4 text-white text-sm font-medium shadow-sm ml-12">
+                <div class="bg-primary rounded-2xl p-4 text-white text-sm font-medium shadow-sm ml-12">
                   Busco unos auriculares inalámbricos para trabajar desde casa
                 </div>
               </div>
@@ -563,9 +562,9 @@
                 <input 
                   type="text" 
                   placeholder="Escribe tu pregunta..." 
-                  class="w-full border-2 border-blue-200 rounded-full px-4 py-3 pr-12 text-sm focus:outline-none focus:border-blue-400 transition-colors"
+                  class="w-full border-2 border-primary-200 rounded-full px-4 py-3 pr-12 text-sm focus:outline-none focus:border-primary-400 transition-colors"
                 />
-                <button class="absolute right-2 top-1/2 transform -translate-y-1/2 w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors">
+                <button class="absolute right-2 top-1/2 transform -translate-y-1/2 w-8 h-8 bg-primary rounded-full flex items-center justify-center hover:bg-primary-600 transition-colors">
                   <ArrowRightIcon class="w-4 h-4 text-white" />
                 </button>
               </div>
@@ -601,7 +600,7 @@
                 
                 <div class="bg-white/10 rounded-2xl p-6">
                 <div class="text-4xl font-bold text-yellow-300 mb-2">30%</div>
-                <div class="text-blue-100">
+                <div class="text-primary-100">
                     En pruebas reales, Nutria alcanzó hasta un <strong>30 % de conversión</strong> en la primera semana, 
                     superando con creces la media del sector.*
                 </div>
@@ -609,21 +608,21 @@
                 
                 <div class="bg-white/10 rounded-2xl p-6">
                 <div class="text-4xl font-bold text-yellow-300 mb-2">15%</div>
-                <div class="text-blue-100">
+                <div class="text-primary-100">
                     De la facturación total proviene de conversaciones con Nutria*
                 </div>
                 </div>
                 
                 <div class="bg-white/10 rounded-2xl p-6">
                 <div class="text-4xl font-bold text-yellow-300 mb-2">24/7</div>
-                <div class="text-blue-100">
+                <div class="text-primary-100">
                     Atiende a tus clientes a cualquier hora, cualquier día, 
                     manteniendo la calidad de respuesta sin esfuerzo.
                 </div>
                 </div>
 
             </div>
-            <p class="mt-6 text-sm text-blue-100">
+            <p class="mt-6 text-sm text-primary-100">
                 *Datos obtenidos de Nutrivip. El modo asesor de productos ha correspondido al 15% de facturación durante varios meses desde su implementación. 
                 La tasa de conversión se calculó considerando las sesiones de chat activas que finalizaron en compra. Los resultados pueden variar según el sector y la forma de implementación.
             </p>
@@ -647,7 +646,7 @@
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
           <!-- ¿Qué son los tokens? -->
-          <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8">
+          <div class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-2xl p-8">
             <div class="bg-primary rounded-full w-16 h-16 mx-auto mb-6 flex items-center justify-center">
               <InfoIcon class="w-8 h-8 text-white" />
             </div>
@@ -655,7 +654,7 @@
             <p class="text-gray-700 mb-4">
               Cada conversación de Nutria utiliza <strong>tokens</strong>, que representan fragmentos de texto que Nutria procesa y genera en cada mensaje.
             </p>
-            <div class="bg-white rounded-lg p-4 border-2 border-blue-300">
+            <div class="bg-white rounded-lg p-4 border-2 border-primary-300">
               <p class="text-sm font-semibold text-gray-800 mb-2">Ejemplo:</p>
               <p class="text-gray-700">
                 Una conversación típica puede consumir <strong>5.000 tokens</strong>
@@ -677,19 +676,19 @@
             </p>
             <ul class="space-y-2">
               <li class="flex items-start gap-2">
-                <CheckIcon class="w-5 h-5 text-green-600 flex-shrink-0 mt-1" />
+                <CheckIcon class="w-5 h-5 text-green-600 shrink-0 mt-1" />
                 <span class="text-gray-700">Número de conversaciones y tokens consumidos</span>
               </li>
               <li class="flex items-start gap-2">
-                <CheckIcon class="w-5 h-5 text-green-600 flex-shrink-0 mt-1" />
+                <CheckIcon class="w-5 h-5 text-green-600 shrink-0 mt-1" />
                 <span class="text-gray-700">Ejemplo: <strong>674/5.000 conversaciones</strong></span>
               </li>
               <li class="flex items-start gap-2">
-                <CheckIcon class="w-5 h-5 text-green-600 flex-shrink-0 mt-1" />
+                <CheckIcon class="w-5 h-5 text-green-600 shrink-0 mt-1" />
                 <span class="text-gray-700">Coste acumulado por exceso (si aplica)</span>
               </li>
               <li class="flex items-start gap-2">
-                <CheckIcon class="w-5 h-5 text-green-600 flex-shrink-0 mt-1" />
+                <CheckIcon class="w-5 h-5 text-green-600 shrink-0 mt-1" />
                 <span class="text-gray-700">Opción de deshabilitar uso adicional</span>
               </li>
             </ul>
@@ -846,8 +845,8 @@
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <!-- Disponibilidad 24/7 -->
-          <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 hover:shadow-xl transition-all duration-300">
-            <div class="bg-blue-500 rounded-full w-16 h-16 mx-auto mb-6 flex items-center justify-center">
+          <div class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-2xl p-8 hover:shadow-xl transition-all duration-300">
+            <div class="bg-primary rounded-full w-16 h-16 mx-auto mb-6 flex items-center justify-center">
               <ClockIcon class="w-8 h-8 text-white" />
             </div>
             <h3 class="text-xl font-bold mb-3 text-center text-gray-900">Disponibilidad 24/7</h3>
@@ -929,7 +928,7 @@
           <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6">
             <div class="text-4xl font-bold text-yellow-300 mb-2">vs</div>
             <div class="text-lg font-semibold mb-2">Chatbots básicos</div>
-            <p class="text-blue-100 text-sm">
+            <p class="text-primary-100 text-sm">
               Respuestas predefinidas y limitadas
             </p>
           </div>
@@ -937,7 +936,7 @@
           <div class="bg-white/20 backdrop-blur-sm rounded-2xl p-6 border-2 border-yellow-400 transform scale-105">
             <div class="text-4xl font-bold text-yellow-300 mb-2">✓</div>
             <div class="text-lg font-semibold mb-2">Nutria</div>
-            <p class="text-blue-100 text-sm">
+            <p class="text-primary-100 text-sm">
               IA conversacional que entiende contexto y aprende
             </p>
           </div>
@@ -945,7 +944,7 @@
           <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6">
             <div class="text-4xl font-bold text-yellow-300 mb-2">vs</div>
             <div class="text-lg font-semibold mb-2">Atención manual</div>
-            <p class="text-blue-100 text-sm">
+            <p class="text-primary-100 text-sm">
               Costosa y limitada en horarios
             </p>
           </div>
@@ -984,7 +983,7 @@
 
         <div class="text-gray-600">
           Puedes escribirnos a 
-          <a href="mailto:info@ainutria.com" class="text-primary underline hover:text-blue-700">info@ainutria.com</a>
+          <a href="mailto:info@ainutria.com" class="text-primary underline hover:text-primary-700">info@ainutria.com</a>
         </div>
       </div>
     </section>

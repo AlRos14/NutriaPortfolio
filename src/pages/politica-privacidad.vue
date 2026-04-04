@@ -5,7 +5,7 @@
         <h1 class="text-4xl font-bold text-primary mb-8">Política de Privacidad</h1>
         
         <div class="prose prose-lg max-w-none">
-          <div class="bg-blue-50 border-l-4 border-primary p-6 rounded-lg mb-8">
+          <div class="bg-primary-50 border-l-4 border-primary p-6 rounded-lg mb-8">
             <p class="text-sm text-gray-600 mb-2">
               <strong>Última actualización:</strong> {{ new Date().toLocaleDateString('es-ES') }}
             </p>
@@ -77,7 +77,7 @@
             <p class="mb-4">Utilizamos tus datos para los siguientes fines:</p>
             
             <div class="grid md:grid-cols-2 gap-6 mb-6">
-              <div class="bg-blue-50 p-4 rounded-lg">
+              <div class="bg-primary-50 p-4 rounded-lg">
                 <h4 class="font-semibold mb-2">🔧 Funcionamiento técnico</h4>
                 <ul class="text-sm space-y-1">
                   <li>• Mostrar el contenido correctamente</li>
@@ -148,7 +148,7 @@
             <p class="mb-4">Tus datos pueden ser compartidos con:</p>
             
             <div class="space-y-4">
-              <div class="border-l-4 border-blue-400 pl-4">
+              <div class="border-l-4 border-primary-400 pl-4">
                 <h4 class="font-semibold">Proveedores de servicios técnicos</h4>
                 <p class="text-sm text-gray-600">Hosting, CDN, análisis web - solo para funcionamiento técnico</p>
               </div>
@@ -187,7 +187,7 @@
             </p>
             
             <div class="grid md:grid-cols-2 gap-4 mb-6">
-              <div class="bg-blue-50 p-4 rounded-lg">
+              <div class="bg-primary-50 p-4 rounded-lg">
                 <h4 class="font-semibold mb-2">🔍 Acceso</h4>
                 <p class="text-sm">Conocer qué datos tenemos sobre ti</p>
               </div>
@@ -231,7 +231,7 @@
             <p class="mb-4">Implementamos medidas de seguridad técnicas y organizativas para proteger tus datos:</p>
             
             <div class="grid md:grid-cols-3 gap-4">
-              <div class="text-center p-4 bg-blue-50 rounded-lg">
+              <div class="text-center p-4 bg-primary-50 rounded-lg">
                 <div class="text-2xl mb-2">🔒</div>
                 <h4 class="font-semibold">Cifrado</h4>
                 <p class="text-sm">HTTPS y cifrado de datos sensibles</p>
@@ -292,7 +292,7 @@
             <p class="mb-4">
               Si consideras que el tratamiento de tus datos no es correcto, puedes presentar una reclamación ante:
             </p>
-            <div class="bg-blue-50 p-4 rounded-lg">
+            <div class="bg-primary-50 p-4 rounded-lg">
               <p><strong>Agencia Española de Protección de Datos (AEPD)</strong><br>
               Web: www.aepd.es<br>
               Teléfono: 901 100 099</p>
@@ -303,7 +303,7 @@
         <div class="mt-12 pt-8 border-t border-gray-200">
           <router-link 
             to="/" 
-            class="inline-flex items-center gap-2 text-primary hover:text-blue-700 transition-colors"
+            class="inline-flex items-center gap-2 text-primary hover:text-primary-700 transition-colors"
           >
             ← Volver al inicio
           </router-link>

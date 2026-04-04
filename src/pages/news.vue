@@ -38,7 +38,7 @@
             </h3>
             <div class="space-y-4 ml-7">
               <div class="flex items-start">
-                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 flex-shrink-0"></div>
+                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 shrink-0"></div>
                 <div>
                   <div class="font-semibold text-gray-900">Comprensión avanzada de productos</div>
                   <div class="text-gray-700 mt-1">
@@ -47,7 +47,7 @@
                 </div>
               </div>
               <div class="flex items-start">
-                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 flex-shrink-0"></div>
+                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 shrink-0"></div>
                 <div>
                   <div class="font-semibold text-gray-900">Búsquedas ultra-específicas</div>
                   <div class="text-gray-700 mt-1">
@@ -66,7 +66,7 @@
             </h3>
             <div class="space-y-4 ml-7">
               <div class="flex items-start">
-                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 flex-shrink-0"></div>
+                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 shrink-0"></div>
                 <div>
                   <div class="font-semibold text-gray-900">Eficiencia optimizada</div>
                   <div class="text-gray-700 mt-1">
@@ -75,7 +75,7 @@
                 </div>
               </div>
               <div class="flex items-start">
-                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 flex-shrink-0"></div>
+                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 shrink-0"></div>
                 <div>
                   <div class="font-semibold text-gray-900">Respuestas contextualizadas</div>
                   <div class="text-gray-700 mt-1">
@@ -92,7 +92,7 @@
               <StarIcon class="w-5 h-5 mr-2" />
               El salto cualitativo más importante
             </h3>
-            <div class="bg-gradient-to-r from-primary/10 to-blue-50 p-6 rounded-lg border border-primary/20">
+            <div class="bg-gradient-to-r from-primary/10 to-primary-50 p-6 rounded-lg border border-primary/20">
               <div class="text-gray-800">
                 <p class="font-semibold mb-3">Esta actualización representa el avance más significativo en el rendimiento de Nutria hasta la fecha.</p>
                 <p class="mb-3">
@@ -122,7 +122,7 @@
             </h3>
             <div class="space-y-4 ml-7">
               <div class="flex items-start">
-                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 flex-shrink-0"></div>
+                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 shrink-0"></div>
                 <div>
                   <div class="font-semibold text-gray-900">Más autoridad y confianza</div>
                   <div class="text-gray-700 mt-1">
@@ -131,7 +131,7 @@
                 </div>
               </div>
               <div class="flex items-start">
-                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 flex-shrink-0"></div>
+                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 shrink-0"></div>
                 <div>
                   <div class="font-semibold text-gray-900">Reutiliza tu inversión en contenidos</div>
                   <div class="text-gray-700 mt-1">
@@ -140,7 +140,7 @@
                 </div>
               </div>
               <div class="flex items-start">
-                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 flex-shrink-0"></div>
+                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 shrink-0"></div>
                 <div>
                   <div class="font-semibold text-gray-900">Información más completa de productos</div>
                   <div class="text-gray-700 mt-1">
@@ -159,7 +159,7 @@
             </h3>
             <div class="space-y-4 ml-7">
               <div class="flex items-start">
-                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 flex-shrink-0"></div>
+                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 shrink-0"></div>
                 <div>
                   <div class="font-semibold text-gray-900">Búsqueda más limpia</div>
                   <div class="text-gray-700 mt-1">
@@ -205,7 +205,7 @@
             </h3>
             <div class="space-y-4 ml-7">
               <div class="flex items-start">
-                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 flex-shrink-0"></div>
+                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 shrink-0"></div>
                 <div>
                   <div class="font-semibold text-gray-900">Respuestas más consistentes</div>
                   <div class="text-gray-700 mt-1">
@@ -214,7 +214,7 @@
                 </div>
               </div>
               <div class="flex items-start">
-                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 flex-shrink-0"></div>
+                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 shrink-0"></div>
                 <div>
                   <div class="font-semibold text-gray-900">Sin productos duplicados</div>
                   <div class="text-gray-700 mt-1">
@@ -223,7 +223,7 @@
                 </div>
               </div>
               <div class="flex items-start">
-                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 flex-shrink-0"></div>
+                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 shrink-0"></div>
                 <div>
                   <div class="font-semibold text-gray-900">Preparada para crecer</div>
                   <div class="text-gray-700 mt-1">
@@ -241,7 +241,7 @@
             </h3>
             <div class="space-y-4 ml-7">
               <div class="flex items-start">
-                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 flex-shrink-0"></div>
+                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 shrink-0"></div>
                 <div>
                   <div class="font-semibold text-gray-900">Pensamiento más ágil</div>
                   <div class="text-gray-700 mt-1">
@@ -269,7 +269,7 @@
             </h3>
             <div class="space-y-4 ml-7">
               <div class="flex items-start">
-                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 flex-shrink-0"></div>
+                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 shrink-0"></div>
                 <div>
                   <div class="font-semibold text-gray-900">Búsqueda más precisa con sinónimos exactos</div>
                   <div class="text-gray-700 mt-1">
@@ -278,7 +278,7 @@
                 </div>
               </div>
               <div class="flex items-start">
-                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 flex-shrink-0"></div>
+                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 shrink-0"></div>
                 <div>
                   <div class="font-semibold text-gray-900">Ampliación inteligente de categorías por objetivo</div>
                   <div class="text-gray-700 mt-1">
@@ -296,7 +296,7 @@
             </h3>
             <div class="space-y-4 ml-7">
               <div class="flex items-start">
-                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 flex-shrink-0"></div>
+                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 shrink-0"></div>
                 <div>
                   <div class="font-semibold text-gray-900">Identificación precisa de productos en sus páginas</div>
                   <div class="text-gray-700 mt-1">
@@ -314,7 +314,7 @@
             </h3>
             <div class="space-y-4 ml-7">
               <div class="flex items-start">
-                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 flex-shrink-0"></div>
+                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 shrink-0"></div>
                 <div>
                   <div class="font-semibold text-gray-900">Nuevas instrucciones al modelo LLM</div>
                   <div class="text-gray-700 mt-1">
@@ -323,7 +323,7 @@
                 </div>
               </div>
               <div class="flex items-start">
-                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 flex-shrink-0"></div>
+                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 shrink-0"></div>
                 <div>
                   <div class="font-semibold text-gray-900">Optimización del rendimiento</div>
                   <div class="text-gray-700 mt-1">
@@ -332,7 +332,7 @@
                 </div>
               </div>
               <div class="flex items-start">
-                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 flex-shrink-0"></div>
+                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 shrink-0"></div>
                 <div>
                   <div class="font-semibold text-gray-900">Actualización del modelo de toma de decisiones</div>
                   <div class="text-gray-700 mt-1">
@@ -341,7 +341,7 @@
                 </div>
               </div>
               <div class="flex items-start">
-                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 flex-shrink-0"></div>
+                <div class="w-2 h-2 bg-primary rounded-full mt-2 mr-4 shrink-0"></div>
                 <div>
                   <div class="font-semibold text-gray-900">Solucionado problema de sesiones</div>
                   <div class="text-gray-700 mt-1">
