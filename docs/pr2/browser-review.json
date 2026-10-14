@@ -1,0 +1,911 @@
+{
+  "browser": "Chrome/141.0.7390.78",
+  "views": [
+    {
+      "route": "/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/delegar-trabajo-a-un-agente/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/elegir-el-primer-trabajo-delegado/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/herramientas-y-autoridad/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/elegir-el-canal-segun-el-trabajo/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/que-demuestra-una-accion-completada/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/notas-de-version/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/notas-de-version/1-0-4/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/notas-de-version/1-0-3/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/notas-de-version/1-0-2/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/notas-de-version/1-0-1/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/notas-de-version/1-0-0/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/news",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/delegar-trabajo-a-un-agente/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/elegir-el-primer-trabajo-delegado/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/herramientas-y-autoridad/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/elegir-el-canal-segun-el-trabajo/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/que-demuestra-una-accion-completada/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/notas-de-version/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/notas-de-version/1-0-4/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/notas-de-version/1-0-3/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/notas-de-version/1-0-2/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/notas-de-version/1-0-1/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/notas-de-version/1-0-0/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/news",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/delegar-trabajo-a-un-agente/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/elegir-el-primer-trabajo-delegado/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/herramientas-y-autoridad/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/elegir-el-canal-segun-el-trabajo/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/que-demuestra-una-accion-completada/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/notas-de-version/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/notas-de-version/1-0-4/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/notas-de-version/1-0-3/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/notas-de-version/1-0-2/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/notas-de-version/1-0-1/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/notas-de-version/1-0-0/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/news",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/delegar-trabajo-a-un-agente/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/elegir-el-primer-trabajo-delegado/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/herramientas-y-autoridad/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/elegir-el-canal-segun-el-trabajo/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/que-demuestra-una-accion-completada/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/notas-de-version/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/notas-de-version/1-0-4/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/notas-de-version/1-0-3/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/notas-de-version/1-0-2/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/notas-de-version/1-0-1/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/notas-de-version/1-0-0/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/news",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    }
+  ],
+  "links": [
+    {
+      "path": "/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/#main",
+      "pass": true
+    },
+    {
+      "path": "/agentes/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/casos-de-uso/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/planes/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/blog/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/contacto/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/blog/delegar-trabajo-a-un-agente/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/demo/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/notas-de-version/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/roadmap/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/aviso-legal",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/politica-privacidad",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/politica-cookies",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/nutriabot",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/blog/#main",
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-primer-trabajo-delegado/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/blog/herramientas-y-autoridad/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/blog/que-demuestra-una-accion-completada/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-canal-segun-el-trabajo/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/blog/delegar-trabajo-a-un-agente/#main",
+      "pass": true
+    },
+    {
+      "path": "/blog/delegar-trabajo-a-un-agente/#define-la-responsabilidad",
+      "pass": true
+    },
+    {
+      "path": "/blog/delegar-trabajo-a-un-agente/#expresa-un-resultado-que-se-pueda-revisar",
+      "pass": true
+    },
+    {
+      "path": "/blog/delegar-trabajo-a-un-agente/#acordar-herramientas-y-autoridad",
+      "pass": true
+    },
+    {
+      "path": "/blog/delegar-trabajo-a-un-agente/#revisar-el-trabajo-antes-de-ampliar-el-rol",
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-primer-trabajo-delegado/#main",
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-primer-trabajo-delegado/#describe-el-trabajo-como-se-realiza-hoy",
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-primer-trabajo-delegado/#elige-un-resultado-observable",
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-primer-trabajo-delegado/#revisa-qu%C3%A9-puede-hacer-el-agente",
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-primer-trabajo-delegado/#decide-qui%C3%A9n-resuelve-las-dependencias",
+      "pass": true
+    },
+    {
+      "path": "/blog/herramientas-y-autoridad/#main",
+      "pass": true
+    },
+    {
+      "path": "/blog/herramientas-y-autoridad/#el-acceso-delimita-la-informaci%C3%B3n-disponible",
+      "pass": true
+    },
+    {
+      "path": "/blog/herramientas-y-autoridad/#la-acci%C3%B3n-necesita-su-propio-alcance",
+      "pass": true
+    },
+    {
+      "path": "/blog/herramientas-y-autoridad/#una-aprobaci%C3%B3n-se-refiere-a-una-acci%C3%B3n-concreta",
+      "pass": true
+    },
+    {
+      "path": "/blog/herramientas-y-autoridad/#una-herramienta-no-garantiza-el-resultado",
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-canal-segun-el-trabajo/#main",
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-canal-segun-el-trabajo/#telegram-para-la-comunicaci%C3%B3n-interna",
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-canal-segun-el-trabajo/#whatsapp-mediante-plugin",
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-canal-segun-el-trabajo/#correo-para-trabajo-con-mensajes",
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-canal-segun-el-trabajo/#slack-para-notificaciones",
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-canal-segun-el-trabajo/#revisar-el-alcance-antes-de-elegir",
+      "pass": true
+    },
+    {
+      "path": "/blog/que-demuestra-una-accion-completada/#main",
+      "pass": true
+    },
+    {
+      "path": "/blog/que-demuestra-una-accion-completada/#una-propuesta-describe-lo-que-se-quiere-aplicar",
+      "pass": true
+    },
+    {
+      "path": "/blog/que-demuestra-una-accion-completada/#una-ejecuci%C3%B3n-necesita-evidencia-del-efecto",
+      "pass": true
+    },
+    {
+      "path": "/blog/que-demuestra-una-accion-completada/#comprobar-responde-a-la-pregunta-del-trabajo",
+      "pass": true
+    },
+    {
+      "path": "/blog/que-demuestra-una-accion-completada/#lo-pendiente-tambi%C3%A9n-forma-parte-del-resultado",
+      "pass": true
+    },
+    {
+      "path": "/notas-de-version/#main",
+      "pass": true
+    },
+    {
+      "path": "/notas-de-version/1-0-4/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/notas-de-version/1-0-3/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/notas-de-version/1-0-2/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/notas-de-version/1-0-1/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/notas-de-version/1-0-0/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/notas-de-version/1-0-4/#main",
+      "pass": true
+    },
+    {
+      "path": "/notas-de-version/1-0-4/#ia-m%C3%A1s-inteligente-y-precisa",
+      "pass": true
+    },
+    {
+      "path": "/notas-de-version/1-0-4/#rendimiento-revolucionario",
+      "pass": true
+    },
+    {
+      "path": "/notas-de-version/1-0-4/#el-salto-cualitativo-m%C3%A1s-importante",
+      "pass": true
+    },
+    {
+      "path": "/notas-de-version/1-0-3/#main",
+      "pass": true
+    },
+    {
+      "path": "/notas-de-version/1-0-3/#la-versi%C3%B3n-que-da-voz-a-tu-blog",
+      "pass": true
+    },
+    {
+      "path": "/notas-de-version/1-0-3/#rendimiento-optimizado",
+      "pass": true
+    },
+    {
+      "path": "/notas-de-version/1-0-3/#fuentes-en-acci%C3%B3n",
+      "pass": true
+    },
+    {
+      "path": "/notas-de-version/1-0-2/#main",
+      "pass": true
+    },
+    {
+      "path": "/notas-de-version/1-0-2/#nutria-se-organiza-por-dentro-para-responder-mejor-por-fuera",
+      "pass": true
+    },
+    {
+      "path": "/notas-de-version/1-0-2/#optimizaci%C3%B3n-interna",
+      "pass": true
+    },
+    {
+      "path": "/notas-de-version/1-0-1/#main",
+      "pass": true
+    },
+    {
+      "path": "/notas-de-version/1-0-1/#mejoras-en-la-comprensi%C3%B3n-de-productos",
+      "pass": true
+    },
+    {
+      "path": "/notas-de-version/1-0-1/#mejoras-en-la-experiencia-de-usuario",
+      "pass": true
+    },
+    {
+      "path": "/notas-de-version/1-0-1/#cambios-t%C3%A9cnicos",
+      "pass": true
+    },
+    {
+      "path": "/notas-de-version/1-0-0/#main",
+      "pass": true
+    },
+    {
+      "path": "/news",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/news#main",
+      "pass": true
+    }
+  ],
+  "interactions": [
+    {
+      "name": "filter-category",
+      "pass": true
+    },
+    {
+      "name": "filter-reset",
+      "pass": true
+    },
+    {
+      "name": "article-anchor",
+      "pass": true
+    },
+    {
+      "name": "mobile-menu",
+      "pass": true
+    },
+    {
+      "name": "menu-escape",
+      "pass": true
+    },
+    {
+      "name": "no-js-index",
+      "pass": true
+    },
+    {
+      "name": "/blog/no-existe/",
+      "pass": true
+    },
+    {
+      "name": "/notas-de-version/no-existe/",
+      "pass": true
+    },
+    {
+      "name": "article-200-percent",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "externalRequests": []
+}

@@ -1,0 +1,14 @@
+---
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import Layout from '../../layouts/SiteLayout.astro';
+import { formatEditorialDate } from '../../data/editorial';
+export async function getStaticPaths() { return (await getCollection('releases')).map(release => ({ params: { id: release.id }, props: { release } })); }
+interface Props { release: CollectionEntry<'releases'>; }
+const { release } = Astro.props;
+const { Content, headings } = await render(release);
+const historical = release.data.status === 'historical';
+---
+<Layout title={`${release.data.title} · ${historical ? 'Nota histórica' : 'Nota de versión'}`} description={release.data.description}>
+<section class="editorial-hero"><a class="text-link editorial-back" href="/notas-de-version/">← Todas las notas de versión</a><p class="eyebrow">{historical ? `Archivo histórico de ${release.data.publishedAt.getUTCFullYear()}` : 'Cambio verificado'}</p><h1>{release.data.title}</h1><div class="editorial-meta"><span>{historical ? 'Publicación original' : 'Publicado'}</span><time datetime={release.data.publishedAt.toISOString().slice(0, 10)}>{formatEditorialDate(release.data.publishedAt)}</time></div>{historical && <div class="historical-notice"><strong>Contenido histórico</strong><p>Texto trasladado de la página de novedades anterior. Sus afirmaciones describen aquella publicación; no verifican el alcance actual de Nutria.</p></div>}</section>
+<div class="editorial-reading"><aside class="editorial-outline"><p class="eyebrow">En esta nota</p><nav aria-label="Índice de la nota">{headings.filter(heading => heading.depth === 2).map(heading => <a href={`#${heading.slug}`}>{heading.text}</a>)}</nav></aside><article class="editorial-prose"><Content /><div class="related-reading"><a href="/notas-de-version/">Volver al archivo de notas <span aria-hidden="true">→</span></a><a href="/agentes/">Conocer la propuesta actual de Nutria <span aria-hidden="true">↗</span></a></div></article></div>
+</Layout>

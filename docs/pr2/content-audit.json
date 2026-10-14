@@ -1,0 +1,35 @@
+{
+  "source": "PR1 a8d12ac src/pages/news.astro",
+  "entries": [
+    {
+      "version": "1.0.4",
+      "source_words": 161,
+      "markdown_words": 161,
+      "content_preserved": true
+    },
+    {
+      "version": "1.0.3",
+      "source_words": 110,
+      "markdown_words": 110,
+      "content_preserved": true
+    },
+    {
+      "version": "1.0.2",
+      "source_words": 74,
+      "markdown_words": 74,
+      "content_preserved": true
+    },
+    {
+      "version": "1.0.1",
+      "source_words": 197,
+      "markdown_words": 197,
+      "content_preserved": true
+    },
+    {
+      "version": "1.0.0",
+      "source_words": 15,
+      "markdown_words": 15,
+      "content_preserved": true
+    }
+  ]
+}
