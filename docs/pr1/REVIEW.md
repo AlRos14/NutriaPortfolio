@@ -29,10 +29,11 @@ La medición GA4 anterior se mantiene bajo opt-in. «Solo necesarias» no carga 
 ## Validación de PR1
 
 - **PASS:** build estática Astro de 15 páginas.
-- **PASS:** revisión Chromium de 14 rutas a 1440, 390, 320 y 768 px. Registro y capturas en este directorio.
+- **PASS:** revisión Chromium de la base `68ff161` de 14 rutas a 1440, 390, 320 y 768 px. Registro y capturas en este directorio.
 - **PASS:** un H1/main por ruta; sin overflow, imágenes rotas ni errores de JavaScript en las vistas revisadas.
 - **PASS:** enlaces internos y anclas, menú móvil y Escape, acordeón, selección de interés, preparación de correo sin envío, salto al contenido, reapertura de preferencias, 404 real y navegación/contacto sin JavaScript.
 - **PASS:** ninguna petición externa durante el recorrido con «Solo necesarias».
+- **PASS:** pulido posterior de los casos: retirada una regla heredada de fondo para recuperar alternancia consistente. Build recompilada y capturas a 1440/390 px revisadas en Chromium; sin overflow. Registro `cases-polish-review.json`.
 - **NOT RUN:** analítica con consentimiento en el proveedor real, envío de correo, lector de pantalla, auditoría WCAG completa, SEO final, Lighthouse, compatibilidad de hosting/301, aceptación nueva de Nutria o revisión jurídica.
 
 No se escribió una suite de tests de producto ni se ejecutaron modelos/efectos de Nutria. La build y los checks acotados no equivalen a aprobación del diseño ni aceptación de producción.
