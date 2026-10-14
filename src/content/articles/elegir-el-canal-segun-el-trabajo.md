@@ -12,7 +12,7 @@ En Nutria, los canales tienen alcances distintos. La posibilidad de utilizar un 
 
 ## Telegram para la comunicación interna
 
-Telegram es hoy la experiencia principal de comunicación interna con los agentes. La incorporación a un equipo necesita revisar cómo se organiza la comunicación y qué personas y agentes tienen acceso al ámbito de trabajo.
+Nutria se integra en Telegram para conversar con agentes y equipos. La incorporación a un equipo necesita revisar cómo se organiza la comunicación y qué personas y agentes tienen acceso al ámbito de trabajo.
 
 La facilidad de enviar un mensaje no elimina la necesidad de delimitar un rol y su autoridad. El encargo sigue necesitando fuentes accesibles, acciones autorizadas y un resultado claro.
 
@@ -38,6 +38,6 @@ Esta diferencia importa al elegir la interacción del equipo: recibir una notifi
 
 Describe quién contacta con el agente, qué información necesita compartir y qué acciones espera que puedan realizarse. Después revisa si la interfaz y las capacidades configuradas cubren ese recorrido.
 
-La visión es mantener el rol, la autoridad y el trabajo al contactar con el mismo agente desde distintas interfaces. Una experiencia uniforme en todos los canales, los números individuales y las llamadas siguen siendo objetivos futuros salvo verificación específica. No se incluyen aquí como funciones contratables.
+La visión es mantener el rol, la autoridad y el trabajo al contactar con el mismo agente desde distintas interfaces. Una experiencia uniforme en todos los canales, Teams, los números individuales y las llamadas forman parte de los próximos pasos y requieren implementación y verificación. No se incluyen aquí como funciones contratables.
 
 [Consulta el alcance de los canales](/agentes/) o [revisa una configuración para tu organización](/contacto/).

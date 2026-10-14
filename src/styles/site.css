@@ -1478,3 +1478,38 @@ main>.editorial-hero{max-width:1120px;padding-top:60px;padding-bottom:55px}
 .legal-review{border-left:3px solid var(--blue);padding:15px 20px;background:var(--surface);margin:25px 0}
 .footer-links a,.footer-bottom a,.footer-bottom button{min-height:28px;display:inline-flex;align-items:center}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+
+/* Company narrative: documents, coordination and organisational scale. */
+.consent-content #cookie-title:focus{outline:none}
+.org-specialists{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:18px;padding-top:18px;border-top:1px solid rgba(255,255,255,.5)}
+.org-specialists span{font-size:12px;color:white;text-align:center;padding:7px 0}
+.responsibility-section,.knowledge-strip{background:var(--surface)}
+.responsibility-section h3{font-size:28px;margin-bottom:20px}
+.responsibility-section .text-link{margin-top:22px}
+.knowledge-strip,.sis-invitation{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(220px,1fr);gap:70px;align-items:center}
+.knowledge-strip h2,.sis-invitation h2{font-size:48px;line-height:1.12;margin:24px 0}
+.knowledge-strip p:not(.eyebrow),.sis-invitation p:not(.eyebrow){color:var(--muted);max-width:650px}
+.knowledge-strip>.button,.sis-invitation>.button{justify-self:end}
+.sis-invitation{border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.sis-invitation .small-note{margin-top:20px;font-size:13px}
+.invitation-actions{display:flex;flex-direction:column;align-items:flex-start;justify-self:end;gap:25px}
+.knowledge-example{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:start;background:var(--surface)}
+.knowledge-example h2{font-size:44px;margin:25px 0}
+.knowledge-example>div>p:not(.eyebrow){color:var(--muted)}
+.policy-example{border:1px solid var(--line-strong);background:var(--paper);padding:32px}
+.document-label{font-size:12px;border-bottom:1px solid var(--line);padding-bottom:18px;color:var(--muted)}
+.policy-example dl{margin:0}.policy-example dl>div{padding:22px 0;border-bottom:1px solid var(--line)}
+.policy-example dt{font-weight:700;font-size:16px}.policy-example dd{margin:12px 0 0;font-size:15px;color:var(--muted)}
+.policy-example>p:last-child{font-size:12px;line-height:1.7;margin-top:20px}
+.knowledge-steps{list-style:none;padding:0;margin:0}.knowledge-steps>li{display:grid;grid-template-columns:60px 1fr 200px;gap:25px;padding:30px 0;border-top:1px solid var(--line)}
+.knowledge-steps h3{font-size:28px;margin-bottom:14px}.knowledge-steps p{color:var(--muted);max-width:740px}
+.state-label{font-size:12px;align-self:start}.knowledge-steps>li>span:first-child{font-size:13px;color:var(--muted)}
+.future-integration{background:var(--surface)}.future-integration h2{font-size:44px;margin:25px 0}.future-integration>p:not(.eyebrow){max-width:780px;color:var(--muted)}.future-integration .text-link{margin-top:25px}
+@media(max-width:1000px){.knowledge-strip,.sis-invitation{gap:35px}.knowledge-example{gap:35px}.knowledge-strip h2,.sis-invitation h2{font-size:40px}.knowledge-steps>li{grid-template-columns:40px 1fr 150px}}
+@media(max-width:760px){.knowledge-strip,.sis-invitation,.knowledge-example{grid-template-columns:1fr;gap:30px}.knowledge-strip h2,.sis-invitation h2,.knowledge-example h2,.future-integration h2{font-size:34px}.knowledge-strip>.button,.sis-invitation>.button,.invitation-actions{justify-self:start}.knowledge-strip p,.sis-invitation p,.knowledge-example p,.future-integration p{font-size:16px}.org-specialists span{font-size:11px}.policy-example{padding:22px}.knowledge-steps>li{grid-template-columns:28px 1fr;gap:15px}.knowledge-steps .state-label{grid-column:2}.knowledge-steps h3{font-size:25px}.knowledge-steps p{font-size:16px}}
+.org-company .org-link{height:58px}
+.org-company .org-link:after{content:none}
+/* Navigation can wrap when text grows, including browser zoom. */
+header.site-header nav{min-width:0;flex-wrap:wrap;justify-content:flex-end;row-gap:8px}
+@media(max-width:760px){header.site-header nav{justify-content:flex-start}}
+@media(max-width:360px){.page-intro h1{font-size:36px}.definition-list>div{grid-template-columns:1fr;gap:10px}.definition-list dt{overflow-wrap:anywhere}}

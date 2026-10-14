@@ -1,0 +1,29 @@
+{
+  "checks": [
+    {
+      "name": "cookies-initial-title-not-buttons",
+      "pass": true
+    },
+    {
+      "name": "tab-visible-policy-link",
+      "pass": true
+    },
+    {
+      "name": "result-hides-empty-form",
+      "pass": true
+    },
+    {
+      "name": "edit-shows-form",
+      "pass": true
+    }
+  ],
+  "accessibility": [
+    {
+      "state": "cookies-open",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    }
+  ]
+}

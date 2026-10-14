@@ -1,5 +1,7 @@
 # PR3 · Revisión final de Nutria 2.0
 
+> Actualización posterior: ver [pulido de producto y Sis](refinement/PRODUCT-NOTES.md) y [validación del pulido](refinement/REVIEW.md). Las cifras siguientes corresponden a la entrega inicial de PR3.
+
 ## Alcance y estado
 
 Rama `feat/nutria-2-final-review`, apilada sobre PR2 `feat/nutria-2-editorial` (`7f088db`). Preparada para revisión humana; no es aprobación de publicación. Sin merge, despliegue manual ni cambios en Core, plugins o `nutria_system`. No se inspeccionó Netlify ni su preview, conforme a la instrucción del usuario.

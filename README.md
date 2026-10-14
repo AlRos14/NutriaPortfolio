@@ -39,7 +39,7 @@ En entornos restringidos se usó `ASTRO_TELEMETRY_DISABLED=1` al ejecutar Astro.
 - `public/`: logo optimizado y reglas de compatibilidad Netlify.
 - `docs/pr1/`, `docs/pr2/` y `docs/pr3/`: alcance, evidencias y capturas de revisión; PR3 sustituye las decisiones de archivo histórico de PR2.
 
-Sin Vue, CMS, backend ni librerías de animación. El contenido corporativo se renderiza como HTML. JavaScript se limita al menú, consentimiento y preparación de un correo: el visitante decide enviarlo desde su propia aplicación.
+Sin Vue, CMS, backend ni librerías de animación. El contenido corporativo se renderiza como HTML. JavaScript se limita a navegación, consentimiento, filtros, preparación de correo y al prototipo local de organización. El visitante decide si envía el correo desde su propia aplicación.
 
 ## Alcance de PR1
 
@@ -59,7 +59,7 @@ Se conserva la medición GA4 pública anterior, activada solo tras aceptar anal�
 
 ## Estado de entrega
 
-Ver [revisión final PR3](docs/pr3/REVIEW.md), [PR1](docs/pr1/REVIEW.md) y [PR2](docs/pr2/REVIEW.md). La exploración anterior se conserva localmente en `exploration/nutria-2/`; no forma parte del bundle ni de las páginas públicas.
+Ver el [pulido de producto y prototipo de Sis](docs/pr3/refinement/PRODUCT-NOTES.md), la [revisión final PR3](docs/pr3/REVIEW.md), [PR1](docs/pr1/REVIEW.md) y [PR2](docs/pr2/REVIEW.md). La exploración anterior se conserva localmente en `exploration/nutria-2/`; no forma parte del bundle ni de las páginas públicas.
 
 ## Editar contenido
 
@@ -68,3 +68,9 @@ Los archivos Markdown se convierten en páginas estáticas durante la build. El 
 Artículos: `title`, `description`, `category` (Organización, Delegación o Integraciones), `editedAt` (YYYY-MM-DD) y `status` (`review` o `published`). Un artículo publicado requiere también `publishedAt` aprobado; no se presenta la fecha de edición como una publicación real. Los borradores se ven identificados en la revisión.
 
 La aprobación editorial y legal sigue pendiente antes de publicar en producción.
+
+## Sis y prototipo de organización
+
+`/sis/` presenta el punto central de coordinación. `/conocimiento/` explica documentos y procedimientos por marca. `/tu-organizacion/` permite explorar un esquema ilustrativo en tres pasos, seleccionar puestos y comparar formas de autonomía. Usa escenarios editoriales de `src/data/organization-explorer.ts`; no interpreta el texto libre, no conversa con Sis ni crea agentes. El usuario confirmó que la integración real se abordará después. No hay backend, persistencia ni proveedor de IA en la microapp. El prototipo permanece `noindex` también en producción.
+
+El relato se amplía a puestos, funciones continuas y áreas, incluyendo ecommerce e inteligencia competitiva. No se prometen jerarquías arbitrarias implementadas: se distingue la coordinación central de Sis de los esquemas organizativos ilustrativos. Telegram, WhatsApp y Slack se presentan por integración, preservando el alcance de notificaciones en Slack. Correo individual, Google Drive, Teams y llamadas permanecen identificados como desarrollo o próximos pasos. No se añade una comparativa de coste humano ni cifras de ahorro.
