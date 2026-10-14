@@ -1,0 +1,46 @@
+[
+  {
+    "width": 1440,
+    "route": "/blog/",
+    "dates": [
+      "2026-10-14",
+      "2026-10-14",
+      "2026-10-14",
+      "2026-10-14",
+      "2026-10-14"
+    ],
+    "drafts": 5,
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "route": "/blog/delegar-trabajo-a-un-agente/",
+    "dates": [
+      "2026-10-14"
+    ],
+    "drafts": true,
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "route": "/blog/",
+    "dates": [
+      "2026-10-14",
+      "2026-10-14",
+      "2026-10-14",
+      "2026-10-14",
+      "2026-10-14"
+    ],
+    "drafts": 5,
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "route": "/blog/delegar-trabajo-a-un-agente/",
+    "dates": [
+      "2026-10-14"
+    ],
+    "drafts": true,
+    "overflow": false
+  }
+]

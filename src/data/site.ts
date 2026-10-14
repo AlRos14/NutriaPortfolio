@@ -2,6 +2,7 @@ export const navigation = [
   { href: '/agentes/', label: 'Agentes' },
   { href: '/casos-de-uso/', label: 'Trabajo delegado' },
   { href: '/planes/', label: 'Planes' },
+  { href: '/blog/', label: 'Blog' },
 ];
 
 export const roles = [

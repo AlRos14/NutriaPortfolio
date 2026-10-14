@@ -1,10 +1,12 @@
 ---
+import { getCollection } from 'astro:content';
 import Layout from '../layouts/SiteLayout.astro';
 import Organization from '../components/site/Organization.astro';
 import Roles from '../components/site/Roles.astro';
 import Channels from '../components/site/Channels.astro';
 import Options from '../components/site/Options.astro';
 import { workExamples } from '../data/site';
+const featured = (await getCollection('articles')).find(article => article.id === 'delegar-trabajo-a-un-agente');
 ---
 <Layout title="Agentes para tu empresa" description="Incorpora agentes a tu empresa y delega trabajo real con roles, herramientas y autoridad delimitada.">
   <section class="hero"><div class="hero-copy"><p class="eyebrow">Agentes para empresas</p><h1>Incorpora agentes<br /> a tu empresa.</h1><p class="lead">Delega trabajo real en agentes con un rol, herramientas y autoridad definida. Amplía la capacidad de tu organización, allí donde el trabajo lo necesita.</p><div class="actions"><a class="button" href="/contacto/">Hablemos de tu equipo <span aria-hidden="true">↗</span></a><a class="button secondary" href="/agentes/">Cómo encaja un agente <span aria-hidden="true">→</span></a></div><p class="hero-note">Un rol claro. Herramientas adecuadas. Trabajo autorizado.</p></div><Organization /></section>
@@ -13,5 +15,6 @@ import { workExamples } from '../data/site';
   <section class="work-section"><div class="section-heading"><p class="eyebrow">Trabajo que puedes plantear</p><h2>Empieza por una<br />responsabilidad concreta.</h2><p>La necesidad puede estar en un puesto, un equipo o varios departamentos. El punto de partida es el trabajo que quieres delegar.</p></div><div class="work-list">{workExamples.map((work, i) => <a class="work-row" href={`/casos-de-uso/#${work.id}`}><span class="row-number">0{i + 1}</span><div><h3>{work.title}</h3><p>{work.description}</p></div><span class="work-role">{work.role}</span><span aria-hidden="true">↗</span></a>)}</div><p class="annotation">Escenarios ilustrativos. Revisaremos contigo las capacidades necesarias antes de definir la implantación.</p></section>
   <section><Channels /></section>
   <section class="plans-section"><div class="section-heading"><p class="eyebrow">Una propuesta para tu organización</p><h2>El alcance primero.<br />La configuración después.</h2><p>Hablemos del rol, las herramientas y las condiciones que necesita tu empresa.</p></div><Options /></section>
+  {featured && <section class="editorial-feature"><div><p class="eyebrow">Desde el blog</p><h2>Delegar empieza<br /> por entender.</h2><p>Ideas prácticas para definir un rol, plantear un objetivo y revisar el resultado del trabajo.</p></div><a href={`/blog/${featured.id}/`}><span>{featured.data.category} · {featured.data.status === 'published' ? 'Artículo' : 'Borrador editorial'}</span><h3>{featured.data.title}</h3><strong>Leer el artículo <span aria-hidden="true">↗</span></strong></a></section>}
   <section class="closing"><div><p class="eyebrow">El siguiente paso</p><h2>¿Qué trabajo quieres<br />delegar en tu empresa?</h2></div><a class="button" href="/contacto/">Cuéntanos qué necesitas <span aria-hidden="true">↗</span></a></section>
 </Layout>

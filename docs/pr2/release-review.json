@@ -1,0 +1,56 @@
+[
+  {
+    "route": "/notas-de-version/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "h1": 1,
+    "historyNotice": true,
+    "brokenImages": 0
+  },
+  {
+    "route": "/notas-de-version/1-0-3/",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "h1": 1,
+    "historyNotice": true,
+    "brokenImages": 0
+  },
+  {
+    "route": "/news",
+    "width": 1440,
+    "status": 200,
+    "overflow": false,
+    "h1": 1,
+    "historyNotice": true,
+    "brokenImages": 0
+  },
+  {
+    "route": "/notas-de-version/",
+    "width": 390,
+    "status": 200,
+    "overflow": false,
+    "h1": 1,
+    "historyNotice": true,
+    "brokenImages": 0
+  },
+  {
+    "route": "/notas-de-version/1-0-3/",
+    "width": 390,
+    "status": 200,
+    "overflow": false,
+    "h1": 1,
+    "historyNotice": true,
+    "brokenImages": 0
+  },
+  {
+    "route": "/news",
+    "width": 390,
+    "status": 200,
+    "overflow": false,
+    "h1": 1,
+    "historyNotice": true,
+    "brokenImages": 0
+  }
+]
