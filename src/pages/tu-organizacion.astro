@@ -16,19 +16,20 @@ import '../styles/explorer.css';
   <div data-step="3" hidden>
     <div class="result-toolbar"><div><p class="eyebrow">03 / Una estructura posible</p><h3 tabindex="-1" id="result-title">Tu empresa, con más capacidad.</h3><p id="company-summary"></p></div><button class="text-link" type="button" data-back="1">Cambiar punto de partida <span aria-hidden="true">↗</span></button></div>
     <p class="result-status" role="status" id="explorer-status"></p>
-    <div class="explorer-result"><div class="organization-canvas"><p class="canvas-label">Personas + agentes / esquema ilustrativo</p><div class="human-node"><span>DECISIÓN EMPRESARIAL</span><strong id="human-team">Dirección y equipo</strong><p>Estrategia, mandato y decisiones reservadas.</p></div><div class="diagram-connector" aria-hidden="true"></div><div class="sis-node"><span>SIS / AYUDA AL DISEÑO</span><strong>Una propuesta para tu equipo</strong><p>Tú la revisas y decides. El panel permite configurarla manualmente.</p></div><div class="diagram-connector" aria-hidden="true"></div><p class="area-label" id="area-label"></p><div id="agent-nodes" class="agent-nodes" role="group" aria-label="Explorar puestos del esquema"></div><p class="canvas-note">Selecciona un puesto para ver qué trabajo asume y qué decisiones conserva la empresa.</p></div>
-    <aside class="role-inspector" aria-labelledby="role-title"><p class="eyebrow">El puesto, por dentro</p><h4 id="role-title"></h4><p id="role-mission"></p><h5>Trabajo que asume</h5><ul id="role-work"></ul><h5>Cómo se incorpora</h5><p id="role-rules"></p><h5>Fuentes y herramientas</h5><p id="role-sources"></p><h5>Decisiones reservadas</h5><p id="role-decisions"></p></aside></div>
-    <div class="autonomy-explorer"><div><p class="eyebrow">Cómo quieres que trabaje</p><h4>Autonomía con un alcance definido.</h4><p>Explora tres formas de organizar el área. Aquí no se conceden permisos reales.</p></div><div><fieldset id="autonomy-options"><legend class="visually-hidden">Modo de trabajo del área</legend><label><input type="radio" name="autonomy" value="review" /><span>Con revisión previa</span></label><label><input type="radio" name="autonomy" value="scoped" checked /><span>Autonomía por alcance</span></label><label><input type="radio" name="autonomy" value="area" /><span>Responsable de área</span></label></fieldset><p id="autonomy-explanation" role="status"></p></div></div>
-    <section class="artifact-conversation" aria-labelledby="sis-chat-title">
-      <div class="chat-intro"><p class="eyebrow">Del esquema a la conversación</p><h4 id="sis-chat-title">Continúa con Sis.</h4><p>El esquema será parte del contexto de Sis. Podrás preguntar por los puestos propuestos, explorar otras posibilidades, resolver dudas sobre Nutria o hablar de cómo incorporarla a tu empresa.</p><p>Tú eliges cómo seguir: con ayuda de Sis o configurando la organización manualmente en el panel.</p></div>
+    <div class="workspace-switch" role="group" aria-label="Vista del espacio de trabajo"><button type="button" data-workspace="scheme" aria-pressed="true" aria-controls="scheme-panel">Esquema</button><button type="button" data-workspace="conversation" aria-pressed="false" aria-controls="conversation-panel">Conversación</button></div>
+    <div class="organization-workspace"><div id="scheme-panel" class="scheme-panel" aria-label="Esquema de organización">
+<div class="organization-canvas"><p class="canvas-label">Personas + agentes / esquema ilustrativo</p><div class="human-node"><span>DECISIÓN EMPRESARIAL</span><strong id="human-team">Dirección y equipo</strong><p>Estrategia, mandato y decisiones reservadas.</p></div><div class="diagram-connector" aria-hidden="true"></div><div class="sis-node"><span>SIS / AYUDA AL DISEÑO</span><strong>Una propuesta para tu equipo</strong><p>Tú la revisas y decides. El panel permite configurarla manualmente.</p></div><div class="diagram-connector" aria-hidden="true"></div><p class="area-label" id="area-label"></p><div id="agent-nodes" class="agent-nodes" role="group" aria-label="Explorar puestos del esquema"></div><p class="canvas-note">Selecciona un puesto para ver qué trabajo asume y qué decisiones conserva la empresa.</p></div>
+<details class="role-details"><summary>Responsabilidades del puesto seleccionado</summary><aside class="role-inspector" aria-labelledby="role-title"><p class="eyebrow">El puesto, por dentro</p><h4 id="role-title"></h4><p id="role-mission"></p><h5>Trabajo que asume</h5><ul id="role-work"></ul><h5>Cómo se incorpora</h5><p id="role-rules"></p><h5>Fuentes y herramientas</h5><p id="role-sources"></p><h5>Decisiones reservadas</h5><p id="role-decisions"></p></aside></details><details class="mode-details"><summary>Ajustar cómo trabaja el área</summary>    <div class="autonomy-explorer"><div><p class="eyebrow">Cómo quieres que trabaje</p><h4>Autonomía con un alcance definido.</h4><p>Explora tres formas de organizar el área. Aquí no se conceden permisos reales.</p></div><div><fieldset id="autonomy-options"><legend class="visually-hidden">Modo de trabajo del área</legend><label><input type="radio" name="autonomy" value="review" /><span>Con revisión previa</span></label><label><input type="radio" name="autonomy" value="scoped" checked /><span>Autonomía por alcance</span></label><label><input type="radio" name="autonomy" value="area" /><span>Responsable de área</span></label></fieldset><p id="autonomy-explanation" role="status"></p></div></div>
+</details><button class="text-link" type="button" data-open-conversation>Hablar sobre este esquema con Sis <span aria-hidden="true">→</span></button></div>
+    <section id="conversation-panel" class="artifact-conversation" aria-labelledby="sis-chat-title"><div class="chat-intro"><p class="eyebrow">Tu esquema como punto de partida</p><h4 id="sis-chat-title">Continúa con Sis.</h4><p>Pregunta por el equipo, explora otras opciones o habla de cómo incorporar Nutria. En la experiencia final, Sis generará el esquema y te acompañará en esta conversación.</p></div>
       <div class="sis-chat"><div class="sis-chat-header"><div><span class="sis-mark" aria-hidden="true">S</span><strong>Sis <span>Sobre tu organización</span></strong></div><span class="chat-preview-state">Prototipo · Sin conexión</span></div>
         <div class="chat-artifact-context"><span>Esquema de referencia</span><strong id="chat-artifact-summary"></strong><p id="chat-role-context"></p></div>
         <div class="sis-chat-messages" id="sis-chat-messages" tabindex="0" role="log" aria-label="Vista previa de la conversación" aria-live="polite"><p class="chat-empty">Aquí podrás conversar libremente con Sis sobre este esquema y Nutria. Este prototipo permite probar cómo escribirías tus preguntas; no genera respuestas.</p></div>
         <form id="sis-chat-form"><label for="sis-question">Tu mensaje para Sis</label><textarea id="sis-question" name="question" rows="3" maxlength="1000" placeholder="¿Podríamos empezar por una sola marca y compartir el responsable de ecommerce?" required></textarea><div class="chat-composer-actions"><p>Vista previa local. Los mensajes no se envían ni se guardan al salir de la página.</p><button class="button" type="submit" disabled>Probar mensaje <span aria-hidden="true">↑</span></button></div><p id="sis-chat-status" role="status"></p></form>
       </div>
-    </section>
+<button class="text-link" type="button" data-request-contact aria-expanded="false" aria-controls="contact-panel">Quiero que el equipo de Nutria me contacte <span aria-hidden="true">→</span></button></section></div>
     <div class="result-next"><div><p class="eyebrow">Antes de ponerlo en marcha</p><h4>Puntos que conviene resolver.</h4><p id="size-guidance"></p><ul id="setup-checks"></ul><p id="need-summary"></p></div><div><h4>Del esquema a tu empresa.</h4><p>Puedes seguir explorando, conversar con Sis cuando conectemos el agente real o pedir que el equipo de Nutria te contacte. Tú decides si quieres compartir este esquema para preparar esa conversación.</p><button class="text-link" type="button" id="explorer-reset">Empezar de nuevo</button></div></div>
-    <section class="lead-capture" aria-labelledby="lead-title"><div><p class="eyebrow">Hablemos de tu empresa</p><h4 id="lead-title">¿Quieres que lo<br />veamos contigo?</h4><p>Déjanos un medio de contacto y elige qué contexto quieres compartir. Puedes pedir que te contactemos sin adjuntar el esquema.</p><p class="lead-prototype">Prototipo: puedes revisar la solicitud, pero todavía no se envía ni se guarda.</p></div>
+    <section class="lead-capture" id="contact-panel" hidden aria-labelledby="lead-title"><div><p class="eyebrow">Hablemos de tu empresa</p><h4 id="lead-title" tabindex="-1">¿Quieres que lo<br />veamos contigo?</h4><p>Déjanos un medio de contacto y elige qué contexto quieres compartir. Puedes pedir que te contactemos sin adjuntar el esquema.</p><p class="lead-prototype">Prototipo: puedes revisar la solicitud, pero todavía no se envía ni se guarda.</p></div>
       <form id="lead-form"><fieldset id="lead-inputs" disabled><legend class="visually-hidden">Datos y permisos para solicitar contacto</legend><label for="lead-name">Tu nombre <span>(opcional)</span></label><input id="lead-name" name="name" autocomplete="name" maxlength="100" /><label for="lead-company">Empresa <span>(opcional)</span></label><input id="lead-company" name="company" autocomplete="organization" maxlength="160" /><label for="lead-email">Correo de contacto</label><input id="lead-email" name="email" type="email" autocomplete="email" maxlength="254" required />
       <div class="lead-consents"><label class="lead-consent"><input type="checkbox" id="lead-contact-consent" name="contactConsent" required /><span>Autorizo al equipo de Nutria a contactarme por correo para valorar la incorporación de Nutria a mi empresa.</span></label><label class="lead-consent"><input type="checkbox" id="lead-artifact-consent" name="artifactConsent" disabled aria-describedby="artifact-consent-help" /><span>Autorizo al equipo de Nutria a guardar y utilizar mi esquema y las necesidades que he indicado para preparar esa conversación.</span></label><p id="artifact-consent-help">Opcional. Puedes solicitar contacto sin compartir el esquema. Esta autorización no incluye los mensajes del chat.</p></div>
       <p class="lead-information">Responsable identificado en la web: Alejandro Rosado. La solicitud se utilizaría para atender tu interés en Nutria. Puedes retirar estos permisos escribiendo a <a href="mailto:info@ainutria.com">info@ainutria.com</a>. Consulta la <a href="/politica-privacidad/">información de privacidad</a>.</p><button class="button" type="submit">Previsualizar solicitud <span aria-hidden="true">→</span></button><p id="lead-status" role="status"></p><div id="lead-preview" hidden><h5 tabindex="-1">Esto es lo que compartirías</h5><dl id="lead-preview-fields"></dl><p>Solo es una vista previa. No se ha registrado una solicitud de contacto.</p><button class="text-link" type="button" id="lead-clear">Borrar mis datos y permisos</button></div></fieldset></form>
@@ -53,6 +54,14 @@ import '../styles/explorer.css';
   }
   type Role = { name: string; mission: string; work: readonly string[]; rules: string; decisions: string; sources: string; };
   let currentScenario: typeof scenarios[number] = scenarios[0];
+  let workspaceView = 'scheme';
+  const mobileWorkspace = window.matchMedia('(max-width: 760px)');
+  function showWorkspace(view = workspaceView) {
+    workspaceView = view;
+    document.getElementById('scheme-panel')!.hidden = mobileWorkspace.matches && view !== 'scheme';
+    document.getElementById('conversation-panel')!.hidden = mobileWorkspace.matches && view !== 'conversation';
+    root?.querySelectorAll<HTMLElement>('[data-workspace]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.workspace === view)));
+  }
   const questions: string[] = [];
   function resetConversation() {
     questions.length = 0;
@@ -91,9 +100,10 @@ import '../styles/explorer.css';
     const preview = document.querySelector<HTMLElement>('#lead-preview'); if (preview) preview.hidden = true;
     document.getElementById('lead-preview-fields')?.replaceChildren(); text('lead-status', '');
   }
-  function clearLead() {
+  function clearLead(hidePanel = true) {
     leadForm?.reset(); if (artifactConsent) { artifactConsent.checked = false; artifactConsent.disabled = true; }
     clearLeadPreview();
+    if (hidePanel) { document.getElementById('contact-panel')!.hidden = true; root?.querySelector('[data-request-contact]')?.setAttribute('aria-expanded', 'false'); }
   }
   function buildResult() {
     if (!form) return;
@@ -121,12 +131,20 @@ import '../styles/explorer.css';
       button.classList.toggle('coordinator-node', index === 0);
       button.querySelector('span')!.textContent = index === 0 ? 'RESPONSABILIDAD DEL ÁREA' : 'FUNCIÓN ESPECIALIZADA';
       button.querySelector('strong')!.textContent = role.name;
-      button.addEventListener('click', () => inspect(role, button)); nodes?.append(button);
+      button.addEventListener('click', () => { inspect(role, button); const details = root?.querySelector<HTMLDetailsElement>('.role-details'); if (details) details.open = true; }); nodes?.append(button);
       if (index === 0) inspect(role, button);
     });
-    resetConversation(); clearLead(); updateMode(); step(3);
+    resetConversation(); clearLead(); updateMode(); root?.querySelectorAll<HTMLDetailsElement>('.role-details, .mode-details').forEach(node => node.open = false); showWorkspace('scheme'); step(3);
   }
   if (root && form) {
+    root.querySelectorAll<HTMLElement>('[data-workspace]').forEach(button => button.addEventListener('click', () => showWorkspace(button.dataset.workspace)));
+    mobileWorkspace.addEventListener('change', () => showWorkspace());
+    root.querySelector('[data-open-conversation]')?.addEventListener('click', () => { showWorkspace('conversation'); document.querySelector<HTMLTextAreaElement>('#sis-question')?.focus(); });
+    root.querySelector('[data-request-contact]')?.addEventListener('click', event => {
+      const panel = document.getElementById('contact-panel')!; panel.hidden = !panel.hidden;
+      (event.currentTarget as HTMLElement).setAttribute('aria-expanded', String(!panel.hidden));
+      if (!panel.hidden) { document.getElementById('lead-title')?.focus(); panel.scrollIntoView({ block: 'start' }); }
+    });
     root.querySelectorAll<HTMLElement>('[data-next]').forEach(button => button.addEventListener('click', () => step(Number(button.dataset.next))));
     root.querySelectorAll<HTMLElement>('[data-back]').forEach(button => button.addEventListener('click', () => step(Number(button.dataset.back))));
     form.addEventListener('submit', event => { event.preventDefault(); buildResult(); });
@@ -176,7 +194,7 @@ import '../styles/explorer.css';
       const preview = document.querySelector<HTMLElement>('#lead-preview'); if (preview) { preview.hidden = false; preview.querySelector<HTMLElement>('h5')?.focus(); }
       text('lead-status', 'Vista previa preparada. No se han enviado ni guardado tus datos.');
     });
-    document.getElementById('lead-clear')?.addEventListener('click', () => { clearLead(); document.querySelector<HTMLInputElement>('#lead-email')?.focus(); });
+    document.getElementById('lead-clear')?.addEventListener('click', () => { clearLead(false); document.querySelector<HTMLInputElement>('#lead-email')?.focus(); });
     const leadInputs = document.querySelector<HTMLFieldSetElement>('#lead-inputs'); if (leadInputs) leadInputs.disabled = false;
     const inputs = document.querySelector<HTMLFieldSetElement>('#explorer-inputs');
     if (inputs) inputs.disabled = false;

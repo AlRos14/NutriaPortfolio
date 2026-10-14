@@ -1,0 +1,222 @@
+{
+  "matrix": [
+    {
+      "width": 1440,
+      "size": "small",
+      "scenario": "operacion",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "size": "small",
+      "scenario": "mercado",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "size": "small",
+      "scenario": "clientes",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "size": "small",
+      "scenario": "area",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "size": "growing",
+      "scenario": "operacion",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "size": "growing",
+      "scenario": "mercado",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "size": "growing",
+      "scenario": "clientes",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "size": "growing",
+      "scenario": "area",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "size": "established",
+      "scenario": "operacion",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "size": "established",
+      "scenario": "mercado",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "size": "established",
+      "scenario": "clientes",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "size": "established",
+      "scenario": "area",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "size": "large",
+      "scenario": "operacion",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "size": "large",
+      "scenario": "mercado",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "size": "large",
+      "scenario": "clientes",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "size": "large",
+      "scenario": "area",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "size": "small",
+      "scenario": "operacion",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "size": "small",
+      "scenario": "mercado",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "size": "small",
+      "scenario": "clientes",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "size": "small",
+      "scenario": "area",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "size": "growing",
+      "scenario": "operacion",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "size": "growing",
+      "scenario": "mercado",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "size": "growing",
+      "scenario": "clientes",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "size": "growing",
+      "scenario": "area",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "size": "established",
+      "scenario": "operacion",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "size": "established",
+      "scenario": "mercado",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "size": "established",
+      "scenario": "clientes",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "size": "established",
+      "scenario": "area",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "size": "large",
+      "scenario": "operacion",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "size": "large",
+      "scenario": "mercado",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "size": "large",
+      "scenario": "clientes",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "size": "large",
+      "scenario": "area",
+      "pass": true
+    }
+  ],
+  "checks": [
+    {
+      "name": "keyboard-switch",
+      "pass": true
+    },
+    {
+      "name": "zoom2:/",
+      "pass": true
+    },
+    {
+      "name": "zoom2:/planes/",
+      "pass": true
+    },
+    {
+      "name": "zoom2:/demo/",
+      "pass": true
+    },
+    {
+      "name": "zoom2:/tu-organizacion/",
+      "pass": true
+    },
+    {
+      "name": "no-js-fallback",
+      "pass": true
+    }
+  ]
+}

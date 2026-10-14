@@ -84,3 +84,5 @@ Conocimiento: adquisición de fuentes públicas de las marcas, reglas internas a
 La aclaración del chat libre sustituye la orientación anterior por botones: `docs/pr3/chat/REVIEW.md`.
 
 La captación de interesados se representa con dos permisos separados: contacto por correo y guardado/uso opcional del esquema para ese contacto. Es una vista previa local sin almacenamiento ni endpoint, y excluye el chat. Véase `docs/pr3/leads/REVIEW.md`.
+
+Última pasada de pulido: [portada, espacio de organización e incorporación](docs/pr3/polish/REVIEW.md). Esquema y conversación comparten escritorio; en móvil se alternan sin perder el borrador. El formulario de contacto se abre a petición del visitante.
