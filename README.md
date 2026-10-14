@@ -65,7 +65,7 @@ Ver el [pulido de producto y prototipo de Sis](docs/pr3/refinement/PRODUCT-NOTES
 
 Los archivos Markdown se convierten en páginas estáticas durante la build. El identificador del archivo define la URL: no renombrarlo después de publicación sin planificar una redirección. No se requiere CMS, base de datos o dependencia adicional.
 
-Artículos: `title`, `description`, `category` (Organización, Delegación o Integraciones), `editedAt` (YYYY-MM-DD) y `status` (`review` o `published`). Un artículo publicado requiere también `publishedAt` aprobado; no se presenta la fecha de edición como una publicación real. Los borradores se ven identificados en la revisión.
+Artículos: `title`, `description`, `category` (Ingeniería, Ecosistema, Organización, Delegación o Integraciones), `editedAt` (YYYY-MM-DD) y `status` (`review` o `published`). Un artículo publicado requiere también `publishedAt` aprobado; no se presenta la fecha de edición como una publicación real. Los borradores se ven identificados en la revisión.
 
 La aprobación editorial y legal sigue pendiente antes de publicar en producción.
 
@@ -74,3 +74,9 @@ La aprobación editorial y legal sigue pendiente antes de publicar en producció
 `/sis/` presenta el punto central de coordinación. `/conocimiento/` explica documentos y procedimientos por marca. `/tu-organizacion/` permite explorar un esquema ilustrativo en tres pasos, seleccionar puestos y comparar formas de autonomía. Usa escenarios editoriales de `src/data/organization-explorer.ts`; no interpreta el texto libre, no conversa con Sis ni crea agentes. El usuario confirmó que la integración real se abordará después. No hay backend, persistencia ni proveedor de IA en la microapp. El prototipo permanece `noindex` también en producción.
 
 El relato se amplía a puestos, funciones continuas y áreas, incluyendo ecommerce e inteligencia competitiva. No se prometen jerarquías arbitrarias implementadas: se distingue la coordinación central de Sis de los esquemas organizativos ilustrativos. Telegram, WhatsApp y Slack se presentan por integración, preservando el alcance de notificaciones en Slack. Correo individual, Google Drive, Teams y llamadas permanecen identificados como desarrollo o próximos pasos. No se añade una comparativa de coste humano ni cifras de ahorro.
+
+## Ajuste editorial y de posicionamiento
+
+La estructura puede configurarse manualmente en el panel o con ayuda de Sis. La microapp muestra el futuro recorrido de generación de un esquema y orientación comercial conversacional mediante respuestas editoriales identificadas, sin conexión real. Incluye ámbitos por equipos y marcas; no se afirma un árbol arbitrario de filiales implementado.
+
+Conocimiento: adquisición de fuentes públicas de las marcas, reglas internas añadidas por el equipo y Drive como futura sincronización de sus documentos, todavía en desarrollo. El blog incluye ingeniería y ecosistema, además de organización y uso; los dos borradores nuevos son propuestas para revisión del autor, sin comparativas ni resultados inventados. Véase `docs/pr3/editorial/REVIEW.md`.

@@ -37,3 +37,7 @@ button.text-link{border:0;background:transparent;font:inherit;font-size:14px;cur
 @media(max-width:760px){.explorer-heading>.text-link{flex:0 0 calc(100% - 62px);justify-content:space-between}.role-inspector p,.role-inspector li{font-size:15px}}
 
 #explorer-inputs{border:0;padding:0;margin:0;min-width:0}
+.commercial-conversation{display:grid;grid-template-columns:1fr 1fr;gap:70px;margin-top:35px;padding:35px 0;border-bottom:1px solid var(--line)}
+.commercial-conversation h4{font-size:30px;letter-spacing:-.035em;line-height:1.15;margin:20px 0}.commercial-conversation p{font-size:15px;line-height:1.85;color:var(--muted)}.commercial-conversation .small-note{font-size:12px;margin-top:18px}
+.orientation-choices{display:flex;flex-wrap:wrap;gap:10px}.orientation-choices button{font:inherit;font-size:13px;padding:12px 15px;min-height:44px;border:1px solid var(--line-strong);background:white;color:var(--ink)}.orientation-choices button[aria-pressed=true]{border-color:var(--blue);background:var(--blue);color:white}.orientation-response{background:var(--surface);padding:23px;margin-top:20px}.orientation-response .eyebrow{font-size:10px;margin-bottom:15px}.commercial-conversation .text-link{margin-top:22px;font-size:13px}
+@media(max-width:760px){.commercial-conversation{grid-template-columns:1fr;gap:25px}.commercial-conversation h4{font-size:28px}.orientation-response{padding:20px}.commercial-conversation .text-link{gap:20px}}
