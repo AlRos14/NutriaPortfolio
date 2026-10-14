@@ -4,7 +4,7 @@ import { scenarios } from '../data/organization-explorer';
 import '../styles/explorer.css';
 ---
 <Layout noindex title="Tu organización con Nutria" description="Explora un esquema ilustrativo de empresa con personas, Sis y agentes. Diseña puestos, responsabilidades y coordinación en un prototipo interactivo.">
-<section class="explorer-intro"><div><p class="eyebrow">Tu organización con Nutria</p><h1>Imagina la capacidad<br />que te falta.</h1><p class="lead">Cuéntanos dónde estás. Explora qué puestos podrían ayudarte y cómo se organizarían alrededor de tu empresa.</p></div><p class="prototype-label"><strong>Prototipo interactivo</strong>Escenarios predefinidos. Sin conexión a Sis ni agentes reales.</p></section>
+<section class="explorer-intro"><div><p class="eyebrow">Tu organización con Nutria</p><h1>Imagina la capacidad<br />que te falta.</h1><p class="lead">Explora qué puestos podrían ayudarte y cómo se organizarían en tu empresa. Esta experiencia muestra cómo Nutria puede usar sus propios agentes para presentar el servicio y conversar contigo.</p></div><p class="prototype-label"><strong>Prototipo interactivo</strong>Escenarios predefinidos. Sin conexión a Sis ni agentes reales.</p></section>
 <noscript><style is:inline>[data-explorer]{display:none!important}</style></noscript>
 <section class="organization-explorer" data-explorer>
   <div class="explorer-heading"><div class="sis-mark" aria-hidden="true">S</div><div><h2>Tú diseñas. Sis te ayuda.</h2><p>Con Sis o manualmente en el panel de Nutria.</p></div><a class="text-link" href="/sis/">Qué es Sis <span aria-hidden="true">↗</span></a></div>
@@ -27,7 +27,12 @@ import '../styles/explorer.css';
         <form id="sis-chat-form"><label for="sis-question">Tu mensaje para Sis</label><textarea id="sis-question" name="question" rows="3" maxlength="1000" placeholder="¿Podríamos empezar por una sola marca y compartir el responsable de ecommerce?" required></textarea><div class="chat-composer-actions"><p>Vista previa local. Los mensajes no se envían ni se guardan al salir de la página.</p><button class="button" type="submit" disabled>Probar mensaje <span aria-hidden="true">↑</span></button></div><p id="sis-chat-status" role="status"></p></form>
       </div>
     </section>
-    <div class="result-next"><div><p class="eyebrow">Antes de ponerlo en marcha</p><h4>Puntos que conviene resolver.</h4><p id="size-guidance"></p><ul id="setup-checks"></ul><p id="need-summary"></p></div><div><h4>Del esquema a tu empresa.</h4><p>Decide qué parte de la propuesta encaja contigo. Puedes construir y ajustar la organización manualmente en el panel, o apoyarte en Sis. Para concretar la implantación, revisaremos contigo las herramientas y el alcance.</p><a class="button" id="explorer-contact" href="mailto:info@ainutria.com">Preparar una consulta <span aria-hidden="true">↗</span></a><p class="small-note">Se abre tu correo con un resumen. Tú decides si enviarlo.</p><button class="text-link" type="button" id="explorer-reset">Empezar de nuevo</button></div></div>
+    <div class="result-next"><div><p class="eyebrow">Antes de ponerlo en marcha</p><h4>Puntos que conviene resolver.</h4><p id="size-guidance"></p><ul id="setup-checks"></ul><p id="need-summary"></p></div><div><h4>Del esquema a tu empresa.</h4><p>Puedes seguir explorando, conversar con Sis cuando conectemos el agente real o pedir que el equipo de Nutria te contacte. Tú decides si quieres compartir este esquema para preparar esa conversación.</p><button class="text-link" type="button" id="explorer-reset">Empezar de nuevo</button></div></div>
+    <section class="lead-capture" aria-labelledby="lead-title"><div><p class="eyebrow">Hablemos de tu empresa</p><h4 id="lead-title">¿Quieres que lo<br />veamos contigo?</h4><p>Déjanos un medio de contacto y elige qué contexto quieres compartir. Puedes pedir que te contactemos sin adjuntar el esquema.</p><p class="lead-prototype">Prototipo: puedes revisar la solicitud, pero todavía no se envía ni se guarda.</p></div>
+      <form id="lead-form"><fieldset id="lead-inputs" disabled><legend class="visually-hidden">Datos y permisos para solicitar contacto</legend><label for="lead-name">Tu nombre <span>(opcional)</span></label><input id="lead-name" name="name" autocomplete="name" maxlength="100" /><label for="lead-company">Empresa <span>(opcional)</span></label><input id="lead-company" name="company" autocomplete="organization" maxlength="160" /><label for="lead-email">Correo de contacto</label><input id="lead-email" name="email" type="email" autocomplete="email" maxlength="254" required />
+      <div class="lead-consents"><label class="lead-consent"><input type="checkbox" id="lead-contact-consent" name="contactConsent" required /><span>Autorizo al equipo de Nutria a contactarme por correo para valorar la incorporación de Nutria a mi empresa.</span></label><label class="lead-consent"><input type="checkbox" id="lead-artifact-consent" name="artifactConsent" disabled aria-describedby="artifact-consent-help" /><span>Autorizo al equipo de Nutria a guardar y utilizar mi esquema y las necesidades que he indicado para preparar esa conversación.</span></label><p id="artifact-consent-help">Opcional. Puedes solicitar contacto sin compartir el esquema. Esta autorización no incluye los mensajes del chat.</p></div>
+      <p class="lead-information">Responsable identificado en la web: Alejandro Rosado. La solicitud se utilizaría para atender tu interés en Nutria. Puedes retirar estos permisos escribiendo a <a href="mailto:info@ainutria.com">info@ainutria.com</a>. Consulta la <a href="/politica-privacidad/">información de privacidad</a>.</p><button class="button" type="submit">Previsualizar solicitud <span aria-hidden="true">→</span></button><p id="lead-status" role="status"></p><div id="lead-preview" hidden><h5 tabindex="-1">Esto es lo que compartirías</h5><dl id="lead-preview-fields"></dl><p>Solo es una vista previa. No se ha registrado una solicitud de contacto.</p><button class="text-link" type="button" id="lead-clear">Borrar mis datos y permisos</button></div></fieldset></form>
+    </section>
   </div>
 </section>
 <noscript><section><h2>Explora los puestos de tu empresa</h2><p>El configurador necesita JavaScript. Puedes consultar los escenarios de trabajo y hablar con nosotros directamente.</p><div class="actions"><a class="button" href="/casos-de-uso/">Ver escenarios</a><a class="button secondary" href="/contacto/">Hablemos</a></div></section></noscript>
@@ -70,7 +75,7 @@ import '../styles/explorer.css';
   function updateMode() {
     const mode = document.querySelector<HTMLInputElement>('[name="autonomy"]:checked')?.value || 'scoped';
     text('autonomy-explanation', modes[mode]);
-    updateChatContext(); updateContact();
+    updateChatContext(); clearLeadPreview();
   }
   function inspect(role: Role, button: HTMLButtonElement) {
     document.querySelectorAll<HTMLButtonElement>('.agent-node').forEach(node => node.setAttribute('aria-pressed', String(node === button)));
@@ -79,13 +84,16 @@ import '../styles/explorer.css';
     text('explorer-status', `Puesto seleccionado: ${role.name}. Sus responsabilidades aparecen a continuación del esquema.`);
     updateChatContext();
   }
-  function updateContact() {
-    if (!form) return;
-    const values = new FormData(form);
-    const size = document.querySelector<HTMLSelectElement>('#company-size')?.selectedOptions[0]?.textContent || '';
-    const mode = document.querySelector<HTMLInputElement>('[name="autonomy"]:checked')?.parentElement?.textContent?.trim() || '';
-    const body = `Hola, me gustaría revisar este esquema ilustrativo de Nutria.\n\nEmpresa: ${values.get('kind')}.\nTamaño: ${size}.\nNecesidad: ${currentScenario.label}.\nModo a explorar: ${mode}.\n\n${String(values.get('need') || '').trim()}\n\nQuisiera concretar los puestos, las integraciones y el alcance.`;
-    const link = document.querySelector<HTMLAnchorElement>('#explorer-contact'); if (link) link.href = `mailto:info@ainutria.com?subject=${encodeURIComponent('Nutria · Mi organización')}&body=${encodeURIComponent(body)}`;
+  const leadForm = document.querySelector<HTMLFormElement>('#lead-form');
+  const contactConsent = document.querySelector<HTMLInputElement>('#lead-contact-consent');
+  const artifactConsent = document.querySelector<HTMLInputElement>('#lead-artifact-consent');
+  function clearLeadPreview() {
+    const preview = document.querySelector<HTMLElement>('#lead-preview'); if (preview) preview.hidden = true;
+    document.getElementById('lead-preview-fields')?.replaceChildren(); text('lead-status', '');
+  }
+  function clearLead() {
+    leadForm?.reset(); if (artifactConsent) { artifactConsent.checked = false; artifactConsent.disabled = true; }
+    clearLeadPreview();
   }
   function buildResult() {
     if (!form) return;
@@ -116,7 +124,7 @@ import '../styles/explorer.css';
       button.addEventListener('click', () => inspect(role, button)); nodes?.append(button);
       if (index === 0) inspect(role, button);
     });
-    resetConversation(); updateMode(); step(3);
+    resetConversation(); clearLead(); updateMode(); step(3);
   }
   if (root && form) {
     root.querySelectorAll<HTMLElement>('[data-next]').forEach(button => button.addEventListener('click', () => step(Number(button.dataset.next))));
@@ -136,10 +144,40 @@ import '../styles/explorer.css';
       const content = document.createElement('p'); content.textContent = value;
       message.append(label, content); document.getElementById('sis-chat-messages')?.append(message);
       if (chatInput) { chatInput.value = ''; chatInput.focus(); }
-      text('sis-chat-status', 'Mensaje añadido a la vista previa. Sis responderá cuando conectemos el agente real.'); updateContact();
+      text('sis-chat-status', 'Mensaje añadido a la vista previa. Sis responderá cuando conectemos el agente real.');
     });
     const chatSubmit = chatForm?.querySelector<HTMLButtonElement>('button[type="submit"]'); if (chatSubmit) chatSubmit.disabled = false;
-    document.getElementById('explorer-reset')?.addEventListener('click', () => { form.reset(); const mode = document.querySelector<HTMLInputElement>('[name="autonomy"][value="scoped"]'); if (mode) mode.checked = true; resetConversation(); step(1); });
+    document.getElementById('explorer-reset')?.addEventListener('click', () => { form.reset(); const mode = document.querySelector<HTMLInputElement>('[name="autonomy"][value="scoped"]'); if (mode) mode.checked = true; resetConversation(); clearLead(); step(1); });
+    contactConsent?.addEventListener('change', () => {
+      if (artifactConsent) { artifactConsent.disabled = !contactConsent.checked; if (!contactConsent.checked) artifactConsent.checked = false; }
+      clearLeadPreview();
+    });
+    leadForm?.addEventListener('input', clearLeadPreview);
+    leadForm?.addEventListener('change', clearLeadPreview);
+    leadForm?.addEventListener('submit', event => {
+      event.preventDefault();
+      if (!contactConsent?.checked || !leadForm.reportValidity()) return;
+      const fields = document.getElementById('lead-preview-fields'); if (!fields) return;
+      fields.replaceChildren();
+      const add = (label: string, value: string) => { const dt = document.createElement('dt'); dt.textContent = label; const dd = document.createElement('dd'); dd.textContent = value; fields.append(dt, dd); };
+      const values = new FormData(leadForm);
+      add('Correo', String(values.get('email') || ''));
+      if (String(values.get('name') || '').trim()) add('Nombre', String(values.get('name')).trim());
+      if (String(values.get('company') || '').trim()) add('Empresa', String(values.get('company')).trim());
+      add('Permiso de contacto', 'Sí, para hablar de la incorporación de Nutria.');
+      add('Compartir esquema y necesidades', artifactConsent?.checked ? 'Sí, para preparar esta conversación.' : 'No. Solo los datos de contacto anteriores.');
+      if (artifactConsent?.checked) {
+        add('Esquema', document.getElementById('company-summary')?.textContent || '');
+        add('Área propuesta', currentScenario.area);
+        add('Puestos propuestos', [...document.querySelectorAll('.agent-node strong')].map(node => node.textContent).join(' · '));
+        add('Modo de trabajo', document.querySelector<HTMLInputElement>('[name="autonomy"]:checked')?.parentElement?.textContent?.trim() || '');
+        const need = String(new FormData(form).get('need') || '').trim(); if (need) add('Necesidades indicadas', need);
+      }
+      const preview = document.querySelector<HTMLElement>('#lead-preview'); if (preview) { preview.hidden = false; preview.querySelector<HTMLElement>('h5')?.focus(); }
+      text('lead-status', 'Vista previa preparada. No se han enviado ni guardado tus datos.');
+    });
+    document.getElementById('lead-clear')?.addEventListener('click', () => { clearLead(); document.querySelector<HTMLInputElement>('#lead-email')?.focus(); });
+    const leadInputs = document.querySelector<HTMLFieldSetElement>('#lead-inputs'); if (leadInputs) leadInputs.disabled = false;
     const inputs = document.querySelector<HTMLFieldSetElement>('#explorer-inputs');
     if (inputs) inputs.disabled = false;
   }

@@ -1,5 +1,7 @@
 # PR3 · Revisión final de Nutria 2.0
 
+> Último ajuste: [Nutria usando Nutria y captación opcional](leads/REVIEW.md).
+
 > Última aclaración: [Sis incrustado y chat libre ligado al artefacto](chat/REVIEW.md).
 
 > Última actualización: [ajuste editorial, fuentes públicas y Sis](editorial/REVIEW.md).

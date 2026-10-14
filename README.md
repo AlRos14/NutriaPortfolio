@@ -82,3 +82,5 @@ La estructura puede configurarse manualmente en el panel o con ayuda de Sis. La 
 Conocimiento: adquisición de fuentes públicas de las marcas, reglas internas añadidas por el equipo y Drive como futura sincronización de sus documentos, todavía en desarrollo. El blog incluye ingeniería y ecosistema, además de organización y uso; los dos borradores nuevos son propuestas para revisión del autor, sin comparativas ni resultados inventados. Véase `docs/pr3/editorial/REVIEW.md`.
 
 La aclaración del chat libre sustituye la orientación anterior por botones: `docs/pr3/chat/REVIEW.md`.
+
+La captación de interesados se representa con dos permisos separados: contacto por correo y guardado/uso opcional del esquema para ese contacto. Es una vista previa local sin almacenamiento ni endpoint, y excluye el chat. Véase `docs/pr3/leads/REVIEW.md`.
