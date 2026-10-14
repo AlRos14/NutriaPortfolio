@@ -1,0 +1,48 @@
+<dialog lang="es" id="cookie-consent" class="consent-dialog" aria-labelledby="cookie-title" aria-describedby="cookie-description">
+  <div class="consent-content"><p class="eyebrow">Tu privacidad</p><h2 id="cookie-title">Preferencias de cookies</h2><p id="cookie-description">Puedes permitir la analítica para ayudarnos a entender el uso de la web. No se activa hasta que la aceptes. Consulta la <a href="/politica-cookies">política de cookies</a>.</p><div class="consent-actions"><button type="button" class="button secondary" data-consent="necessary" autofocus>Solo necesarias</button><button type="button" class="button" data-consent="analytics">Aceptar analítica</button></div><p class="small-note">Puedes cambiar tu elección desde el pie de página.</p></div>
+</dialog>
+<script>
+  const dialog = document.querySelector<HTMLDialogElement>('#cookie-consent');
+  const analyticsId = 'G-J64J777GB1';
+  const analyticsWindow = window as typeof window & { dataLayer?: unknown[]; gtag?: (...args: unknown[]) => void; [key: string]: unknown };
+  let initialized = false;
+  let trigger: HTMLElement | null = null;
+  function readPreference() { try { return localStorage.getItem('cookie_consent'); } catch { return null; } }
+  function activateAnalytics() {
+    analyticsWindow[`ga-disable-${analyticsId}`] = false;
+    if (initialized) { analyticsWindow.gtag?.('consent', 'update', { analytics_storage: 'granted' }); return; }
+    initialized = true;
+    analyticsWindow.dataLayer = analyticsWindow.dataLayer || [];
+    analyticsWindow.gtag = function (..._args: unknown[]) { analyticsWindow.dataLayer?.push(arguments); };
+    analyticsWindow.gtag('consent', 'default', { analytics_storage: 'granted', ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied' });
+    analyticsWindow.gtag('js', new Date());
+    analyticsWindow.gtag('config', analyticsId);
+    const script = document.createElement('script'); script.async = true; script.src = `https://www.googletagmanager.com/gtag/js?id=${analyticsId}`; document.head.append(script);
+  }
+  function declineAnalytics() {
+    analyticsWindow[`ga-disable-${analyticsId}`] = true;
+    // Stop collection before a subsequent navigation; the provider script loads only after opt-in.
+    for (const cookie of document.cookie.split(';')) {
+      const name = cookie.split('=')[0]?.trim();
+      if (!name || !/^_ga(?:_|$)/.test(name)) continue;
+      document.cookie = `${name}=; Max-Age=0; path=/`;
+      const labels = location.hostname.split('.');
+      for (let i = 0; i < labels.length - 1; i++) {
+        const domain = labels.slice(i).join('.');
+        document.cookie = `${name}=; Max-Age=0; path=/; domain=${domain}`;
+        document.cookie = `${name}=; Max-Age=0; path=/; domain=.${domain}`;
+      }
+    }
+  }
+  function selectPreference(value: 'necessary' | 'analytics') {
+    try { localStorage.setItem('cookie_consent', value); } catch { /* The current-page choice still works without storage. */ }
+    if (value === 'analytics') activateAnalytics(); else declineAnalytics();
+    dialog?.close(); trigger?.focus(); trigger = null;
+  }
+  document.querySelectorAll<HTMLButtonElement>('[data-consent]').forEach(button => button.addEventListener('click', () => selectPreference(button.dataset.consent === 'analytics' ? 'analytics' : 'necessary')));
+  document.querySelectorAll<HTMLButtonElement>('[data-cookie-settings]').forEach(button => button.addEventListener('click', () => { trigger = button; if (!dialog?.open) dialog?.showModal(); }));
+  dialog?.addEventListener('cancel', event => { event.preventDefault(); selectPreference('necessary'); });
+  const preference = readPreference();
+  if (preference === 'analytics') activateAnalytics();
+  else if (preference !== 'necessary') dialog?.showModal();
+</script>

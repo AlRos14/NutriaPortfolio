@@ -1,0 +1,24 @@
+---
+import { navigation } from '../../data/site';
+const path = Astro.url.pathname;
+---
+<a lang="es" class="skip" href="#main">Saltar al contenido</a>
+<header class="site-header" lang="es">
+  <a class="brand" href="/" aria-label="Nutria, inicio"><img src="/nutria-logo.png" alt="" width="38" height="38" />nutria<span class="brand-dot">.</span></a>
+  <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">Menú <span aria-hidden="true">＋</span></button>
+  <nav id="main-nav" class="main-nav" aria-label="Principal">
+    {navigation.map(item => <a href={item.href} aria-current={path.startsWith(item.href) ? 'page' : undefined}>{item.label}</a>)}
+    <a class="nav-cta" href="/contacto/" aria-current={path === '/contacto/' ? 'page' : undefined}>Hablemos <span aria-hidden="true">↗</span></a>
+  </nav>
+</header>
+<script>
+  const toggle = document.querySelector<HTMLButtonElement>('.menu-toggle');
+  const nav = document.querySelector<HTMLElement>('#main-nav');
+  function closeMenu() { toggle?.setAttribute('aria-expanded', 'false'); nav?.classList.remove('is-open'); }
+  if (toggle && nav) {
+    toggle.closest('header')?.classList.add('nav-enhanced');
+    toggle.addEventListener('click', () => { const open = toggle.getAttribute('aria-expanded') !== 'true'; toggle.setAttribute('aria-expanded', String(open)); nav.classList.toggle('is-open', open); });
+    document.addEventListener('keydown', event => { if (event.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') { closeMenu(); toggle.focus(); } });
+    matchMedia('(min-width: 761px)').addEventListener('change', closeMenu);
+  }
+</script>

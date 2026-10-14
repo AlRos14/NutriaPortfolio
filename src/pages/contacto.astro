@@ -1,0 +1,29 @@
+---
+import Layout from '../layouts/SiteLayout.astro';
+---
+<Layout title="Hablemos de tu equipo" description="Cuéntanos qué trabajo quieres delegar y qué necesita tu organización para revisar el encaje de un agente.">
+<section><div class="page-intro"><p class="eyebrow">Hablemos de tu equipo</p><h1>¿Qué trabajo<br />quieres delegar?</h1><p class="lead">El primer paso es entender tu organización, el rol que necesitas y las herramientas con las que trabaja tu equipo.</p></div><div class="contact-layout"><div><h2>Una conversación<br />con alcance concreto.</h2><p>Cuéntanos qué responsabilidad quieres delegar, qué fuentes necesita el agente y quién toma las decisiones.</p><a class="contact-email" href="mailto:info@ainutria.com">info@ainutria.com <span aria-hidden="true">↗</span></a><p>Puedes escribirnos directamente o preparar un mensaje. El envío se realiza desde tu aplicación de correo.</p></div><form id="contact-form" hidden><label for="name">Tu nombre <span>(opcional)</span></label><input id="name" name="name" autocomplete="name" maxlength="100" /><label for="interest">Qué necesitas</label><select id="interest" name="interest"><option value="">Quiero revisar el encaje</option><option value="internos">Agentes internos</option><option value="clientes">Atención al cliente</option><option value="organizacion">Organización a medida</option></select><label for="work">Qué trabajo quieres delegar</label><textarea id="work" name="work" rows="5" required maxlength="1800"></textarea><button class="button" type="submit">Preparar mensaje <span aria-hidden="true">→</span></button><p id="form-status" role="status"></p><div id="message-ready" hidden><h3 tabindex="-1">Tu mensaje está preparado</h3><p id="message-preview"></p><a class="button" id="email-draft" href="mailto:info@ainutria.com">Abrir en tu correo <span aria-hidden="true">↗</span></a><p class="small-note">Comprueba el mensaje en tu aplicación y envíalo cuando quieras. Si no tienes una aplicación configurada, puedes copiar el resumen y escribir a info@ainutria.com.</p></div></form><noscript><p>Puedes escribir directamente a <a href="mailto:info@ainutria.com">info@ainutria.com</a>.</p></noscript></div></section>
+</Layout>
+<script>
+  const form = document.querySelector<HTMLFormElement>('#contact-form');
+  const interest = document.querySelector<HTMLSelectElement>('#interest');
+  if (form) form.hidden = false;
+  const selected = new URLSearchParams(location.search).get('interes');
+  if (interest && selected && [...interest.options].some(option => option.value === selected)) interest.value = selected;
+  form?.addEventListener('submit', event => {
+    event.preventDefault();
+    const values = new FormData(form);
+    const name = String(values.get('name') ?? '').trim();
+    const work = String(values.get('work') ?? '').trim();
+    const scope = interest?.selectedOptions[0]?.textContent ?? '';
+    const body = `${name ? `Hola, soy ${name}.\n\n` : 'Hola,\n\n'}Me gustaría revisar: ${scope}.\n\n${work}`;
+    const panel = document.querySelector<HTMLElement>('#message-ready');
+    const preview = document.querySelector<HTMLElement>('#message-preview');
+    const link = document.querySelector<HTMLAnchorElement>('#email-draft');
+    const status = document.querySelector<HTMLElement>('#form-status');
+    if (preview) preview.textContent = body;
+    if (link) link.href = `mailto:info@ainutria.com?subject=${encodeURIComponent('Nutria · Trabajo delegado')}&body=${encodeURIComponent(body)}`;
+    if (status) status.textContent = 'Mensaje preparado. Todavía no se ha enviado.';
+    if (panel) { panel.hidden = false; panel.querySelector<HTMLElement>('h3')?.focus(); }
+  });
+</script>
