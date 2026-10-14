@@ -1,0 +1,5 @@
+---
+import { commercialOptions } from '../../data/site';
+---
+<div class="plan-list">{commercialOptions.map((option, i) => <article><p class="eyebrow">0{i + 1} / {option.label}</p><h3>{option.title}</h3><p>{option.description}</p><strong>Consultar propuesta</strong><a class="button" href={`/contacto/?interes=${option.id}`}>Hablemos del alcance <span aria-hidden="true">↗</span></a></article>)}</div>
+<p class="commercial-note">Opciones orientativas por necesidad. Los planes, precios y condiciones están en revisión. La opción de agentes internos independientes está pendiente de formalización comercial.</p>

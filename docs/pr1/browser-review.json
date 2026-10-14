@@ -1,0 +1,679 @@
+{
+  "browser": "Chrome/153.0.8010.12",
+  "views": [
+    {
+      "width": 1440,
+      "route": "/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 1440,
+      "route": "/agentes/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 1440,
+      "route": "/casos-de-uso/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 1440,
+      "route": "/planes/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 1440,
+      "route": "/contacto/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 1440,
+      "route": "/features",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 1440,
+      "route": "/dossier",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 1440,
+      "route": "/demo",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 1440,
+      "route": "/roadmap",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 1440,
+      "route": "/news",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 1440,
+      "route": "/aviso-legal",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 1440,
+      "route": "/politica-privacidad",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 1440,
+      "route": "/politica-cookies",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 1440,
+      "route": "/nutriabot",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 390,
+      "route": "/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 390,
+      "route": "/agentes/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 390,
+      "route": "/casos-de-uso/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 390,
+      "route": "/planes/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 390,
+      "route": "/contacto/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 390,
+      "route": "/features",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 390,
+      "route": "/dossier",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 390,
+      "route": "/demo",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 390,
+      "route": "/roadmap",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 390,
+      "route": "/news",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 390,
+      "route": "/aviso-legal",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 390,
+      "route": "/politica-privacidad",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 390,
+      "route": "/politica-cookies",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 390,
+      "route": "/nutriabot",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 320,
+      "route": "/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 320,
+      "route": "/agentes/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 320,
+      "route": "/casos-de-uso/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 320,
+      "route": "/planes/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 320,
+      "route": "/contacto/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 320,
+      "route": "/features",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 320,
+      "route": "/dossier",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 320,
+      "route": "/demo",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 320,
+      "route": "/roadmap",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 320,
+      "route": "/news",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 320,
+      "route": "/aviso-legal",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 320,
+      "route": "/politica-privacidad",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 320,
+      "route": "/politica-cookies",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 320,
+      "route": "/nutriabot",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 768,
+      "route": "/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 768,
+      "route": "/agentes/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 768,
+      "route": "/casos-de-uso/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 768,
+      "route": "/planes/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 768,
+      "route": "/contacto/",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 768,
+      "route": "/features",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 768,
+      "route": "/dossier",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 768,
+      "route": "/demo",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 768,
+      "route": "/roadmap",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 768,
+      "route": "/news",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 768,
+      "route": "/aviso-legal",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 768,
+      "route": "/politica-privacidad",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 768,
+      "route": "/politica-cookies",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    },
+    {
+      "width": 768,
+      "route": "/nutriabot",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "main": 1,
+      "brokenImages": 0
+    }
+  ],
+  "links": [
+    {
+      "path": "/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/#main",
+      "pass": true
+    },
+    {
+      "path": "/agentes/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/casos-de-uso/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/planes/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/contacto/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/demo/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/news",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/roadmap/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/aviso-legal",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/politica-privacidad",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/politica-cookies",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/nutriabot",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/agentes/#main",
+      "pass": true
+    },
+    {
+      "path": "/casos-de-uso/#main",
+      "pass": true
+    },
+    {
+      "path": "/casos-de-uso/#informacion",
+      "pass": true
+    },
+    {
+      "path": "/casos-de-uso/#seguimiento",
+      "pass": true
+    },
+    {
+      "path": "/casos-de-uso/#atencion",
+      "pass": true
+    },
+    {
+      "path": "/casos-de-uso/#analisis",
+      "pass": true
+    },
+    {
+      "path": "/casos-de-uso/#contenido",
+      "pass": true
+    },
+    {
+      "path": "/planes/#main",
+      "pass": true
+    },
+    {
+      "path": "/contacto/#main",
+      "pass": true
+    },
+    {
+      "path": "/features",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/dossier",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/demo",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/roadmap",
+      "status": 200,
+      "pass": true
+    }
+  ],
+  "interactions": [
+    {
+      "name": "menu-opens",
+      "pass": true
+    },
+    {
+      "name": "escape-restores-focus",
+      "pass": true
+    },
+    {
+      "name": "faq-opens",
+      "pass": true
+    },
+    {
+      "name": "contact-interest",
+      "pass": true
+    },
+    {
+      "name": "email-draft-no-send",
+      "pass": true
+    },
+    {
+      "name": "skip-link",
+      "pass": true
+    },
+    {
+      "name": "skip-target",
+      "pass": true
+    },
+    {
+      "name": "preferences-reopen",
+      "pass": true
+    },
+    {
+      "name": "preferences-escape",
+      "pass": true
+    },
+    {
+      "name": "404-status",
+      "pass": true
+    },
+    {
+      "name": "no-js-navigation-and-contact",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "externalRequests": []
+}

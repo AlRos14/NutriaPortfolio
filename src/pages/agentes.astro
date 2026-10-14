@@ -1,0 +1,13 @@
+---
+import Layout from '../layouts/SiteLayout.astro';
+import Organization from '../components/site/Organization.astro';
+import Roles from '../components/site/Roles.astro';
+import Channels from '../components/site/Channels.astro';
+---
+<Layout title="Agentes y organización" description="Define roles, herramientas y autoridad para incorporar agentes dentro de tu organización.">
+<section><div class="page-intro"><p class="eyebrow">Agentes y organización</p><h1>Un rol claro.<br />Trabajo que avanza.</h1><p class="lead">Incorporar un agente es darle una responsabilidad dentro de tu organización. Puede asumir objetivos delegados y colaborar con las personas y otros agentes dentro de su alcance.</p></div></section>
+<section class="agent-explain"><Organization /><div><p class="eyebrow">Antes de delegar</p><h2>Define qué necesita<br />tu organización.</h2><dl class="definition-list"><div><dt>Rol</dt><dd>Por qué se incorpora y qué funciones asume.</dd></div><div><dt>Herramientas</dt><dd>Qué fuentes y capacidades puede utilizar.</dd></div><div><dt>Autoridad</dt><dd>Qué acciones están autorizadas y dentro de qué alcance.</dd></div><div><dt>Objetivo</dt><dd>Qué resultado necesita entregar y qué información requiere.</dd></div></dl></div></section>
+<section><div class="section-heading"><p class="eyebrow">Funciones que encajan en tu estructura</p><h2>El trabajo define<br />el rol.</h2><p>Estos ejemplos ayudan a delimitar posibles configuraciones. No todos los agentes necesitan las mismas herramientas ni tienen la misma autoridad.</p></div><Roles detailed /></section>
+<section class="limits"><p class="eyebrow">Delegar con criterio</p><h2>Responsabilidad<br />con límites claros.</h2><div class="two-col"><p>Consultar información y modificarla son capacidades distintas. El acceso a una herramienta no concede permiso para cualquier acción.</p><p>Una propuesta preparada no es una acción completada. Cuando falta información, una decisión o autorización, el trabajo requiere una intervención concreta.</p></div><a class="button" href="/contacto/">Definir un primer rol <span aria-hidden="true">↗</span></a></section>
+<section><Channels /></section>
+</Layout>

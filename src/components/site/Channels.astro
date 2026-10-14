@@ -1,0 +1,4 @@
+---
+import { channels } from '../../data/site';
+---
+<div class="channel-layout"><div><p class="eyebrow">Interacción cotidiana</p><h2>Habla con tu agente.<br />Delega con claridad.</h2><p>Telegram es hoy el canal principal para la comunicación interna. Las otras interfaces tienen su propio alcance y configuración.</p></div><dl class="channel-list">{channels.map(channel => <div><dt>{channel.name}<span>{channel.status}</span></dt><dd>{channel.detail}</dd></div>)}</dl></div>

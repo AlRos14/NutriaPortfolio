@@ -1,2 +1,1 @@
-# Redirect all routes to index.html for SPA
-/*    /index.html   200
+# Static Astro pages. Preserve compatible URLs; host-specific 301 rules are reviewed in PR3.

@@ -1,0 +1,7 @@
+---
+import { roles } from '../../data/site';
+const { detailed = false } = Astro.props;
+---
+<div class="role-list">{roles.map((role, i) => <article class="role-row" id={role.id}>
+  <span class="row-number">0{i + 1}</span><h3>{role.name}</h3><div><p>{role.description}</p>{detailed && <p class="role-detail"><strong>Herramientas:</strong> {role.tools}<br /><strong>Límite:</strong> {role.boundary}</p>}</div><span class="role-type">Rol configurable</span>
+</article>)}</div>
