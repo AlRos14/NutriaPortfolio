@@ -35,10 +35,9 @@ En entornos restringidos se usó `ASTRO_TELEMETRY_DISABLED=1` al ejecutar Astro.
 - `src/data/site.ts`: roles y escenarios ilustrativos, sin datos de clientes.
 - `src/styles/site.css`: dirección A, azul plano y tipografía de sistema.
 - `src/content/articles/`: artículos Markdown con estado editorial y categoría.
-- `src/content/releases/`: notas Markdown con versión, fecha y estado histórico/verificado.
-- `src/content.config.ts`: esquemas de las dos colecciones.
-- `public/`: logo existente y una imagen de las novedades históricas.
-- `docs/pr1/` y `docs/pr2/`: alcance, evidencias y capturas de revisión.
+- `src/content.config.ts`: esquema de artículos y estado editorial.
+- `public/`: logo optimizado y reglas de compatibilidad Netlify.
+- `docs/pr1/`, `docs/pr2/` y `docs/pr3/`: alcance, evidencias y capturas de revisión; PR3 sustituye las decisiones de archivo histórico de PR2.
 
 Sin Vue, CMS, backend ni librerías de animación. El contenido corporativo se renderiza como HTML. JavaScript se limita al menú, consentimiento y preparación de un correo: el visitante decide enviarlo desde su propia aplicación.
 
@@ -48,9 +47,11 @@ Dirección visual A aprobada el 14/10/2026. La portada se organiza alrededor de 
 
 Planes sin importes aprobados. No se ofrece como contratado el plan interno independiente pendiente de formalización. Telegram, WhatsApp, correo y Slack conservan sus diferencias de alcance. Llamadas, números individuales y robótica se presentan solo como visión futura.
 
-Las rutas antiguas siguen existiendo como páginas estáticas: `/features`, `/demo`, `/news`, `/roadmap`, `/dossier`, legales y `/nutriabot`. `/news` conserva el acceso al archivo histórico en `/notas-de-version/`; los textos legales se han trasladado y requieren revisión de vigencia antes de publicar. `/nutriabot` conserva identificación y contacto; se retiraron afirmaciones de comportamiento no verificadas. No se aplican aún redirecciones 301.
+PR3 retira el changelog y su imagen antigua del sitio. Sus contenidos siguen en el historial Git de PR2. `/news` redirige al blog, `/features` a agentes y `/dossier` a planes. Las rutas eliminadas de notas de versión responden 410 en Netlify; el preview Astro devuelve 404 porque no ejecuta reglas `_redirects`. `/demo`, `/roadmap`, las páginas legales y `/nutriabot` conservan su finalidad vigente.
 
-PR2 añade `/blog/` y `/notas-de-version/` como colecciones separadas, con cinco artículos propuestos y las cinco notas históricas anteriores. PR3: SEO, accesibilidad completa, rendimiento, reglas de redirección, revisión legal/analítica y despliegue. Una build correcta no autoriza publicación.
+PR2 añadió cinco artículos Markdown. PR3 incorpora metadatos sociales, canonical, sitemap, robots, comprobaciones de accesibilidad y rendimiento. Los artículos en revisión y los borradores legales llevan `noindex` y no entran en el sitemap. Toda build fuera de `CONTEXT=production` lleva `noindex`, incluidos los previews de Netlify. Para comprobar el modo de producción localmente: `CONTEXT=production npm run build`. Esto solo compila; no publica.
+
+Los textos legales anteriores contenían tratamientos y garantías sin confirmar. Se sustituyen por propuestas técnicas ajustadas al sitio, pendientes de completar y aprobar por el titular. No publicar hasta resolver esa revisión y la aprobación editorial. Una build correcta no autoriza publicación. No se ha realizado merge ni despliegue manual a producción.
 
 ## Analítica y privacidad
 
@@ -58,7 +59,7 @@ Se conserva la medición GA4 pública anterior, activada solo tras aceptar anal�
 
 ## Estado de entrega
 
-Ver [revisión PR1](docs/pr1/REVIEW.md) y [revisión PR2](docs/pr2/REVIEW.md). La exploración anterior se conserva localmente en `exploration/nutria-2/`; no forma parte del bundle ni de las páginas públicas.
+Ver [revisión final PR3](docs/pr3/REVIEW.md), [PR1](docs/pr1/REVIEW.md) y [PR2](docs/pr2/REVIEW.md). La exploración anterior se conserva localmente en `exploration/nutria-2/`; no forma parte del bundle ni de las páginas públicas.
 
 ## Editar contenido
 
@@ -66,6 +67,4 @@ Los archivos Markdown se convierten en páginas estáticas durante la build. El 
 
 Artículos: `title`, `description`, `category` (Organización, Delegación o Integraciones), `editedAt` (YYYY-MM-DD) y `status` (`review` o `published`). Un artículo publicado requiere también `publishedAt` aprobado; no se presenta la fecha de edición como una publicación real. Los borradores se ven identificados en la revisión.
 
-Notas: `title`, `description`, `version`, `publishedAt` y `status` (`historical` o `verified`). Las cinco notas migradas conservan `historical`. No cambiar a `verified` por encontrar código o por pasar una build: exige evidencia de un lanzamiento real y revisión de su alcance. El índice separa ambos estados; no se ha inventado una nota actual para llenar la sección.
-
-La aprobación editorial y las comprobaciones finales de PR3 son necesarias antes de publicar en producción.
+La aprobación editorial y legal sigue pendiente antes de publicar en producción.

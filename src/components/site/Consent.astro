@@ -21,6 +21,7 @@
   }
   function declineAnalytics() {
     analyticsWindow[`ga-disable-${analyticsId}`] = true;
+    analyticsWindow.gtag?.('consent', 'update', { analytics_storage: 'denied', ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied' });
     // Stop collection before a subsequent navigation; the provider script loads only after opt-in.
     for (const cookie of document.cookie.split(';')) {
       const name = cookie.split('=')[0]?.trim();

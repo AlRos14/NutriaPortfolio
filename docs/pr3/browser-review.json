@@ -1,0 +1,1499 @@
+{
+  "browser": "Chrome/141.0.7390.78",
+  "views": [
+    {
+      "route": "/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/",
+      "robots": "index, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/agentes/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/agentes/",
+      "robots": "index, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/casos-de-uso/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/casos-de-uso/",
+      "robots": "index, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/planes/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/planes/",
+      "robots": "index, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/contacto/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/contacto/",
+      "robots": "index, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/demo/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/demo/",
+      "robots": "index, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/roadmap/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/roadmap/",
+      "robots": "index, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/aviso-legal/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/aviso-legal/",
+      "robots": "noindex, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/politica-privacidad/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/politica-privacidad/",
+      "robots": "noindex, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/politica-cookies/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/politica-cookies/",
+      "robots": "noindex, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/nutriabot/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/nutriabot/",
+      "robots": "index, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/blog/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/blog/",
+      "robots": "index, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/blog/delegar-trabajo-a-un-agente/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/blog/delegar-trabajo-a-un-agente/",
+      "robots": "noindex, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/blog/elegir-el-primer-trabajo-delegado/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/blog/elegir-el-primer-trabajo-delegado/",
+      "robots": "noindex, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/blog/herramientas-y-autoridad/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/blog/herramientas-y-autoridad/",
+      "robots": "noindex, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/blog/elegir-el-canal-segun-el-trabajo/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/blog/elegir-el-canal-segun-el-trabajo/",
+      "robots": "noindex, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/blog/que-demuestra-una-accion-completada/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/blog/que-demuestra-una-accion-completada/",
+      "robots": "noindex, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/",
+      "robots": "index, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/agentes/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/agentes/",
+      "robots": "index, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/casos-de-uso/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/casos-de-uso/",
+      "robots": "index, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/planes/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/planes/",
+      "robots": "index, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/contacto/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/contacto/",
+      "robots": "index, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/demo/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/demo/",
+      "robots": "index, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/roadmap/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/roadmap/",
+      "robots": "index, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/aviso-legal/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/aviso-legal/",
+      "robots": "noindex, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/politica-privacidad/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/politica-privacidad/",
+      "robots": "noindex, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/politica-cookies/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/politica-cookies/",
+      "robots": "noindex, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/nutriabot/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/nutriabot/",
+      "robots": "index, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/blog/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/blog/",
+      "robots": "index, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/blog/delegar-trabajo-a-un-agente/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/blog/delegar-trabajo-a-un-agente/",
+      "robots": "noindex, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/blog/elegir-el-primer-trabajo-delegado/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/blog/elegir-el-primer-trabajo-delegado/",
+      "robots": "noindex, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/blog/herramientas-y-autoridad/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/blog/herramientas-y-autoridad/",
+      "robots": "noindex, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/blog/elegir-el-canal-segun-el-trabajo/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/blog/elegir-el-canal-segun-el-trabajo/",
+      "robots": "noindex, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/blog/que-demuestra-una-accion-completada/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/blog/que-demuestra-una-accion-completada/",
+      "robots": "noindex, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/",
+      "robots": "index, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/agentes/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/agentes/",
+      "robots": "index, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/casos-de-uso/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/casos-de-uso/",
+      "robots": "index, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/planes/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/planes/",
+      "robots": "index, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/contacto/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/contacto/",
+      "robots": "index, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/demo/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/demo/",
+      "robots": "index, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/roadmap/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/roadmap/",
+      "robots": "index, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/aviso-legal/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/aviso-legal/",
+      "robots": "noindex, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/politica-privacidad/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/politica-privacidad/",
+      "robots": "noindex, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/politica-cookies/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/politica-cookies/",
+      "robots": "noindex, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/nutriabot/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/nutriabot/",
+      "robots": "index, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/blog/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/blog/",
+      "robots": "index, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/blog/delegar-trabajo-a-un-agente/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/blog/delegar-trabajo-a-un-agente/",
+      "robots": "noindex, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/blog/elegir-el-primer-trabajo-delegado/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/blog/elegir-el-primer-trabajo-delegado/",
+      "robots": "noindex, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/blog/herramientas-y-autoridad/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/blog/herramientas-y-autoridad/",
+      "robots": "noindex, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/blog/elegir-el-canal-segun-el-trabajo/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/blog/elegir-el-canal-segun-el-trabajo/",
+      "robots": "noindex, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/blog/que-demuestra-una-accion-completada/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/blog/que-demuestra-una-accion-completada/",
+      "robots": "noindex, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/",
+      "robots": "index, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/agentes/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/agentes/",
+      "robots": "index, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/casos-de-uso/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/casos-de-uso/",
+      "robots": "index, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/planes/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/planes/",
+      "robots": "index, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/contacto/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/contacto/",
+      "robots": "index, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/demo/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/demo/",
+      "robots": "index, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/roadmap/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/roadmap/",
+      "robots": "index, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/aviso-legal/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/aviso-legal/",
+      "robots": "noindex, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/politica-privacidad/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/politica-privacidad/",
+      "robots": "noindex, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/politica-cookies/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/politica-cookies/",
+      "robots": "noindex, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/nutriabot/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/nutriabot/",
+      "robots": "index, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/blog/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/blog/",
+      "robots": "index, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/blog/delegar-trabajo-a-un-agente/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/blog/delegar-trabajo-a-un-agente/",
+      "robots": "noindex, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/blog/elegir-el-primer-trabajo-delegado/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/blog/elegir-el-primer-trabajo-delegado/",
+      "robots": "noindex, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/blog/herramientas-y-autoridad/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/blog/herramientas-y-autoridad/",
+      "robots": "noindex, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/blog/elegir-el-canal-segun-el-trabajo/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/blog/elegir-el-canal-segun-el-trabajo/",
+      "robots": "noindex, follow",
+      "oldChangelog": false
+    },
+    {
+      "route": "/blog/que-demuestra-una-accion-completada/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": [],
+      "canonical": "https://ainutria.com/blog/que-demuestra-una-accion-completada/",
+      "robots": "noindex, follow",
+      "oldChangelog": false
+    }
+  ],
+  "links": [
+    {
+      "path": "/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/#main",
+      "pass": true
+    },
+    {
+      "path": "/agentes/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/casos-de-uso/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/planes/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/blog/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/contacto/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/blog/delegar-trabajo-a-un-agente/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/demo/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/roadmap/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/aviso-legal",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/politica-privacidad",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/politica-cookies",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/nutriabot",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/agentes/#main",
+      "pass": true
+    },
+    {
+      "path": "/casos-de-uso/#main",
+      "pass": true
+    },
+    {
+      "path": "/casos-de-uso/#informacion",
+      "pass": true
+    },
+    {
+      "path": "/casos-de-uso/#seguimiento",
+      "pass": true
+    },
+    {
+      "path": "/casos-de-uso/#atencion",
+      "pass": true
+    },
+    {
+      "path": "/casos-de-uso/#analisis",
+      "pass": true
+    },
+    {
+      "path": "/casos-de-uso/#contenido",
+      "pass": true
+    },
+    {
+      "path": "/planes/#main",
+      "pass": true
+    },
+    {
+      "path": "/contacto/#main",
+      "pass": true
+    },
+    {
+      "path": "/demo/#main",
+      "pass": true
+    },
+    {
+      "path": "/roadmap/#main",
+      "pass": true
+    },
+    {
+      "path": "/aviso-legal/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/aviso-legal/#main",
+      "pass": true
+    },
+    {
+      "path": "/politica-privacidad/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/politica-privacidad/#main",
+      "pass": true
+    },
+    {
+      "path": "/politica-cookies/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/politica-cookies/#main",
+      "pass": true
+    },
+    {
+      "path": "/nutriabot/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/nutriabot/#main",
+      "pass": true
+    },
+    {
+      "path": "/blog/#main",
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-primer-trabajo-delegado/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/blog/herramientas-y-autoridad/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/blog/que-demuestra-una-accion-completada/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-canal-segun-el-trabajo/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/blog/delegar-trabajo-a-un-agente/#main",
+      "pass": true
+    },
+    {
+      "path": "/blog/delegar-trabajo-a-un-agente/#define-la-responsabilidad",
+      "pass": true
+    },
+    {
+      "path": "/blog/delegar-trabajo-a-un-agente/#expresa-un-resultado-que-se-pueda-revisar",
+      "pass": true
+    },
+    {
+      "path": "/blog/delegar-trabajo-a-un-agente/#acordar-herramientas-y-autoridad",
+      "pass": true
+    },
+    {
+      "path": "/blog/delegar-trabajo-a-un-agente/#revisar-el-trabajo-antes-de-ampliar-el-rol",
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-primer-trabajo-delegado/#main",
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-primer-trabajo-delegado/#describe-el-trabajo-como-se-realiza-hoy",
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-primer-trabajo-delegado/#elige-un-resultado-observable",
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-primer-trabajo-delegado/#revisa-qu%C3%A9-puede-hacer-el-agente",
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-primer-trabajo-delegado/#decide-qui%C3%A9n-resuelve-las-dependencias",
+      "pass": true
+    },
+    {
+      "path": "/blog/herramientas-y-autoridad/#main",
+      "pass": true
+    },
+    {
+      "path": "/blog/herramientas-y-autoridad/#el-acceso-delimita-la-informaci%C3%B3n-disponible",
+      "pass": true
+    },
+    {
+      "path": "/blog/herramientas-y-autoridad/#la-acci%C3%B3n-necesita-su-propio-alcance",
+      "pass": true
+    },
+    {
+      "path": "/blog/herramientas-y-autoridad/#una-aprobaci%C3%B3n-se-refiere-a-una-acci%C3%B3n-concreta",
+      "pass": true
+    },
+    {
+      "path": "/blog/herramientas-y-autoridad/#una-herramienta-no-garantiza-el-resultado",
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-canal-segun-el-trabajo/#main",
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-canal-segun-el-trabajo/#telegram-para-la-comunicaci%C3%B3n-interna",
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-canal-segun-el-trabajo/#whatsapp-mediante-plugin",
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-canal-segun-el-trabajo/#correo-para-trabajo-con-mensajes",
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-canal-segun-el-trabajo/#slack-para-notificaciones",
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-canal-segun-el-trabajo/#revisar-el-alcance-antes-de-elegir",
+      "pass": true
+    },
+    {
+      "path": "/blog/que-demuestra-una-accion-completada/#main",
+      "pass": true
+    },
+    {
+      "path": "/blog/que-demuestra-una-accion-completada/#una-propuesta-describe-lo-que-se-quiere-aplicar",
+      "pass": true
+    },
+    {
+      "path": "/blog/que-demuestra-una-accion-completada/#una-ejecuci%C3%B3n-necesita-evidencia-del-efecto",
+      "pass": true
+    },
+    {
+      "path": "/blog/que-demuestra-una-accion-completada/#comprobar-responde-a-la-pregunta-del-trabajo",
+      "pass": true
+    },
+    {
+      "path": "/blog/que-demuestra-una-accion-completada/#lo-pendiente-tambi%C3%A9n-forma-parte-del-resultado",
+      "pass": true
+    }
+  ],
+  "accessibility": [
+    {
+      "route": "/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 2
+        }
+      ]
+    },
+    {
+      "route": "/agentes/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/casos-de-uso/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 10
+        }
+      ]
+    },
+    {
+      "route": "/planes/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/contacto/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "route": "/demo/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/roadmap/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/aviso-legal/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/politica-privacidad/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/politica-cookies/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/nutriabot/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/blog/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/blog/delegar-trabajo-a-un-agente/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 2
+        }
+      ]
+    },
+    {
+      "route": "/blog/elegir-el-primer-trabajo-delegado/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/blog/herramientas-y-autoridad/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 2
+        }
+      ]
+    },
+    {
+      "route": "/blog/elegir-el-canal-segun-el-trabajo/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/blog/que-demuestra-una-accion-completada/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 2
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 2
+        }
+      ]
+    },
+    {
+      "route": "/agentes/",
+      "width": 390,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/casos-de-uso/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 10
+        }
+      ]
+    },
+    {
+      "route": "/planes/",
+      "width": 390,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/contacto/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "route": "/demo/",
+      "width": 390,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/roadmap/",
+      "width": 390,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/aviso-legal/",
+      "width": 390,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/politica-privacidad/",
+      "width": 390,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/politica-cookies/",
+      "width": 390,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/nutriabot/",
+      "width": 390,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/blog/",
+      "width": 390,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/blog/delegar-trabajo-a-un-agente/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 2
+        }
+      ]
+    },
+    {
+      "route": "/blog/elegir-el-primer-trabajo-delegado/",
+      "width": 390,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/blog/herramientas-y-autoridad/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 2
+        }
+      ]
+    },
+    {
+      "route": "/blog/elegir-el-canal-segun-el-trabajo/",
+      "width": 390,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/blog/que-demuestra-una-accion-completada/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 2
+        }
+      ]
+    },
+    {
+      "route": "consent-open",
+      "width": 390,
+      "violations": []
+    }
+  ],
+  "interactions": [
+    {
+      "name": "filter-category",
+      "pass": true
+    },
+    {
+      "name": "filter-reset",
+      "pass": true
+    },
+    {
+      "name": "menu-escape-focus",
+      "pass": true
+    },
+    {
+      "name": "skip-first-focus",
+      "pass": true
+    },
+    {
+      "name": "skip-main",
+      "pass": true
+    },
+    {
+      "name": "contact-local-draft",
+      "pass": true
+    },
+    {
+      "name": "consent-escape-focus",
+      "pass": true
+    },
+    {
+      "name": "no-js-nav-blog",
+      "pass": true
+    },
+    {
+      "name": "retired-or-missing:/blog/no-existe/",
+      "pass": true
+    },
+    {
+      "name": "retired-or-missing:/notas-de-version/",
+      "pass": true
+    },
+    {
+      "name": "retired-or-missing:/notas-de-version/1-0-4/",
+      "pass": true
+    },
+    {
+      "name": "200-percent:/",
+      "pass": true
+    },
+    {
+      "name": "200-percent:/contacto/",
+      "pass": true
+    },
+    {
+      "name": "200-percent:/blog/delegar-trabajo-a-un-agente/",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "externalRequests": []
+}

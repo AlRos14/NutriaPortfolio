@@ -1,9 +1,0 @@
----
-import { getCollection } from 'astro:content';
-import Layout from '../layouts/SiteLayout.astro';
-import { formatEditorialDate } from '../data/editorial';
-const releases = (await getCollection('releases', release => release.data.status === 'historical')).sort((a, b) => b.data.publishedAt.getTime() - a.data.publishedAt.getTime());
----
-<Layout title="Novedades de Nutria" description="Accede al archivo histórico de notas de versión y al blog de Nutria.">
-<section><div class="page-intro"><p class="eyebrow">Novedades de Nutria</p><h1>Notas de versión<br /> y lecturas.</h1><p class="lead">Las novedades del producto tienen su propia sección. El blog reúne ideas prácticas sobre organización y trabajo delegado.</p></div><div class="actions"><a class="button" href="/notas-de-version/">Notas de versión <span aria-hidden="true">→</span></a><a class="button secondary" href="/blog/">Leer el blog <span aria-hidden="true">↗</span></a></div><div class="historical-notice"><strong>Archivo histórico de 2025</strong><p>Se conservan las cinco notas publicadas en la página anterior. No describen el estado actual completo de Nutria.</p></div><div class="release-list">{releases.map(release => <article><div><time datetime={release.data.publishedAt.toISOString().slice(0, 10)}>{formatEditorialDate(release.data.publishedAt)}</time></div><h2><a href={`/notas-de-version/${release.id}/`}>{release.data.title}</a></h2><a class="editorial-arrow" href={`/notas-de-version/${release.id}/`} aria-label={`Leer nota histórica: ${release.data.title}`}>↗</a></article>)}</div></section>
-</Layout>

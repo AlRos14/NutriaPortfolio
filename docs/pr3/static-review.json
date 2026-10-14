@@ -1,0 +1,259 @@
+{
+  "checks": {
+    "pages_have_metadata": true,
+    "no_retired_output": true,
+    "nine_sitemap_urls": true,
+    "netlify_rules_copied": true,
+    "rules_destinations_exist": true
+  },
+  "pages": [
+    {
+      "file": "dist/index.html",
+      "redirect": false,
+      "canonical": "https://ainutria.com/",
+      "robots": "index, follow",
+      "h1": 1,
+      "description": true,
+      "social": true
+    },
+    {
+      "file": "dist/404.html",
+      "redirect": false,
+      "canonical": "https://ainutria.com/404/",
+      "robots": "noindex, follow",
+      "h1": 1,
+      "description": true,
+      "social": true
+    },
+    {
+      "file": "dist/blog/index.html",
+      "redirect": false,
+      "canonical": "https://ainutria.com/blog/",
+      "robots": "index, follow",
+      "h1": 1,
+      "description": true,
+      "social": true
+    },
+    {
+      "file": "dist/features/index.html",
+      "redirect": true,
+      "canonical": "https://ainutria.com/agentes/",
+      "robots": "noindex",
+      "h1": 0,
+      "description": false,
+      "social": false
+    },
+    {
+      "file": "dist/casos-de-uso/index.html",
+      "redirect": false,
+      "canonical": "https://ainutria.com/casos-de-uso/",
+      "robots": "index, follow",
+      "h1": 1,
+      "description": true,
+      "social": true
+    },
+    {
+      "file": "dist/contacto/index.html",
+      "redirect": false,
+      "canonical": "https://ainutria.com/contacto/",
+      "robots": "index, follow",
+      "h1": 1,
+      "description": true,
+      "social": true
+    },
+    {
+      "file": "dist/aviso-legal/index.html",
+      "redirect": false,
+      "canonical": "https://ainutria.com/aviso-legal/",
+      "robots": "noindex, follow",
+      "h1": 1,
+      "description": true,
+      "social": true
+    },
+    {
+      "file": "dist/agentes/index.html",
+      "redirect": false,
+      "canonical": "https://ainutria.com/agentes/",
+      "robots": "index, follow",
+      "h1": 1,
+      "description": true,
+      "social": true
+    },
+    {
+      "file": "dist/planes/index.html",
+      "redirect": false,
+      "canonical": "https://ainutria.com/planes/",
+      "robots": "index, follow",
+      "h1": 1,
+      "description": true,
+      "social": true
+    },
+    {
+      "file": "dist/politica-privacidad/index.html",
+      "redirect": false,
+      "canonical": "https://ainutria.com/politica-privacidad/",
+      "robots": "noindex, follow",
+      "h1": 1,
+      "description": true,
+      "social": true
+    },
+    {
+      "file": "dist/dossier/index.html",
+      "redirect": true,
+      "canonical": "https://ainutria.com/planes/",
+      "robots": "noindex",
+      "h1": 0,
+      "description": false,
+      "social": false
+    },
+    {
+      "file": "dist/roadmap/index.html",
+      "redirect": false,
+      "canonical": "https://ainutria.com/roadmap/",
+      "robots": "index, follow",
+      "h1": 1,
+      "description": true,
+      "social": true
+    },
+    {
+      "file": "dist/news/index.html",
+      "redirect": true,
+      "canonical": "https://ainutria.com/blog/",
+      "robots": "noindex",
+      "h1": 0,
+      "description": false,
+      "social": false
+    },
+    {
+      "file": "dist/demo/index.html",
+      "redirect": false,
+      "canonical": "https://ainutria.com/demo/",
+      "robots": "index, follow",
+      "h1": 1,
+      "description": true,
+      "social": true
+    },
+    {
+      "file": "dist/nutriabot/index.html",
+      "redirect": false,
+      "canonical": "https://ainutria.com/nutriabot/",
+      "robots": "index, follow",
+      "h1": 1,
+      "description": true,
+      "social": true
+    },
+    {
+      "file": "dist/politica-cookies/index.html",
+      "redirect": false,
+      "canonical": "https://ainutria.com/politica-cookies/",
+      "robots": "noindex, follow",
+      "h1": 1,
+      "description": true,
+      "social": true
+    },
+    {
+      "file": "dist/blog/elegir-el-primer-trabajo-delegado/index.html",
+      "redirect": false,
+      "canonical": "https://ainutria.com/blog/elegir-el-primer-trabajo-delegado/",
+      "robots": "noindex, follow",
+      "h1": 1,
+      "description": true,
+      "social": true
+    },
+    {
+      "file": "dist/blog/que-demuestra-una-accion-completada/index.html",
+      "redirect": false,
+      "canonical": "https://ainutria.com/blog/que-demuestra-una-accion-completada/",
+      "robots": "noindex, follow",
+      "h1": 1,
+      "description": true,
+      "social": true
+    },
+    {
+      "file": "dist/blog/elegir-el-canal-segun-el-trabajo/index.html",
+      "redirect": false,
+      "canonical": "https://ainutria.com/blog/elegir-el-canal-segun-el-trabajo/",
+      "robots": "noindex, follow",
+      "h1": 1,
+      "description": true,
+      "social": true
+    },
+    {
+      "file": "dist/blog/herramientas-y-autoridad/index.html",
+      "redirect": false,
+      "canonical": "https://ainutria.com/blog/herramientas-y-autoridad/",
+      "robots": "noindex, follow",
+      "h1": 1,
+      "description": true,
+      "social": true
+    },
+    {
+      "file": "dist/blog/delegar-trabajo-a-un-agente/index.html",
+      "redirect": false,
+      "canonical": "https://ainutria.com/blog/delegar-trabajo-a-un-agente/",
+      "robots": "noindex, follow",
+      "h1": 1,
+      "description": true,
+      "social": true
+    }
+  ],
+  "sitemap": [
+    "https://ainutria.com/",
+    "https://ainutria.com/agentes/",
+    "https://ainutria.com/casos-de-uso/",
+    "https://ainutria.com/planes/",
+    "https://ainutria.com/contacto/",
+    "https://ainutria.com/demo/",
+    "https://ainutria.com/roadmap/",
+    "https://ainutria.com/blog/",
+    "https://ainutria.com/nutriabot/"
+  ],
+  "netlify_rules": [
+    [
+      "/features",
+      "/agentes/",
+      "301!"
+    ],
+    [
+      "/features/",
+      "/agentes/",
+      "301!"
+    ],
+    [
+      "/dossier",
+      "/planes/",
+      "301!"
+    ],
+    [
+      "/dossier/",
+      "/planes/",
+      "301!"
+    ],
+    [
+      "/news",
+      "/blog/",
+      "301!"
+    ],
+    [
+      "/news/",
+      "/blog/",
+      "301!"
+    ],
+    [
+      "/notas-de-version",
+      "/404.html",
+      "410!"
+    ],
+    [
+      "/notas-de-version/",
+      "/404.html",
+      "410!"
+    ],
+    [
+      "/notas-de-version/*",
+      "/404.html",
+      "410!"
+    ]
+  ],
+  "netlify_runtime": "NOT RUN per user instruction; syntax and artifacts inspected locally"
+}
