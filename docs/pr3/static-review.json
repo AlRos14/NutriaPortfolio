@@ -242,17 +242,17 @@
     [
       "/notas-de-version",
       "/404.html",
-      "410!"
+      "404!"
     ],
     [
       "/notas-de-version/",
       "/404.html",
-      "410!"
+      "404!"
     ],
     [
       "/notas-de-version/*",
       "/404.html",
-      "410!"
+      "404!"
     ]
   ],
   "netlify_runtime": "NOT RUN per user instruction; syntax and artifacts inspected locally"

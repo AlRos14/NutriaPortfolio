@@ -6,6 +6,6 @@
 /news /blog/ 301!
 /news/ /blog/ 301!
 # Retired changelog: do not redirect unrelated historical content to the blog.
-/notas-de-version /404.html 410!
-/notas-de-version/ /404.html 410!
-/notas-de-version/* /404.html 410!
+/notas-de-version /404.html 404!
+/notas-de-version/ /404.html 404!
+/notas-de-version/* /404.html 404!

@@ -47,7 +47,7 @@ Dirección visual A aprobada el 14/10/2026. La portada se organiza alrededor de 
 
 Planes sin importes aprobados. No se ofrece como contratado el plan interno independiente pendiente de formalización. Telegram, WhatsApp, correo y Slack conservan sus diferencias de alcance. Llamadas, números individuales y robótica se presentan solo como visión futura.
 
-PR3 retira el changelog y su imagen antigua del sitio. Sus contenidos siguen en el historial Git de PR2. `/news` redirige al blog, `/features` a agentes y `/dossier` a planes. Las rutas eliminadas de notas de versión responden 410 en Netlify; el preview Astro devuelve 404 porque no ejecuta reglas `_redirects`. `/demo`, `/roadmap`, las páginas legales y `/nutriabot` conservan su finalidad vigente.
+PR3 retira el changelog y su imagen antigua del sitio. Sus contenidos siguen en el historial Git de PR2. `/news` redirige al blog, `/features` a agentes y `/dossier` a planes. Las rutas eliminadas de notas de versión responden 404 en Netlify; el preview Astro devuelve 404 porque no ejecuta reglas `_redirects`. `/demo`, `/roadmap`, las páginas legales y `/nutriabot` conservan su finalidad vigente.
 
 PR2 añadió cinco artículos Markdown. PR3 incorpora metadatos sociales, canonical, sitemap, robots, comprobaciones de accesibilidad y rendimiento. Los artículos en revisión y los borradores legales llevan `noindex` y no entran en el sitemap. Toda build fuera de `CONTEXT=production` lleva `noindex`, incluidos los previews de Netlify. Para comprobar el modo de producción localmente: `CONTEXT=production npm run build`. Esto solo compila; no publica.
 

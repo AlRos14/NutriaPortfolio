@@ -22,10 +22,10 @@ Rama `feat/nutria-2-final-review`, apilada sobre PR2 `feat/nutria-2-editorial` (
 | `/features` y `/features/` | 301 a `/agentes/` |
 | `/dossier` y `/dossier/` | 301 a `/planes/` |
 | `/news` y `/news/` | 301 a `/blog/` |
-| `/notas-de-version`, `/notas-de-version/` y descendientes | 410 con página de recuperación |
+| `/notas-de-version`, `/notas-de-version/` y descendientes | 404 con página de recuperación |
 | `/demo`, `/roadmap`, legales y `/nutriabot` | Se conservan |
 
-Las reglas están en `public/_redirects` y se copian a `dist/`. Astro genera alternativas HTML de redirección para las tres rutas antiguas, comprobadas localmente. Su preview no ejecuta `_redirects`: las notas retiradas dan 404 localmente. **NOT RUN:** respuestas HTTP 301/410 en Netlify; no se afirma aceptación del proveedor sin comprobarla. No hay wildcard SPA que transforme errores en 200.
+Las reglas están en `public/_redirects` y se copian a `dist/`. Astro genera alternativas HTML de redirección para las tres rutas antiguas, comprobadas localmente. Su preview no ejecuta `_redirects`: las notas retiradas dan 404 localmente. **NOT RUN:** respuestas HTTP 301/404 en Netlify; no se afirma aceptación del proveedor sin comprobarla. No hay wildcard SPA que transforme errores en 200.
 
 ## Comprobaciones
 
