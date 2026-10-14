@@ -1,5 +1,7 @@
 # PR3 · Revisión final de Nutria 2.0
 
+> Última aclaración: [Sis incrustado y chat libre ligado al artefacto](chat/REVIEW.md).
+
 > Última actualización: [ajuste editorial, fuentes públicas y Sis](editorial/REVIEW.md).
 
 > Actualización posterior: ver [pulido de producto y Sis](refinement/PRODUCT-NOTES.md) y [validación del pulido](refinement/REVIEW.md). Las cifras siguientes corresponden a la entrega inicial de PR3.

@@ -77,6 +77,8 @@ El relato se amplía a puestos, funciones continuas y áreas, incluyendo ecommer
 
 ## Ajuste editorial y de posicionamiento
 
-La estructura puede configurarse manualmente en el panel o con ayuda de Sis. La microapp muestra el futuro recorrido de generación de un esquema y orientación comercial conversacional mediante respuestas editoriales identificadas, sin conexión real. Incluye ámbitos por equipos y marcas; no se afirma un árbol arbitrario de filiales implementado.
+La estructura puede configurarse manualmente en el panel o con ayuda de Sis. La microapp muestra el futuro recorrido de generación de un esquema y chat libre con Sis incrustado, con el artefacto como contexto. La maqueta permite escribir preguntas, sin conexión real ni respuestas atribuidas al agente. Incluye ámbitos por equipos y marcas; no se afirma un árbol arbitrario de filiales implementado.
 
 Conocimiento: adquisición de fuentes públicas de las marcas, reglas internas añadidas por el equipo y Drive como futura sincronización de sus documentos, todavía en desarrollo. El blog incluye ingeniería y ecosistema, además de organización y uso; los dos borradores nuevos son propuestas para revisión del autor, sin comparativas ni resultados inventados. Véase `docs/pr3/editorial/REVIEW.md`.
+
+La aclaración del chat libre sustituye la orientación anterior por botones: `docs/pr3/chat/REVIEW.md`.
