@@ -1,0 +1,37 @@
+---
+import Layout from '../layouts/SiteLayout.astro';
+---
+<Layout title="Sis, el agente orquestador de Nutria" description="Sis conecta a las personas con Nutria y sus agentes: resuelve dudas sobre el sistema, explica sus capacidades, orienta su uso y coordina el trabajo.">
+<section><div class="page-intro"><p class="eyebrow">Sis · El agente orquestador de Nutria</p><h1>Entre tu equipo<br />y el mundo de los agentes.</h1><p class="lead">Sis conoce Nutria desde dentro. Puedes acudir a ella para entender cómo funciona el sistema, descubrir qué pueden hacer sus agentes, aprender a utilizarlo y coordinar el trabajo con ellos.</p></div>
+  <figure class="sis-bridge"><figcaption>Su papel dentro de Nutria · Esquema conceptual</figcaption><div class="sis-bridge-flow"><div><span>PERSONAS</span><strong>Tu equipo</strong><p>Preguntas, objetivos y trabajo que necesita avanzar.</p></div><span class="sis-bridge-arrow" aria-hidden="true">↔</span><div class="sis-bridge-center"><span>AGENTE ORQUESTADOR</span><strong>Sis</strong><p>Explica, orienta y coordina con el contexto de tu organización.</p></div><span class="sis-bridge-arrow" aria-hidden="true">↔</span><div><span>NUTRIA Y SUS AGENTES</span><strong>Capacidad para actuar</strong><p>Roles, herramientas y responsabilidades dentro de la empresa.</p></div></div><p class="sis-bridge-note">Un punto de referencia para las personas. Los agentes conservan sus propias funciones y pueden trabajar directamente con tu equipo.</p></figure>
+</section>
+<section><div class="section-heading"><p class="eyebrow">Conocer el sistema. Trabajar con él.</p><h2>Alguien a quien preguntar.<br />Alguien con quien avanzar.</h2><p>Desde una duda sobre Nutria hasta encontrar al agente adecuado para una función. Sis conecta lo que necesitas con las posibilidades del sistema.</p></div><dl class="sis-functions"><div><dt><span>01</span>Entender Nutria</dt><dd>Resolver dudas sobre el sistema, cómo se organiza y qué papel tienen sus agentes, herramientas e integraciones.</dd></div><div><dt><span>02</span>Descubrir capacidades</dt><dd>Explorar qué pueden hacer los agentes y cómo aplicar esas capacidades al trabajo de tu empresa.</dd></div><div><dt><span>03</span>Aprender a utilizarla</dt><dd>Orientarte en el uso de la plataforma: cómo plantear un objetivo, aportar contexto o trabajar con el agente correspondiente.</dd></div><div><dt><span>04</span>Orquestar el trabajo</dt><dd>Conectar a las personas con los agentes adecuados y coordinar su colaboración con la estructura y el contexto de la organización.</dd></div></dl><p class="annotation">Sis actúa con los equipos, marcas y capacidades que tiene autorizados. Su papel central no le concede acceso ilimitado ni sustituye las decisiones de la empresa.</p></section>
+<section class="sis-questions"><div><p class="eyebrow">En el día a día</p><h2>Puedes empezar<br />con una pregunta.</h2><p>No necesitas conocer de antemano todos los roles ni cómo se organiza Nutria. Sis es un punto de referencia para encontrar el camino.</p></div><div><p class="small-note">Ejemplos de preguntas, no una conversación real.</p><ul><li>¿Qué puede hacer Nutria con la documentación de nuestras marcas?</li><li>¿Cómo le explico a un agente los procedimientos de mi equipo?</li><li>¿Qué agente encajaría para dar continuidad al análisis del mercado?</li><li>¿Cómo podríamos coordinar esta función entre varios equipos?</li></ul></div></section>
+<section class="sis-invitation"><div><p class="eyebrow">Una aplicación: explorar tu organización</p><h2>De conocer las posibilidades<br />a imaginar tu equipo.</h2><p>El configurador muestra una de las experiencias que queremos ofrecer con Sis: generar un esquema, explorar los puestos y seguir conversando sobre la propuesta, Nutria o cómo incorporarla a tu empresa.</p><p>Puedes apoyarte en Sis o configurar la organización manualmente en el panel de Nutria.</p><p class="small-note">Hoy es un prototipo con escenarios predefinidos. Permite escribir mensajes de prueba, pero no está conectado a Sis, no genera respuestas ni configura agentes reales.</p></div><a class="button" href="/tu-organizacion/">Explorar mi organización <span aria-hidden="true">→</span></a></section>
+</Layout>
+<style>
+  .sis-bridge{margin-top:42px;padding:32px;background:var(--surface);border:1px solid var(--line)}
+  .sis-bridge figcaption{font-size:12px;color:var(--muted);margin-bottom:25px}
+  .sis-bridge-flow{display:grid;grid-template-columns:minmax(0,1fr) 30px minmax(0,1fr) 30px minmax(0,1fr);gap:18px;align-items:center}
+  .sis-bridge-flow>div{padding:25px;background:white;border:1px solid var(--line-strong);min-width:0}
+  .sis-bridge-flow>div>span{display:block;font-size:10px;letter-spacing:.05em}
+  .sis-bridge-flow strong{display:block;font-size:25px;line-height:1.2;margin:15px 0;letter-spacing:-.025em}
+  .sis-bridge-flow p{font-size:14px;line-height:1.8}
+  .sis-bridge-flow .sis-bridge-center{background:var(--blue);color:white;border-color:var(--blue)}
+  .sis-bridge-arrow{text-align:center;font-size:25px;color:var(--blue)}
+  .sis-bridge-note{font-size:13px;color:var(--muted);margin-top:25px;max-width:850px}
+  .sis-functions{margin:35px 0 0}
+  .sis-functions>div{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.5fr);gap:50px;padding:27px 0;border-top:1px solid var(--line)}
+  .sis-functions dt{font-size:23px;font-weight:600;line-height:1.4;display:flex;gap:25px}
+  .sis-functions dt>span{font-size:12px;color:var(--blue);padding-top:7px;font-weight:400}
+  .sis-functions dd{font-size:16px;line-height:1.85;color:var(--muted);margin:0}
+  .sis-questions{display:grid;grid-template-columns:1fr 1fr;gap:70px;border-top:1px solid var(--line)}
+  .sis-questions h2{font-size:44px;line-height:1.15;margin:24px 0}
+  .sis-questions p:not(.eyebrow){color:var(--muted)}
+  .sis-questions .small-note{font-size:12px;margin-bottom:15px}
+  .sis-questions ul{padding:0;margin:0;list-style:none}
+  .sis-questions li{padding:20px 0;border-top:1px solid var(--line);font-size:17px;line-height:1.7}
+  .sis-invitation p+p{margin-top:15px}
+  @media(max-width:1000px){.sis-bridge{padding:25px}.sis-bridge-flow{gap:10px;grid-template-columns:minmax(0,1fr) 20px minmax(0,1fr) 20px minmax(0,1fr)}.sis-bridge-flow>div{padding:18px}.sis-bridge-flow strong{font-size:22px}}
+  @media(max-width:760px){.sis-bridge{padding:20px;margin-top:30px}.sis-bridge-flow{grid-template-columns:1fr;gap:12px}.sis-bridge-flow>div{padding:20px}.sis-bridge-arrow{line-height:1;transform:rotate(90deg)}.sis-functions>div{grid-template-columns:1fr;gap:15px}.sis-functions dt{font-size:22px;gap:18px}.sis-functions dd{font-size:16px}.sis-questions{grid-template-columns:1fr;gap:30px}.sis-questions h2{font-size:34px}.sis-questions li{font-size:16px}}
+</style>

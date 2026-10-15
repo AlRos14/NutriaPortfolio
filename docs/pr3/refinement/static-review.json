@@ -1,0 +1,26 @@
+{
+  "production_build": true,
+  "static_pages": 24,
+  "sitemap_urls": [
+    "https://ainutria.com/",
+    "https://ainutria.com/agentes/",
+    "https://ainutria.com/sis/",
+    "https://ainutria.com/conocimiento/",
+    "https://ainutria.com/casos-de-uso/",
+    "https://ainutria.com/planes/",
+    "https://ainutria.com/contacto/",
+    "https://ainutria.com/demo/",
+    "https://ainutria.com/roadmap/",
+    "https://ainutria.com/blog/",
+    "https://ainutria.com/nutriabot/"
+  ],
+  "checks": {
+    "corporate_index": true,
+    "prototype_noindex": true,
+    "prototype_excluded_from_sitemap": true,
+    "eleven_sitemap_entries": true,
+    "no_legacy_changelog": true,
+    "no_primary_channel_claim": true,
+    "app_dependencies_unchanged": true
+  }
+}

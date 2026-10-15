@@ -1,0 +1,643 @@
+{
+  "views": [
+    {
+      "name": "home",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "name": "plans",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "name": "demo",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "name": "agents",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "name": "sis",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "name": "explorer",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "name": "result",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "name": "conversation",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "name": "contact-preview",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "name": "home",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "name": "plans",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "name": "demo",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "name": "agents",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "name": "sis",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "name": "explorer",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "name": "result",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "name": "conversation",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "name": "contact-preview",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "name": "home",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "name": "plans",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "name": "demo",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "name": "agents",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "name": "sis",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "name": "explorer",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "name": "result",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "name": "conversation",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "name": "contact-preview",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "name": "home",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "name": "plans",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "name": "demo",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "name": "agents",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "name": "sis",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "name": "explorer",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "name": "result",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "name": "conversation",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "name": "contact-preview",
+      "width": 768,
+      "overflow": false
+    }
+  ],
+  "checks": [
+    {
+      "name": "contact-hidden:1440",
+      "pass": true
+    },
+    {
+      "name": "workspace:1440",
+      "pass": true
+    },
+    {
+      "name": "role-opens:1440",
+      "pass": true
+    },
+    {
+      "name": "context-mode:1440",
+      "pass": true
+    },
+    {
+      "name": "chat-focus:1440",
+      "pass": true
+    },
+    {
+      "name": "local-message:1440",
+      "pass": true
+    },
+    {
+      "name": "contact-intent:1440",
+      "pass": true
+    },
+    {
+      "name": "clear-visible-focus:1440",
+      "pass": true
+    },
+    {
+      "name": "reset:1440",
+      "pass": true
+    },
+    {
+      "name": "contact-hidden:390",
+      "pass": true
+    },
+    {
+      "name": "workspace:390",
+      "pass": true
+    },
+    {
+      "name": "role-opens:390",
+      "pass": true
+    },
+    {
+      "name": "context-mode:390",
+      "pass": true
+    },
+    {
+      "name": "chat-focus:390",
+      "pass": true
+    },
+    {
+      "name": "local-message:390",
+      "pass": true
+    },
+    {
+      "name": "message-preserved:390",
+      "pass": true
+    },
+    {
+      "name": "contact-intent:390",
+      "pass": true
+    },
+    {
+      "name": "clear-visible-focus:390",
+      "pass": true
+    },
+    {
+      "name": "reset:390",
+      "pass": true
+    },
+    {
+      "name": "contact-hidden:320",
+      "pass": true
+    },
+    {
+      "name": "workspace:320",
+      "pass": true
+    },
+    {
+      "name": "role-opens:320",
+      "pass": true
+    },
+    {
+      "name": "context-mode:320",
+      "pass": true
+    },
+    {
+      "name": "chat-focus:320",
+      "pass": true
+    },
+    {
+      "name": "local-message:320",
+      "pass": true
+    },
+    {
+      "name": "message-preserved:320",
+      "pass": true
+    },
+    {
+      "name": "contact-intent:320",
+      "pass": true
+    },
+    {
+      "name": "clear-visible-focus:320",
+      "pass": true
+    },
+    {
+      "name": "reset:320",
+      "pass": true
+    },
+    {
+      "name": "contact-hidden:768",
+      "pass": true
+    },
+    {
+      "name": "workspace:768",
+      "pass": true
+    },
+    {
+      "name": "role-opens:768",
+      "pass": true
+    },
+    {
+      "name": "context-mode:768",
+      "pass": true
+    },
+    {
+      "name": "chat-focus:768",
+      "pass": true
+    },
+    {
+      "name": "local-message:768",
+      "pass": true
+    },
+    {
+      "name": "contact-intent:768",
+      "pass": true
+    },
+    {
+      "name": "clear-visible-focus:768",
+      "pass": true
+    },
+    {
+      "name": "reset:768",
+      "pass": true
+    },
+    {
+      "name": "resize-preserves-draft",
+      "pass": true
+    }
+  ],
+  "axe": [
+    {
+      "name": "home",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "plans",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "demo",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "agents",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "sis",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "explorer",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "result",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "conversation",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "contact-preview",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "home",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "plans",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "demo",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "agents",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "sis",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "explorer",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "result",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "conversation",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "contact-preview",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "home",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "plans",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "demo",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "agents",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "sis",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "explorer",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "result",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "conversation",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "contact-preview",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "home",
+      "width": 768,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "plans",
+      "width": 768,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "demo",
+      "width": 768,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "agents",
+      "width": 768,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "sis",
+      "width": 768,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "explorer",
+      "width": 768,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "result",
+      "width": 768,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "conversation",
+      "width": 768,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "contact-preview",
+      "width": 768,
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ]
+    }
+  ],
+  "errors": [],
+  "external": [],
+  "posts": []
+}

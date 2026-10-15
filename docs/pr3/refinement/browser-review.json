@@ -1,0 +1,2155 @@
+{
+  "browser": "Chrome/141.0.7390.78",
+  "views": [
+    {
+      "route": "/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/agentes/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/casos-de-uso/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/planes/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/contacto/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/demo/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/roadmap/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/aviso-legal/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/politica-privacidad/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/politica-cookies/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/nutriabot/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/delegar-trabajo-a-un-agente/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/elegir-el-primer-trabajo-delegado/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/herramientas-y-autoridad/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/elegir-el-canal-segun-el-trabajo/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/que-demuestra-una-accion-completada/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/sis/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/conocimiento/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/tu-organizacion/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/agentes/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/casos-de-uso/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/planes/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/contacto/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/demo/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/roadmap/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/aviso-legal/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/politica-privacidad/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/politica-cookies/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/nutriabot/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/delegar-trabajo-a-un-agente/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/elegir-el-primer-trabajo-delegado/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/herramientas-y-autoridad/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/elegir-el-canal-segun-el-trabajo/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/que-demuestra-una-accion-completada/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/sis/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/conocimiento/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/tu-organizacion/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/agentes/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/casos-de-uso/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/planes/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/contacto/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/demo/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/roadmap/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/aviso-legal/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/politica-privacidad/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/politica-cookies/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/nutriabot/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/delegar-trabajo-a-un-agente/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/elegir-el-primer-trabajo-delegado/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/herramientas-y-autoridad/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/elegir-el-canal-segun-el-trabajo/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/que-demuestra-una-accion-completada/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/sis/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/conocimiento/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/tu-organizacion/",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/agentes/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/casos-de-uso/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/planes/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/contacto/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/demo/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/roadmap/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/aviso-legal/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/politica-privacidad/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/politica-cookies/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/nutriabot/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/delegar-trabajo-a-un-agente/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/elegir-el-primer-trabajo-delegado/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/herramientas-y-autoridad/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/elegir-el-canal-segun-el-trabajo/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/blog/que-demuestra-una-accion-completada/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/sis/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/conocimiento/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    },
+    {
+      "route": "/tu-organizacion/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "brokenImages": 0,
+      "duplicateIds": []
+    }
+  ],
+  "links": [
+    {
+      "path": "/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/#main",
+      "pass": true
+    },
+    {
+      "path": "/agentes/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/casos-de-uso/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/tu-organizacion/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/planes/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/blog/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/contacto/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/sis/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/conocimiento/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/demo/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/roadmap/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/aviso-legal",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/politica-privacidad",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/politica-cookies",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/nutriabot",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/agentes/#main",
+      "pass": true
+    },
+    {
+      "path": "/casos-de-uso/#main",
+      "pass": true
+    },
+    {
+      "path": "/casos-de-uso/#ecommerce",
+      "pass": true
+    },
+    {
+      "path": "/casos-de-uso/#competencia",
+      "pass": true
+    },
+    {
+      "path": "/casos-de-uso/#marcas",
+      "pass": true
+    },
+    {
+      "path": "/casos-de-uso/#nueva-area",
+      "pass": true
+    },
+    {
+      "path": "/planes/#main",
+      "pass": true
+    },
+    {
+      "path": "/contacto/#main",
+      "pass": true
+    },
+    {
+      "path": "/demo/#main",
+      "pass": true
+    },
+    {
+      "path": "/roadmap/#main",
+      "pass": true
+    },
+    {
+      "path": "/aviso-legal/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/aviso-legal/#main",
+      "pass": true
+    },
+    {
+      "path": "/politica-privacidad/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/politica-privacidad/#main",
+      "pass": true
+    },
+    {
+      "path": "/politica-cookies/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/politica-cookies/#main",
+      "pass": true
+    },
+    {
+      "path": "/nutriabot/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/nutriabot/#main",
+      "pass": true
+    },
+    {
+      "path": "/blog/#main",
+      "pass": true
+    },
+    {
+      "path": "/blog/delegar-trabajo-a-un-agente/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-primer-trabajo-delegado/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/blog/herramientas-y-autoridad/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/blog/que-demuestra-una-accion-completada/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-canal-segun-el-trabajo/",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "path": "/blog/delegar-trabajo-a-un-agente/#main",
+      "pass": true
+    },
+    {
+      "path": "/blog/delegar-trabajo-a-un-agente/#define-la-responsabilidad",
+      "pass": true
+    },
+    {
+      "path": "/blog/delegar-trabajo-a-un-agente/#expresa-un-resultado-que-se-pueda-revisar",
+      "pass": true
+    },
+    {
+      "path": "/blog/delegar-trabajo-a-un-agente/#acordar-herramientas-y-autoridad",
+      "pass": true
+    },
+    {
+      "path": "/blog/delegar-trabajo-a-un-agente/#revisar-el-trabajo-antes-de-ampliar-el-rol",
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-primer-trabajo-delegado/#main",
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-primer-trabajo-delegado/#describe-el-trabajo-como-se-realiza-hoy",
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-primer-trabajo-delegado/#elige-un-resultado-observable",
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-primer-trabajo-delegado/#revisa-qu%C3%A9-puede-hacer-el-agente",
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-primer-trabajo-delegado/#decide-qui%C3%A9n-resuelve-las-dependencias",
+      "pass": true
+    },
+    {
+      "path": "/blog/herramientas-y-autoridad/#main",
+      "pass": true
+    },
+    {
+      "path": "/blog/herramientas-y-autoridad/#el-acceso-delimita-la-informaci%C3%B3n-disponible",
+      "pass": true
+    },
+    {
+      "path": "/blog/herramientas-y-autoridad/#la-acci%C3%B3n-necesita-su-propio-alcance",
+      "pass": true
+    },
+    {
+      "path": "/blog/herramientas-y-autoridad/#una-aprobaci%C3%B3n-se-refiere-a-una-acci%C3%B3n-concreta",
+      "pass": true
+    },
+    {
+      "path": "/blog/herramientas-y-autoridad/#una-herramienta-no-garantiza-el-resultado",
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-canal-segun-el-trabajo/#main",
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-canal-segun-el-trabajo/#telegram-para-la-comunicaci%C3%B3n-interna",
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-canal-segun-el-trabajo/#whatsapp-mediante-plugin",
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-canal-segun-el-trabajo/#correo-para-trabajo-con-mensajes",
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-canal-segun-el-trabajo/#slack-para-notificaciones",
+      "pass": true
+    },
+    {
+      "path": "/blog/elegir-el-canal-segun-el-trabajo/#revisar-el-alcance-antes-de-elegir",
+      "pass": true
+    },
+    {
+      "path": "/blog/que-demuestra-una-accion-completada/#main",
+      "pass": true
+    },
+    {
+      "path": "/blog/que-demuestra-una-accion-completada/#una-propuesta-describe-lo-que-se-quiere-aplicar",
+      "pass": true
+    },
+    {
+      "path": "/blog/que-demuestra-una-accion-completada/#una-ejecuci%C3%B3n-necesita-evidencia-del-efecto",
+      "pass": true
+    },
+    {
+      "path": "/blog/que-demuestra-una-accion-completada/#comprobar-responde-a-la-pregunta-del-trabajo",
+      "pass": true
+    },
+    {
+      "path": "/blog/que-demuestra-una-accion-completada/#lo-pendiente-tambi%C3%A9n-forma-parte-del-resultado",
+      "pass": true
+    },
+    {
+      "path": "/sis/#main",
+      "pass": true
+    },
+    {
+      "path": "/conocimiento/#main",
+      "pass": true
+    },
+    {
+      "path": "/tu-organizacion/#main",
+      "pass": true
+    }
+  ],
+  "accessibility": [
+    {
+      "route": "/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 4
+        }
+      ]
+    },
+    {
+      "route": "/agentes/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 3
+        }
+      ]
+    },
+    {
+      "route": "/casos-de-uso/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 8
+        }
+      ]
+    },
+    {
+      "route": "/planes/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/contacto/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "route": "/demo/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/roadmap/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/aviso-legal/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/politica-privacidad/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/politica-cookies/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/nutriabot/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/blog/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/blog/delegar-trabajo-a-un-agente/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 2
+        }
+      ]
+    },
+    {
+      "route": "/blog/elegir-el-primer-trabajo-delegado/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/blog/herramientas-y-autoridad/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 2
+        }
+      ]
+    },
+    {
+      "route": "/blog/elegir-el-canal-segun-el-trabajo/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/blog/que-demuestra-una-accion-completada/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 2
+        }
+      ]
+    },
+    {
+      "route": "/sis/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "route": "/conocimiento/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "route": "/tu-organizacion/",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 4
+        }
+      ]
+    },
+    {
+      "route": "/agentes/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 3
+        }
+      ]
+    },
+    {
+      "route": "/casos-de-uso/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 8
+        }
+      ]
+    },
+    {
+      "route": "/planes/",
+      "width": 390,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/contacto/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "route": "/demo/",
+      "width": 390,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/roadmap/",
+      "width": 390,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/aviso-legal/",
+      "width": 390,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/politica-privacidad/",
+      "width": 390,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/politica-cookies/",
+      "width": 390,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/nutriabot/",
+      "width": 390,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/blog/",
+      "width": 390,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/blog/delegar-trabajo-a-un-agente/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 2
+        }
+      ]
+    },
+    {
+      "route": "/blog/elegir-el-primer-trabajo-delegado/",
+      "width": 390,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/blog/herramientas-y-autoridad/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 2
+        }
+      ]
+    },
+    {
+      "route": "/blog/elegir-el-canal-segun-el-trabajo/",
+      "width": 390,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/blog/que-demuestra-una-accion-completada/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 2
+        }
+      ]
+    },
+    {
+      "route": "/sis/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "route": "/conocimiento/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "route": "/tu-organizacion/",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "route": "explorer-step2",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "route": "explorer-result:operacion",
+      "width": 1440,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "explorer-result:mercado",
+      "width": 1440,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "explorer-step2",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 1
+        }
+      ]
+    },
+    {
+      "route": "explorer-result:operacion",
+      "width": 390,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "explorer-result:mercado",
+      "width": 390,
+      "violations": [],
+      "incomplete": []
+    }
+  ],
+  "interactions": [
+    {
+      "name": "inspect-specialist:1440:small:operacion",
+      "pass": true
+    },
+    {
+      "name": "inspect-specialist:1440:small:mercado",
+      "pass": true
+    },
+    {
+      "name": "inspect-specialist:1440:small:clientes",
+      "pass": true
+    },
+    {
+      "name": "inspect-specialist:1440:small:area",
+      "pass": true
+    },
+    {
+      "name": "inspect-specialist:1440:growing:operacion",
+      "pass": true
+    },
+    {
+      "name": "inspect-specialist:1440:growing:mercado",
+      "pass": true
+    },
+    {
+      "name": "inspect-specialist:1440:growing:clientes",
+      "pass": true
+    },
+    {
+      "name": "inspect-specialist:1440:growing:area",
+      "pass": true
+    },
+    {
+      "name": "inspect-specialist:1440:established:operacion",
+      "pass": true
+    },
+    {
+      "name": "inspect-specialist:1440:established:mercado",
+      "pass": true
+    },
+    {
+      "name": "inspect-specialist:1440:established:clientes",
+      "pass": true
+    },
+    {
+      "name": "inspect-specialist:1440:established:area",
+      "pass": true
+    },
+    {
+      "name": "inspect-specialist:1440:large:operacion",
+      "pass": true
+    },
+    {
+      "name": "inspect-specialist:1440:large:mercado",
+      "pass": true
+    },
+    {
+      "name": "inspect-specialist:1440:large:clientes",
+      "pass": true
+    },
+    {
+      "name": "inspect-specialist:1440:large:area",
+      "pass": true
+    },
+    {
+      "name": "inspect-specialist:390:small:operacion",
+      "pass": true
+    },
+    {
+      "name": "inspect-specialist:390:small:mercado",
+      "pass": true
+    },
+    {
+      "name": "inspect-specialist:390:small:clientes",
+      "pass": true
+    },
+    {
+      "name": "inspect-specialist:390:small:area",
+      "pass": true
+    },
+    {
+      "name": "inspect-specialist:390:growing:operacion",
+      "pass": true
+    },
+    {
+      "name": "inspect-specialist:390:growing:mercado",
+      "pass": true
+    },
+    {
+      "name": "inspect-specialist:390:growing:clientes",
+      "pass": true
+    },
+    {
+      "name": "inspect-specialist:390:growing:area",
+      "pass": true
+    },
+    {
+      "name": "inspect-specialist:390:established:operacion",
+      "pass": true
+    },
+    {
+      "name": "inspect-specialist:390:established:mercado",
+      "pass": true
+    },
+    {
+      "name": "inspect-specialist:390:established:clientes",
+      "pass": true
+    },
+    {
+      "name": "inspect-specialist:390:established:area",
+      "pass": true
+    },
+    {
+      "name": "inspect-specialist:390:large:operacion",
+      "pass": true
+    },
+    {
+      "name": "inspect-specialist:390:large:mercado",
+      "pass": true
+    },
+    {
+      "name": "inspect-specialist:390:large:clientes",
+      "pass": true
+    },
+    {
+      "name": "inspect-specialist:390:large:area",
+      "pass": true
+    },
+    {
+      "name": "result-overflow-320",
+      "pass": true
+    },
+    {
+      "name": "result-overflow-768",
+      "pass": true
+    },
+    {
+      "name": "kind-adapts-lead",
+      "pass": true
+    },
+    {
+      "name": "free-note-text-only",
+      "pass": true
+    },
+    {
+      "name": "autonomy:review",
+      "pass": true
+    },
+    {
+      "name": "autonomy:scoped",
+      "pass": true
+    },
+    {
+      "name": "autonomy:area",
+      "pass": true
+    },
+    {
+      "name": "reset",
+      "pass": true
+    },
+    {
+      "name": "menu-escape-focus",
+      "pass": true
+    },
+    {
+      "name": "cookie-neutral-initial",
+      "dialog": true,
+      "focus": "cookie-title",
+      "selected": false,
+      "styles": [
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(18, 39, 66)"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(18, 39, 66)"
+        }
+      ],
+      "preference": null,
+      "pass": true
+    },
+    {
+      "name": "cookie-keyboard-visible",
+      "pass": true
+    },
+    {
+      "name": "cookie-escape",
+      "pass": true
+    },
+    {
+      "name": "explorer-no-js",
+      "pass": true
+    },
+    {
+      "name": "200-percent:/",
+      "pass": true
+    },
+    {
+      "name": "200-percent:/tu-organizacion/",
+      "pass": true
+    },
+    {
+      "name": "200-percent:/conocimiento/",
+      "pass": true
+    }
+  ],
+  "matrix": [
+    {
+      "width": 1440,
+      "size": "small",
+      "goal": "operacion",
+      "visible": true,
+      "nodes": 2,
+      "selected": 1,
+      "overflow": false,
+      "title": "Responsable de ecommerce",
+      "need": "Lo que quieres resolver: Queremos una función con continuidad.",
+      "focus": "result-title",
+      "contact": "mailto:info@ainutria.com?subject=Nutria%20%C2%B7%20Mi%20organizaci%C3%B3n&body=Hola%2C%20me%20gustar%C3%ADa%20revisar%20este%20esquema%20ilustrativo%20de%20Nutria.%0A%0AEmpresa%3A%20Ecommerce%20y%20retail.%0ATama%C3%B1o%3A%201%E2%80%9310%20personas.%0ANecesidad%3A%20Sostener%20una%20operaci%C3%B3n.%0AModo%20a%20explorar%3A%20Autonom%C3%ADa%20por%20alcance.%0A%0AQueremos%20una%20funci%C3%B3n%20con%20continuidad.%0A%0AQuisiera%20concretar%20los%20puestos%2C%20las%20integraciones%20y%20el%20alcance.",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "size": "small",
+      "goal": "mercado",
+      "visible": true,
+      "nodes": 2,
+      "selected": 1,
+      "overflow": false,
+      "title": "Responsable de inteligencia",
+      "need": "Lo que quieres resolver: Queremos una función con continuidad.",
+      "focus": "result-title",
+      "contact": "mailto:info@ainutria.com?subject=Nutria%20%C2%B7%20Mi%20organizaci%C3%B3n&body=Hola%2C%20me%20gustar%C3%ADa%20revisar%20este%20esquema%20ilustrativo%20de%20Nutria.%0A%0AEmpresa%3A%20Ecommerce%20y%20retail.%0ATama%C3%B1o%3A%201%E2%80%9310%20personas.%0ANecesidad%3A%20Entender%20y%20anticipar%20el%20mercado.%0AModo%20a%20explorar%3A%20Autonom%C3%ADa%20por%20alcance.%0A%0AQueremos%20una%20funci%C3%B3n%20con%20continuidad.%0A%0AQuisiera%20concretar%20los%20puestos%2C%20las%20integraciones%20y%20el%20alcance.",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "size": "small",
+      "goal": "clientes",
+      "visible": true,
+      "nodes": 2,
+      "selected": 1,
+      "overflow": false,
+      "title": "Responsable de atención",
+      "need": "Lo que quieres resolver: Queremos una función con continuidad.",
+      "focus": "result-title",
+      "contact": "mailto:info@ainutria.com?subject=Nutria%20%C2%B7%20Mi%20organizaci%C3%B3n&body=Hola%2C%20me%20gustar%C3%ADa%20revisar%20este%20esquema%20ilustrativo%20de%20Nutria.%0A%0AEmpresa%3A%20Ecommerce%20y%20retail.%0ATama%C3%B1o%3A%201%E2%80%9310%20personas.%0ANecesidad%3A%20Dar%20continuidad%20a%20la%20atenci%C3%B3n.%0AModo%20a%20explorar%3A%20Autonom%C3%ADa%20por%20alcance.%0A%0AQueremos%20una%20funci%C3%B3n%20con%20continuidad.%0A%0AQuisiera%20concretar%20los%20puestos%2C%20las%20integraciones%20y%20el%20alcance.",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "size": "small",
+      "goal": "area",
+      "visible": true,
+      "nodes": 2,
+      "selected": 1,
+      "overflow": false,
+      "title": "Responsable de la nueva función",
+      "need": "Lo que quieres resolver: Queremos una función con continuidad.",
+      "focus": "result-title",
+      "contact": "mailto:info@ainutria.com?subject=Nutria%20%C2%B7%20Mi%20organizaci%C3%B3n&body=Hola%2C%20me%20gustar%C3%ADa%20revisar%20este%20esquema%20ilustrativo%20de%20Nutria.%0A%0AEmpresa%3A%20Ecommerce%20y%20retail.%0ATama%C3%B1o%3A%201%E2%80%9310%20personas.%0ANecesidad%3A%20Abrir%20una%20nueva%20%C3%A1rea.%0AModo%20a%20explorar%3A%20Autonom%C3%ADa%20por%20alcance.%0A%0AQueremos%20una%20funci%C3%B3n%20con%20continuidad.%0A%0AQuisiera%20concretar%20los%20puestos%2C%20las%20integraciones%20y%20el%20alcance.",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "size": "growing",
+      "goal": "operacion",
+      "visible": true,
+      "nodes": 2,
+      "selected": 1,
+      "overflow": false,
+      "title": "Responsable de ecommerce",
+      "need": "Lo que quieres resolver: Queremos una función con continuidad.",
+      "focus": "result-title",
+      "contact": "mailto:info@ainutria.com?subject=Nutria%20%C2%B7%20Mi%20organizaci%C3%B3n&body=Hola%2C%20me%20gustar%C3%ADa%20revisar%20este%20esquema%20ilustrativo%20de%20Nutria.%0A%0AEmpresa%3A%20Ecommerce%20y%20retail.%0ATama%C3%B1o%3A%2011%E2%80%9350%20personas.%0ANecesidad%3A%20Sostener%20una%20operaci%C3%B3n.%0AModo%20a%20explorar%3A%20Autonom%C3%ADa%20por%20alcance.%0A%0AQueremos%20una%20funci%C3%B3n%20con%20continuidad.%0A%0AQuisiera%20concretar%20los%20puestos%2C%20las%20integraciones%20y%20el%20alcance.",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "size": "growing",
+      "goal": "mercado",
+      "visible": true,
+      "nodes": 2,
+      "selected": 1,
+      "overflow": false,
+      "title": "Responsable de inteligencia",
+      "need": "Lo que quieres resolver: Queremos una función con continuidad.",
+      "focus": "result-title",
+      "contact": "mailto:info@ainutria.com?subject=Nutria%20%C2%B7%20Mi%20organizaci%C3%B3n&body=Hola%2C%20me%20gustar%C3%ADa%20revisar%20este%20esquema%20ilustrativo%20de%20Nutria.%0A%0AEmpresa%3A%20Ecommerce%20y%20retail.%0ATama%C3%B1o%3A%2011%E2%80%9350%20personas.%0ANecesidad%3A%20Entender%20y%20anticipar%20el%20mercado.%0AModo%20a%20explorar%3A%20Autonom%C3%ADa%20por%20alcance.%0A%0AQueremos%20una%20funci%C3%B3n%20con%20continuidad.%0A%0AQuisiera%20concretar%20los%20puestos%2C%20las%20integraciones%20y%20el%20alcance.",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "size": "growing",
+      "goal": "clientes",
+      "visible": true,
+      "nodes": 2,
+      "selected": 1,
+      "overflow": false,
+      "title": "Responsable de atención",
+      "need": "Lo que quieres resolver: Queremos una función con continuidad.",
+      "focus": "result-title",
+      "contact": "mailto:info@ainutria.com?subject=Nutria%20%C2%B7%20Mi%20organizaci%C3%B3n&body=Hola%2C%20me%20gustar%C3%ADa%20revisar%20este%20esquema%20ilustrativo%20de%20Nutria.%0A%0AEmpresa%3A%20Ecommerce%20y%20retail.%0ATama%C3%B1o%3A%2011%E2%80%9350%20personas.%0ANecesidad%3A%20Dar%20continuidad%20a%20la%20atenci%C3%B3n.%0AModo%20a%20explorar%3A%20Autonom%C3%ADa%20por%20alcance.%0A%0AQueremos%20una%20funci%C3%B3n%20con%20continuidad.%0A%0AQuisiera%20concretar%20los%20puestos%2C%20las%20integraciones%20y%20el%20alcance.",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "size": "growing",
+      "goal": "area",
+      "visible": true,
+      "nodes": 2,
+      "selected": 1,
+      "overflow": false,
+      "title": "Responsable de la nueva función",
+      "need": "Lo que quieres resolver: Queremos una función con continuidad.",
+      "focus": "result-title",
+      "contact": "mailto:info@ainutria.com?subject=Nutria%20%C2%B7%20Mi%20organizaci%C3%B3n&body=Hola%2C%20me%20gustar%C3%ADa%20revisar%20este%20esquema%20ilustrativo%20de%20Nutria.%0A%0AEmpresa%3A%20Ecommerce%20y%20retail.%0ATama%C3%B1o%3A%2011%E2%80%9350%20personas.%0ANecesidad%3A%20Abrir%20una%20nueva%20%C3%A1rea.%0AModo%20a%20explorar%3A%20Autonom%C3%ADa%20por%20alcance.%0A%0AQueremos%20una%20funci%C3%B3n%20con%20continuidad.%0A%0AQuisiera%20concretar%20los%20puestos%2C%20las%20integraciones%20y%20el%20alcance.",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "size": "established",
+      "goal": "operacion",
+      "visible": true,
+      "nodes": 3,
+      "selected": 1,
+      "overflow": false,
+      "title": "Responsable de ecommerce",
+      "need": "Lo que quieres resolver: Queremos una función con continuidad.",
+      "focus": "result-title",
+      "contact": "mailto:info@ainutria.com?subject=Nutria%20%C2%B7%20Mi%20organizaci%C3%B3n&body=Hola%2C%20me%20gustar%C3%ADa%20revisar%20este%20esquema%20ilustrativo%20de%20Nutria.%0A%0AEmpresa%3A%20Ecommerce%20y%20retail.%0ATama%C3%B1o%3A%2051%E2%80%93250%20personas.%0ANecesidad%3A%20Sostener%20una%20operaci%C3%B3n.%0AModo%20a%20explorar%3A%20Autonom%C3%ADa%20por%20alcance.%0A%0AQueremos%20una%20funci%C3%B3n%20con%20continuidad.%0A%0AQuisiera%20concretar%20los%20puestos%2C%20las%20integraciones%20y%20el%20alcance.",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "size": "established",
+      "goal": "mercado",
+      "visible": true,
+      "nodes": 3,
+      "selected": 1,
+      "overflow": false,
+      "title": "Responsable de inteligencia",
+      "need": "Lo que quieres resolver: Queremos una función con continuidad.",
+      "focus": "result-title",
+      "contact": "mailto:info@ainutria.com?subject=Nutria%20%C2%B7%20Mi%20organizaci%C3%B3n&body=Hola%2C%20me%20gustar%C3%ADa%20revisar%20este%20esquema%20ilustrativo%20de%20Nutria.%0A%0AEmpresa%3A%20Ecommerce%20y%20retail.%0ATama%C3%B1o%3A%2051%E2%80%93250%20personas.%0ANecesidad%3A%20Entender%20y%20anticipar%20el%20mercado.%0AModo%20a%20explorar%3A%20Autonom%C3%ADa%20por%20alcance.%0A%0AQueremos%20una%20funci%C3%B3n%20con%20continuidad.%0A%0AQuisiera%20concretar%20los%20puestos%2C%20las%20integraciones%20y%20el%20alcance.",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "size": "established",
+      "goal": "clientes",
+      "visible": true,
+      "nodes": 3,
+      "selected": 1,
+      "overflow": false,
+      "title": "Responsable de atención",
+      "need": "Lo que quieres resolver: Queremos una función con continuidad.",
+      "focus": "result-title",
+      "contact": "mailto:info@ainutria.com?subject=Nutria%20%C2%B7%20Mi%20organizaci%C3%B3n&body=Hola%2C%20me%20gustar%C3%ADa%20revisar%20este%20esquema%20ilustrativo%20de%20Nutria.%0A%0AEmpresa%3A%20Ecommerce%20y%20retail.%0ATama%C3%B1o%3A%2051%E2%80%93250%20personas.%0ANecesidad%3A%20Dar%20continuidad%20a%20la%20atenci%C3%B3n.%0AModo%20a%20explorar%3A%20Autonom%C3%ADa%20por%20alcance.%0A%0AQueremos%20una%20funci%C3%B3n%20con%20continuidad.%0A%0AQuisiera%20concretar%20los%20puestos%2C%20las%20integraciones%20y%20el%20alcance.",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "size": "established",
+      "goal": "area",
+      "visible": true,
+      "nodes": 3,
+      "selected": 1,
+      "overflow": false,
+      "title": "Responsable de la nueva función",
+      "need": "Lo que quieres resolver: Queremos una función con continuidad.",
+      "focus": "result-title",
+      "contact": "mailto:info@ainutria.com?subject=Nutria%20%C2%B7%20Mi%20organizaci%C3%B3n&body=Hola%2C%20me%20gustar%C3%ADa%20revisar%20este%20esquema%20ilustrativo%20de%20Nutria.%0A%0AEmpresa%3A%20Ecommerce%20y%20retail.%0ATama%C3%B1o%3A%2051%E2%80%93250%20personas.%0ANecesidad%3A%20Abrir%20una%20nueva%20%C3%A1rea.%0AModo%20a%20explorar%3A%20Autonom%C3%ADa%20por%20alcance.%0A%0AQueremos%20una%20funci%C3%B3n%20con%20continuidad.%0A%0AQuisiera%20concretar%20los%20puestos%2C%20las%20integraciones%20y%20el%20alcance.",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "size": "large",
+      "goal": "operacion",
+      "visible": true,
+      "nodes": 3,
+      "selected": 1,
+      "overflow": false,
+      "title": "Responsable de ecommerce",
+      "need": "Lo que quieres resolver: Queremos una función con continuidad.",
+      "focus": "result-title",
+      "contact": "mailto:info@ainutria.com?subject=Nutria%20%C2%B7%20Mi%20organizaci%C3%B3n&body=Hola%2C%20me%20gustar%C3%ADa%20revisar%20este%20esquema%20ilustrativo%20de%20Nutria.%0A%0AEmpresa%3A%20Ecommerce%20y%20retail.%0ATama%C3%B1o%3A%20M%C3%A1s%20de%20250%20personas.%0ANecesidad%3A%20Sostener%20una%20operaci%C3%B3n.%0AModo%20a%20explorar%3A%20Autonom%C3%ADa%20por%20alcance.%0A%0AQueremos%20una%20funci%C3%B3n%20con%20continuidad.%0A%0AQuisiera%20concretar%20los%20puestos%2C%20las%20integraciones%20y%20el%20alcance.",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "size": "large",
+      "goal": "mercado",
+      "visible": true,
+      "nodes": 3,
+      "selected": 1,
+      "overflow": false,
+      "title": "Responsable de inteligencia",
+      "need": "Lo que quieres resolver: Queremos una función con continuidad.",
+      "focus": "result-title",
+      "contact": "mailto:info@ainutria.com?subject=Nutria%20%C2%B7%20Mi%20organizaci%C3%B3n&body=Hola%2C%20me%20gustar%C3%ADa%20revisar%20este%20esquema%20ilustrativo%20de%20Nutria.%0A%0AEmpresa%3A%20Ecommerce%20y%20retail.%0ATama%C3%B1o%3A%20M%C3%A1s%20de%20250%20personas.%0ANecesidad%3A%20Entender%20y%20anticipar%20el%20mercado.%0AModo%20a%20explorar%3A%20Autonom%C3%ADa%20por%20alcance.%0A%0AQueremos%20una%20funci%C3%B3n%20con%20continuidad.%0A%0AQuisiera%20concretar%20los%20puestos%2C%20las%20integraciones%20y%20el%20alcance.",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "size": "large",
+      "goal": "clientes",
+      "visible": true,
+      "nodes": 3,
+      "selected": 1,
+      "overflow": false,
+      "title": "Responsable de atención",
+      "need": "Lo que quieres resolver: Queremos una función con continuidad.",
+      "focus": "result-title",
+      "contact": "mailto:info@ainutria.com?subject=Nutria%20%C2%B7%20Mi%20organizaci%C3%B3n&body=Hola%2C%20me%20gustar%C3%ADa%20revisar%20este%20esquema%20ilustrativo%20de%20Nutria.%0A%0AEmpresa%3A%20Ecommerce%20y%20retail.%0ATama%C3%B1o%3A%20M%C3%A1s%20de%20250%20personas.%0ANecesidad%3A%20Dar%20continuidad%20a%20la%20atenci%C3%B3n.%0AModo%20a%20explorar%3A%20Autonom%C3%ADa%20por%20alcance.%0A%0AQueremos%20una%20funci%C3%B3n%20con%20continuidad.%0A%0AQuisiera%20concretar%20los%20puestos%2C%20las%20integraciones%20y%20el%20alcance.",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "size": "large",
+      "goal": "area",
+      "visible": true,
+      "nodes": 3,
+      "selected": 1,
+      "overflow": false,
+      "title": "Responsable de la nueva función",
+      "need": "Lo que quieres resolver: Queremos una función con continuidad.",
+      "focus": "result-title",
+      "contact": "mailto:info@ainutria.com?subject=Nutria%20%C2%B7%20Mi%20organizaci%C3%B3n&body=Hola%2C%20me%20gustar%C3%ADa%20revisar%20este%20esquema%20ilustrativo%20de%20Nutria.%0A%0AEmpresa%3A%20Ecommerce%20y%20retail.%0ATama%C3%B1o%3A%20M%C3%A1s%20de%20250%20personas.%0ANecesidad%3A%20Abrir%20una%20nueva%20%C3%A1rea.%0AModo%20a%20explorar%3A%20Autonom%C3%ADa%20por%20alcance.%0A%0AQueremos%20una%20funci%C3%B3n%20con%20continuidad.%0A%0AQuisiera%20concretar%20los%20puestos%2C%20las%20integraciones%20y%20el%20alcance.",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "size": "small",
+      "goal": "operacion",
+      "visible": true,
+      "nodes": 2,
+      "selected": 1,
+      "overflow": false,
+      "title": "Responsable de ecommerce",
+      "need": "Lo que quieres resolver: Queremos una función con continuidad.",
+      "focus": "result-title",
+      "contact": "mailto:info@ainutria.com?subject=Nutria%20%C2%B7%20Mi%20organizaci%C3%B3n&body=Hola%2C%20me%20gustar%C3%ADa%20revisar%20este%20esquema%20ilustrativo%20de%20Nutria.%0A%0AEmpresa%3A%20Ecommerce%20y%20retail.%0ATama%C3%B1o%3A%201%E2%80%9310%20personas.%0ANecesidad%3A%20Sostener%20una%20operaci%C3%B3n.%0AModo%20a%20explorar%3A%20Autonom%C3%ADa%20por%20alcance.%0A%0AQueremos%20una%20funci%C3%B3n%20con%20continuidad.%0A%0AQuisiera%20concretar%20los%20puestos%2C%20las%20integraciones%20y%20el%20alcance.",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "size": "small",
+      "goal": "mercado",
+      "visible": true,
+      "nodes": 2,
+      "selected": 1,
+      "overflow": false,
+      "title": "Responsable de inteligencia",
+      "need": "Lo que quieres resolver: Queremos una función con continuidad.",
+      "focus": "result-title",
+      "contact": "mailto:info@ainutria.com?subject=Nutria%20%C2%B7%20Mi%20organizaci%C3%B3n&body=Hola%2C%20me%20gustar%C3%ADa%20revisar%20este%20esquema%20ilustrativo%20de%20Nutria.%0A%0AEmpresa%3A%20Ecommerce%20y%20retail.%0ATama%C3%B1o%3A%201%E2%80%9310%20personas.%0ANecesidad%3A%20Entender%20y%20anticipar%20el%20mercado.%0AModo%20a%20explorar%3A%20Autonom%C3%ADa%20por%20alcance.%0A%0AQueremos%20una%20funci%C3%B3n%20con%20continuidad.%0A%0AQuisiera%20concretar%20los%20puestos%2C%20las%20integraciones%20y%20el%20alcance.",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "size": "small",
+      "goal": "clientes",
+      "visible": true,
+      "nodes": 2,
+      "selected": 1,
+      "overflow": false,
+      "title": "Responsable de atención",
+      "need": "Lo que quieres resolver: Queremos una función con continuidad.",
+      "focus": "result-title",
+      "contact": "mailto:info@ainutria.com?subject=Nutria%20%C2%B7%20Mi%20organizaci%C3%B3n&body=Hola%2C%20me%20gustar%C3%ADa%20revisar%20este%20esquema%20ilustrativo%20de%20Nutria.%0A%0AEmpresa%3A%20Ecommerce%20y%20retail.%0ATama%C3%B1o%3A%201%E2%80%9310%20personas.%0ANecesidad%3A%20Dar%20continuidad%20a%20la%20atenci%C3%B3n.%0AModo%20a%20explorar%3A%20Autonom%C3%ADa%20por%20alcance.%0A%0AQueremos%20una%20funci%C3%B3n%20con%20continuidad.%0A%0AQuisiera%20concretar%20los%20puestos%2C%20las%20integraciones%20y%20el%20alcance.",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "size": "small",
+      "goal": "area",
+      "visible": true,
+      "nodes": 2,
+      "selected": 1,
+      "overflow": false,
+      "title": "Responsable de la nueva función",
+      "need": "Lo que quieres resolver: Queremos una función con continuidad.",
+      "focus": "result-title",
+      "contact": "mailto:info@ainutria.com?subject=Nutria%20%C2%B7%20Mi%20organizaci%C3%B3n&body=Hola%2C%20me%20gustar%C3%ADa%20revisar%20este%20esquema%20ilustrativo%20de%20Nutria.%0A%0AEmpresa%3A%20Ecommerce%20y%20retail.%0ATama%C3%B1o%3A%201%E2%80%9310%20personas.%0ANecesidad%3A%20Abrir%20una%20nueva%20%C3%A1rea.%0AModo%20a%20explorar%3A%20Autonom%C3%ADa%20por%20alcance.%0A%0AQueremos%20una%20funci%C3%B3n%20con%20continuidad.%0A%0AQuisiera%20concretar%20los%20puestos%2C%20las%20integraciones%20y%20el%20alcance.",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "size": "growing",
+      "goal": "operacion",
+      "visible": true,
+      "nodes": 2,
+      "selected": 1,
+      "overflow": false,
+      "title": "Responsable de ecommerce",
+      "need": "Lo que quieres resolver: Queremos una función con continuidad.",
+      "focus": "result-title",
+      "contact": "mailto:info@ainutria.com?subject=Nutria%20%C2%B7%20Mi%20organizaci%C3%B3n&body=Hola%2C%20me%20gustar%C3%ADa%20revisar%20este%20esquema%20ilustrativo%20de%20Nutria.%0A%0AEmpresa%3A%20Ecommerce%20y%20retail.%0ATama%C3%B1o%3A%2011%E2%80%9350%20personas.%0ANecesidad%3A%20Sostener%20una%20operaci%C3%B3n.%0AModo%20a%20explorar%3A%20Autonom%C3%ADa%20por%20alcance.%0A%0AQueremos%20una%20funci%C3%B3n%20con%20continuidad.%0A%0AQuisiera%20concretar%20los%20puestos%2C%20las%20integraciones%20y%20el%20alcance.",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "size": "growing",
+      "goal": "mercado",
+      "visible": true,
+      "nodes": 2,
+      "selected": 1,
+      "overflow": false,
+      "title": "Responsable de inteligencia",
+      "need": "Lo que quieres resolver: Queremos una función con continuidad.",
+      "focus": "result-title",
+      "contact": "mailto:info@ainutria.com?subject=Nutria%20%C2%B7%20Mi%20organizaci%C3%B3n&body=Hola%2C%20me%20gustar%C3%ADa%20revisar%20este%20esquema%20ilustrativo%20de%20Nutria.%0A%0AEmpresa%3A%20Ecommerce%20y%20retail.%0ATama%C3%B1o%3A%2011%E2%80%9350%20personas.%0ANecesidad%3A%20Entender%20y%20anticipar%20el%20mercado.%0AModo%20a%20explorar%3A%20Autonom%C3%ADa%20por%20alcance.%0A%0AQueremos%20una%20funci%C3%B3n%20con%20continuidad.%0A%0AQuisiera%20concretar%20los%20puestos%2C%20las%20integraciones%20y%20el%20alcance.",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "size": "growing",
+      "goal": "clientes",
+      "visible": true,
+      "nodes": 2,
+      "selected": 1,
+      "overflow": false,
+      "title": "Responsable de atención",
+      "need": "Lo que quieres resolver: Queremos una función con continuidad.",
+      "focus": "result-title",
+      "contact": "mailto:info@ainutria.com?subject=Nutria%20%C2%B7%20Mi%20organizaci%C3%B3n&body=Hola%2C%20me%20gustar%C3%ADa%20revisar%20este%20esquema%20ilustrativo%20de%20Nutria.%0A%0AEmpresa%3A%20Ecommerce%20y%20retail.%0ATama%C3%B1o%3A%2011%E2%80%9350%20personas.%0ANecesidad%3A%20Dar%20continuidad%20a%20la%20atenci%C3%B3n.%0AModo%20a%20explorar%3A%20Autonom%C3%ADa%20por%20alcance.%0A%0AQueremos%20una%20funci%C3%B3n%20con%20continuidad.%0A%0AQuisiera%20concretar%20los%20puestos%2C%20las%20integraciones%20y%20el%20alcance.",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "size": "growing",
+      "goal": "area",
+      "visible": true,
+      "nodes": 2,
+      "selected": 1,
+      "overflow": false,
+      "title": "Responsable de la nueva función",
+      "need": "Lo que quieres resolver: Queremos una función con continuidad.",
+      "focus": "result-title",
+      "contact": "mailto:info@ainutria.com?subject=Nutria%20%C2%B7%20Mi%20organizaci%C3%B3n&body=Hola%2C%20me%20gustar%C3%ADa%20revisar%20este%20esquema%20ilustrativo%20de%20Nutria.%0A%0AEmpresa%3A%20Ecommerce%20y%20retail.%0ATama%C3%B1o%3A%2011%E2%80%9350%20personas.%0ANecesidad%3A%20Abrir%20una%20nueva%20%C3%A1rea.%0AModo%20a%20explorar%3A%20Autonom%C3%ADa%20por%20alcance.%0A%0AQueremos%20una%20funci%C3%B3n%20con%20continuidad.%0A%0AQuisiera%20concretar%20los%20puestos%2C%20las%20integraciones%20y%20el%20alcance.",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "size": "established",
+      "goal": "operacion",
+      "visible": true,
+      "nodes": 3,
+      "selected": 1,
+      "overflow": false,
+      "title": "Responsable de ecommerce",
+      "need": "Lo que quieres resolver: Queremos una función con continuidad.",
+      "focus": "result-title",
+      "contact": "mailto:info@ainutria.com?subject=Nutria%20%C2%B7%20Mi%20organizaci%C3%B3n&body=Hola%2C%20me%20gustar%C3%ADa%20revisar%20este%20esquema%20ilustrativo%20de%20Nutria.%0A%0AEmpresa%3A%20Ecommerce%20y%20retail.%0ATama%C3%B1o%3A%2051%E2%80%93250%20personas.%0ANecesidad%3A%20Sostener%20una%20operaci%C3%B3n.%0AModo%20a%20explorar%3A%20Autonom%C3%ADa%20por%20alcance.%0A%0AQueremos%20una%20funci%C3%B3n%20con%20continuidad.%0A%0AQuisiera%20concretar%20los%20puestos%2C%20las%20integraciones%20y%20el%20alcance.",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "size": "established",
+      "goal": "mercado",
+      "visible": true,
+      "nodes": 3,
+      "selected": 1,
+      "overflow": false,
+      "title": "Responsable de inteligencia",
+      "need": "Lo que quieres resolver: Queremos una función con continuidad.",
+      "focus": "result-title",
+      "contact": "mailto:info@ainutria.com?subject=Nutria%20%C2%B7%20Mi%20organizaci%C3%B3n&body=Hola%2C%20me%20gustar%C3%ADa%20revisar%20este%20esquema%20ilustrativo%20de%20Nutria.%0A%0AEmpresa%3A%20Ecommerce%20y%20retail.%0ATama%C3%B1o%3A%2051%E2%80%93250%20personas.%0ANecesidad%3A%20Entender%20y%20anticipar%20el%20mercado.%0AModo%20a%20explorar%3A%20Autonom%C3%ADa%20por%20alcance.%0A%0AQueremos%20una%20funci%C3%B3n%20con%20continuidad.%0A%0AQuisiera%20concretar%20los%20puestos%2C%20las%20integraciones%20y%20el%20alcance.",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "size": "established",
+      "goal": "clientes",
+      "visible": true,
+      "nodes": 3,
+      "selected": 1,
+      "overflow": false,
+      "title": "Responsable de atención",
+      "need": "Lo que quieres resolver: Queremos una función con continuidad.",
+      "focus": "result-title",
+      "contact": "mailto:info@ainutria.com?subject=Nutria%20%C2%B7%20Mi%20organizaci%C3%B3n&body=Hola%2C%20me%20gustar%C3%ADa%20revisar%20este%20esquema%20ilustrativo%20de%20Nutria.%0A%0AEmpresa%3A%20Ecommerce%20y%20retail.%0ATama%C3%B1o%3A%2051%E2%80%93250%20personas.%0ANecesidad%3A%20Dar%20continuidad%20a%20la%20atenci%C3%B3n.%0AModo%20a%20explorar%3A%20Autonom%C3%ADa%20por%20alcance.%0A%0AQueremos%20una%20funci%C3%B3n%20con%20continuidad.%0A%0AQuisiera%20concretar%20los%20puestos%2C%20las%20integraciones%20y%20el%20alcance.",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "size": "established",
+      "goal": "area",
+      "visible": true,
+      "nodes": 3,
+      "selected": 1,
+      "overflow": false,
+      "title": "Responsable de la nueva función",
+      "need": "Lo que quieres resolver: Queremos una función con continuidad.",
+      "focus": "result-title",
+      "contact": "mailto:info@ainutria.com?subject=Nutria%20%C2%B7%20Mi%20organizaci%C3%B3n&body=Hola%2C%20me%20gustar%C3%ADa%20revisar%20este%20esquema%20ilustrativo%20de%20Nutria.%0A%0AEmpresa%3A%20Ecommerce%20y%20retail.%0ATama%C3%B1o%3A%2051%E2%80%93250%20personas.%0ANecesidad%3A%20Abrir%20una%20nueva%20%C3%A1rea.%0AModo%20a%20explorar%3A%20Autonom%C3%ADa%20por%20alcance.%0A%0AQueremos%20una%20funci%C3%B3n%20con%20continuidad.%0A%0AQuisiera%20concretar%20los%20puestos%2C%20las%20integraciones%20y%20el%20alcance.",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "size": "large",
+      "goal": "operacion",
+      "visible": true,
+      "nodes": 3,
+      "selected": 1,
+      "overflow": false,
+      "title": "Responsable de ecommerce",
+      "need": "Lo que quieres resolver: Queremos una función con continuidad.",
+      "focus": "result-title",
+      "contact": "mailto:info@ainutria.com?subject=Nutria%20%C2%B7%20Mi%20organizaci%C3%B3n&body=Hola%2C%20me%20gustar%C3%ADa%20revisar%20este%20esquema%20ilustrativo%20de%20Nutria.%0A%0AEmpresa%3A%20Ecommerce%20y%20retail.%0ATama%C3%B1o%3A%20M%C3%A1s%20de%20250%20personas.%0ANecesidad%3A%20Sostener%20una%20operaci%C3%B3n.%0AModo%20a%20explorar%3A%20Autonom%C3%ADa%20por%20alcance.%0A%0AQueremos%20una%20funci%C3%B3n%20con%20continuidad.%0A%0AQuisiera%20concretar%20los%20puestos%2C%20las%20integraciones%20y%20el%20alcance.",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "size": "large",
+      "goal": "mercado",
+      "visible": true,
+      "nodes": 3,
+      "selected": 1,
+      "overflow": false,
+      "title": "Responsable de inteligencia",
+      "need": "Lo que quieres resolver: Queremos una función con continuidad.",
+      "focus": "result-title",
+      "contact": "mailto:info@ainutria.com?subject=Nutria%20%C2%B7%20Mi%20organizaci%C3%B3n&body=Hola%2C%20me%20gustar%C3%ADa%20revisar%20este%20esquema%20ilustrativo%20de%20Nutria.%0A%0AEmpresa%3A%20Ecommerce%20y%20retail.%0ATama%C3%B1o%3A%20M%C3%A1s%20de%20250%20personas.%0ANecesidad%3A%20Entender%20y%20anticipar%20el%20mercado.%0AModo%20a%20explorar%3A%20Autonom%C3%ADa%20por%20alcance.%0A%0AQueremos%20una%20funci%C3%B3n%20con%20continuidad.%0A%0AQuisiera%20concretar%20los%20puestos%2C%20las%20integraciones%20y%20el%20alcance.",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "size": "large",
+      "goal": "clientes",
+      "visible": true,
+      "nodes": 3,
+      "selected": 1,
+      "overflow": false,
+      "title": "Responsable de atención",
+      "need": "Lo que quieres resolver: Queremos una función con continuidad.",
+      "focus": "result-title",
+      "contact": "mailto:info@ainutria.com?subject=Nutria%20%C2%B7%20Mi%20organizaci%C3%B3n&body=Hola%2C%20me%20gustar%C3%ADa%20revisar%20este%20esquema%20ilustrativo%20de%20Nutria.%0A%0AEmpresa%3A%20Ecommerce%20y%20retail.%0ATama%C3%B1o%3A%20M%C3%A1s%20de%20250%20personas.%0ANecesidad%3A%20Dar%20continuidad%20a%20la%20atenci%C3%B3n.%0AModo%20a%20explorar%3A%20Autonom%C3%ADa%20por%20alcance.%0A%0AQueremos%20una%20funci%C3%B3n%20con%20continuidad.%0A%0AQuisiera%20concretar%20los%20puestos%2C%20las%20integraciones%20y%20el%20alcance.",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "size": "large",
+      "goal": "area",
+      "visible": true,
+      "nodes": 3,
+      "selected": 1,
+      "overflow": false,
+      "title": "Responsable de la nueva función",
+      "need": "Lo que quieres resolver: Queremos una función con continuidad.",
+      "focus": "result-title",
+      "contact": "mailto:info@ainutria.com?subject=Nutria%20%C2%B7%20Mi%20organizaci%C3%B3n&body=Hola%2C%20me%20gustar%C3%ADa%20revisar%20este%20esquema%20ilustrativo%20de%20Nutria.%0A%0AEmpresa%3A%20Ecommerce%20y%20retail.%0ATama%C3%B1o%3A%20M%C3%A1s%20de%20250%20personas.%0ANecesidad%3A%20Abrir%20una%20nueva%20%C3%A1rea.%0AModo%20a%20explorar%3A%20Autonom%C3%ADa%20por%20alcance.%0A%0AQueremos%20una%20funci%C3%B3n%20con%20continuidad.%0A%0AQuisiera%20concretar%20los%20puestos%2C%20las%20integraciones%20y%20el%20alcance.",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "externalRequests": []
+}

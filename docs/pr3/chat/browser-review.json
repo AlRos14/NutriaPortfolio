@@ -1,0 +1,178 @@
+{
+  "views": [
+    {
+      "width": 1440,
+      "step": 1,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "step": 2,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "step": 3,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "step": 1,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "step": 2,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "step": 3,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "step": 1,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "step": 2,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "step": 3,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "step": 1,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "step": 2,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "step": 3,
+      "overflow": false
+    }
+  ],
+  "checks": [
+    {
+      "name": "free-message-1440",
+      "pass": true
+    },
+    {
+      "name": "role-context-1440",
+      "pass": true
+    },
+    {
+      "name": "autonomy-context-1440",
+      "pass": true
+    },
+    {
+      "name": "reset-chat-1440",
+      "pass": true
+    },
+    {
+      "name": "free-message-390",
+      "pass": true
+    },
+    {
+      "name": "role-context-390",
+      "pass": true
+    },
+    {
+      "name": "autonomy-context-390",
+      "pass": true
+    },
+    {
+      "name": "reset-chat-390",
+      "pass": true
+    },
+    {
+      "name": "free-message-320",
+      "pass": true
+    },
+    {
+      "name": "role-context-320",
+      "pass": true
+    },
+    {
+      "name": "autonomy-context-320",
+      "pass": true
+    },
+    {
+      "name": "reset-chat-320",
+      "pass": true
+    },
+    {
+      "name": "free-message-768",
+      "pass": true
+    },
+    {
+      "name": "role-context-768",
+      "pass": true
+    },
+    {
+      "name": "autonomy-context-768",
+      "pass": true
+    },
+    {
+      "name": "reset-chat-768",
+      "pass": true
+    },
+    {
+      "name": "message-text-only",
+      "pass": true
+    },
+    {
+      "name": "bounded-local-preview",
+      "pass": true
+    },
+    {
+      "name": "no-fake-assistant-messages",
+      "pass": true
+    }
+  ],
+  "accessibility": [
+    {
+      "width": 1440,
+      "state": "empty-chat",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "width": 1440,
+      "state": "visitor-message",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "width": 390,
+      "state": "empty-chat",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "width": 390,
+      "state": "visitor-message",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    }
+  ],
+  "errors": [],
+  "external": []
+}

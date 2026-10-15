@@ -1,0 +1,201 @@
+{
+  "views": [
+    {
+      "width": 1440,
+      "state": "with-artifact-preview",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "state": "privacy",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "state": "with-artifact-preview",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "state": "privacy",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "state": "with-artifact-preview",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "state": "privacy",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "state": "with-artifact-preview",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "state": "privacy",
+      "overflow": false
+    }
+  ],
+  "checks": [
+    {
+      "name": "unselected-consents:1440",
+      "pass": true
+    },
+    {
+      "name": "no-preview-without-email-consent:1440",
+      "pass": true
+    },
+    {
+      "name": "contact-required:1440",
+      "pass": true
+    },
+    {
+      "name": "contact-only:1440",
+      "pass": true
+    },
+    {
+      "name": "changes-hide-old-preview:1440",
+      "pass": true
+    },
+    {
+      "name": "artifact-only-with-consent:1440",
+      "pass": true
+    },
+    {
+      "name": "withdrawal-clears-artifact-and-preview:1440",
+      "pass": true
+    },
+    {
+      "name": "clear-data:1440",
+      "pass": true
+    },
+    {
+      "name": "unselected-consents:390",
+      "pass": true
+    },
+    {
+      "name": "no-preview-without-email-consent:390",
+      "pass": true
+    },
+    {
+      "name": "contact-required:390",
+      "pass": true
+    },
+    {
+      "name": "contact-only:390",
+      "pass": true
+    },
+    {
+      "name": "changes-hide-old-preview:390",
+      "pass": true
+    },
+    {
+      "name": "artifact-only-with-consent:390",
+      "pass": true
+    },
+    {
+      "name": "withdrawal-clears-artifact-and-preview:390",
+      "pass": true
+    },
+    {
+      "name": "clear-data:390",
+      "pass": true
+    },
+    {
+      "name": "unselected-consents:320",
+      "pass": true
+    },
+    {
+      "name": "no-preview-without-email-consent:320",
+      "pass": true
+    },
+    {
+      "name": "contact-required:320",
+      "pass": true
+    },
+    {
+      "name": "contact-only:320",
+      "pass": true
+    },
+    {
+      "name": "changes-hide-old-preview:320",
+      "pass": true
+    },
+    {
+      "name": "artifact-only-with-consent:320",
+      "pass": true
+    },
+    {
+      "name": "withdrawal-clears-artifact-and-preview:320",
+      "pass": true
+    },
+    {
+      "name": "clear-data:320",
+      "pass": true
+    },
+    {
+      "name": "unselected-consents:768",
+      "pass": true
+    },
+    {
+      "name": "no-preview-without-email-consent:768",
+      "pass": true
+    },
+    {
+      "name": "contact-required:768",
+      "pass": true
+    },
+    {
+      "name": "contact-only:768",
+      "pass": true
+    },
+    {
+      "name": "changes-hide-old-preview:768",
+      "pass": true
+    },
+    {
+      "name": "artifact-only-with-consent:768",
+      "pass": true
+    },
+    {
+      "name": "withdrawal-clears-artifact-and-preview:768",
+      "pass": true
+    },
+    {
+      "name": "clear-data:768",
+      "pass": true
+    },
+    {
+      "name": "preview-text-only",
+      "pass": true
+    },
+    {
+      "name": "no-persistent-lead-data",
+      "pass": true
+    }
+  ],
+  "accessibility": [
+    {
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    }
+  ],
+  "errors": [],
+  "external": [],
+  "posts": []
+}

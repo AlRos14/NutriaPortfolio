@@ -1,0 +1,53 @@
+{
+  "checks": [
+    {
+      "name": "initial-no-vendor",
+      "pass": true
+    },
+    {
+      "name": "opt-in-loads-only-stub",
+      "pass": true
+    },
+    {
+      "name": "withdrawal-disables-clears-and-updates",
+      "pass": true
+    },
+    {
+      "name": "reload-no-vendor",
+      "pass": true
+    },
+    {
+      "name": "local-fallback:/features",
+      "pass": true
+    },
+    {
+      "name": "local-fallback:/dossier",
+      "pass": true
+    },
+    {
+      "name": "local-fallback:/news",
+      "pass": true
+    },
+    {
+      "name": "production-corporate-index",
+      "pass": true
+    },
+    {
+      "name": "draft-noindex",
+      "pass": true
+    },
+    {
+      "name": "legal-draft-noindex",
+      "pass": true
+    },
+    {
+      "name": "sitemap-9-valid-corporate-only",
+      "pass": true
+    },
+    {
+      "name": "robots-sitemap",
+      "pass": true
+    }
+  ],
+  "analyticsProvider": "Stubbed in browser; no live analytics calls"
+}

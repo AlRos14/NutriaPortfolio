@@ -1,1 +1,11 @@
-# Static Astro pages. Preserve compatible URLs; host-specific 301 rules are reviewed in PR3.
+# Legacy URLs: explicit rules before any platform normalization.
+/features /agentes/ 301!
+/features/ /agentes/ 301!
+/dossier /planes/ 301!
+/dossier/ /planes/ 301!
+/news /blog/ 301!
+/news/ /blog/ 301!
+# Retired changelog: do not redirect unrelated historical content to the blog.
+/notas-de-version /404.html 404!
+/notas-de-version/ /404.html 404!
+/notas-de-version/* /404.html 404!

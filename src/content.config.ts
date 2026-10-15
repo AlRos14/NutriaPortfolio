@@ -7,7 +7,7 @@ const articles = defineCollection({
   schema: z.object({
     title: z.string().min(1),
     description: z.string().min(1),
-    category: z.enum(['Organización', 'Delegación', 'Integraciones']),
+    category: z.enum(['Ingeniería', 'Ecosistema', 'Organización', 'Delegación', 'Integraciones']),
     editedAt: date,
     status: z.enum(['review', 'published']).default('review'),
     publishedAt: date.optional(),
@@ -15,14 +15,4 @@ const articles = defineCollection({
     message: 'Un artículo publicado necesita una fecha de publicación aprobada.',
   }),
 });
-const releases = defineCollection({
-  loader: glob({ pattern: '*.md', base: './src/content/releases' }),
-  schema: z.object({
-    title: z.string().min(1),
-    description: z.string().min(1),
-    version: z.string().regex(/^\d+\.\d+\.\d+$/),
-    publishedAt: date,
-    status: z.enum(['historical', 'verified']),
-  }),
-});
-export const collections = { articles, releases };
+export const collections = { articles };

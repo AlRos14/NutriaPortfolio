@@ -3,7 +3,37 @@ import Header from '../components/site/Header.astro';
 import Footer from '../components/site/Footer.astro';
 import Consent from '../components/site/Consent.astro';
 import '../styles/site.css';
-interface Props { title: string; description: string; lang?: string; }
-const { title, description, lang = 'es' } = Astro.props;
+interface Props { title: string; description: string; lang?: string; noindex?: boolean; type?: 'website' | 'article'; }
+const { title, description, lang = 'es', noindex = false, type = 'website' } = Astro.props;
+const canonicalPath = Astro.url.pathname === '/' || Astro.url.pathname.endsWith('.html') ? Astro.url.pathname : `${Astro.url.pathname.replace(/\/$/, '')}/`;
+const canonical = new URL(canonicalPath, Astro.site);
+const preview = import.meta.env.CONTEXT !== 'production';
+const pageTitle = `${title} · Nutria`;
 ---
-<!doctype html><html lang={lang}><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>{title} · Nutria</title><meta name="description" content={description} /><link rel="icon" href="/nutria-logo.png" type="image/png" /></head><body><Header /><main id="main" tabindex="-1"><slot /></main><Footer /><Consent /></body></html>
+<!doctype html>
+<html lang={lang}>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{pageTitle}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonical} />
+<meta name="robots" content={preview || noindex ? 'noindex, follow' : 'index, follow'} />
+<meta property="og:title" content={pageTitle} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonical} />
+<meta property="og:type" content={type} />
+<meta property="og:site_name" content="Nutria" />
+<meta property="og:locale" content={lang === 'es' ? 'es_ES' : 'en_GB'} />
+<meta name="twitter:card" content="summary" />
+<link rel="icon" href="/nutria-logo.png" type="image/png" />
+</head>
+<body>
+<Header />
+<main id="main" tabindex="-1">
+<slot />
+</main>
+<Footer />
+<Consent />
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "build": "production",
+  "checks": {
+    "seven_review_articles": true,
+    "all_drafts_noindex": true,
+    "sitemap_excludes_drafts_and_prototype": true,
+    "corporate_home_indexable": true,
+    "no_changelog": true
+  },
+  "sitemap": [
+    "https://ainutria.com/",
+    "https://ainutria.com/agentes/",
+    "https://ainutria.com/sis/",
+    "https://ainutria.com/conocimiento/",
+    "https://ainutria.com/casos-de-uso/",
+    "https://ainutria.com/planes/",
+    "https://ainutria.com/contacto/",
+    "https://ainutria.com/demo/",
+    "https://ainutria.com/roadmap/",
+    "https://ainutria.com/blog/",
+    "https://ainutria.com/nutriabot/"
+  ]
+}

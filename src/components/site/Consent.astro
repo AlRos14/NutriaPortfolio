@@ -1,5 +1,5 @@
 <dialog lang="es" id="cookie-consent" class="consent-dialog" aria-labelledby="cookie-title" aria-describedby="cookie-description">
-  <div class="consent-content"><p class="eyebrow">Tu privacidad</p><h2 id="cookie-title">Preferencias de cookies</h2><p id="cookie-description">Puedes permitir la analítica para ayudarnos a entender el uso de la web. No se activa hasta que la aceptes. Consulta la <a href="/politica-cookies">política de cookies</a>.</p><div class="consent-actions"><button type="button" class="button secondary" data-consent="necessary" autofocus>Solo necesarias</button><button type="button" class="button" data-consent="analytics">Aceptar analítica</button></div><p class="small-note">Puedes cambiar tu elección desde el pie de página.</p></div>
+  <div class="consent-content"><p class="eyebrow">Tu privacidad</p><h2 id="cookie-title" tabindex="-1" autofocus>Preferencias de cookies</h2><p id="cookie-description">Puedes permitir la analítica para ayudarnos a entender el uso de la web. No se activa hasta que la aceptes. Consulta la <a href="/politica-cookies">política de cookies</a>.</p><div class="consent-actions"><button type="button" class="button secondary" data-consent="necessary">Solo necesarias</button><button type="button" class="button secondary" data-consent="analytics">Aceptar analítica</button></div><p class="small-note">Puedes cambiar tu elección desde el pie de página.</p></div>
 </dialog>
 <script>
   const dialog = document.querySelector<HTMLDialogElement>('#cookie-consent');
@@ -21,6 +21,7 @@
   }
   function declineAnalytics() {
     analyticsWindow[`ga-disable-${analyticsId}`] = true;
+    analyticsWindow.gtag?.('consent', 'update', { analytics_storage: 'denied', ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied' });
     // Stop collection before a subsequent navigation; the provider script loads only after opt-in.
     for (const cookie of document.cookie.split(';')) {
       const name = cookie.split('=')[0]?.trim();
