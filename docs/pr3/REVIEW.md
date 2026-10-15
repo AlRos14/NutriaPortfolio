@@ -1,5 +1,7 @@
 # PR3 · Revisión final de Nutria 2.0
 
+> Corrección posterior: [Sis como orquestador, guía y puente con las personas](sis/REVIEW.md).
+
 > Última pasada: [portada, organización y recorrido de incorporación](polish/REVIEW.md).
 
 > Último ajuste: [Nutria usando Nutria y captación opcional](leads/REVIEW.md).

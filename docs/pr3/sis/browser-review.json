@@ -1,0 +1,56 @@
+{
+  "views": [
+    {
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "width": 390,
+      "status": 304,
+      "overflow": false,
+      "h1": 1,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "width": 320,
+      "status": 304,
+      "overflow": false,
+      "h1": 1,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "width": 768,
+      "status": 304,
+      "overflow": false,
+      "h1": 1,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "reflow-200",
+      "pass": true
+    },
+    {
+      "name": "prototype-link",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "external": []
+}
